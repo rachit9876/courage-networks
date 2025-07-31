@@ -41,8 +41,8 @@
         .cookbook-title { font-size: 3.5rem; color: #fdc3ed; margin-bottom: 1rem; }
         .cookbook-subtitle { font-size: 1.5rem; color: #ccc; margin-bottom: 2rem; }
         .cookbook-description { font-size: 1.1rem; color: #ddd; margin-bottom: 3rem; line-height: 1.6; }
-        .farmhouse-bg { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; }
-        .farmhouse-image { width: 100%; height: 100%; object-fit: cover; opacity: 0.3; }
+        .farmhouse-bg { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; background-image: url('../assets/recipeBookBg.webp'); background-attachment: fixed; background-size: cover; background-position: center; background-repeat: no-repeat; opacity: 0.3; }
+        .farmhouse-image { display: none; }
         @media (max-width: 768px) {
             .cookbook-title { font-size: 2.5rem; }
             .cookbook-subtitle { font-size: 1.2rem; }
@@ -69,7 +69,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
-                <div id="menuDropdown" class="absolute right-0 mt-2 w-44 sm:w-48 bg-card border border-gray-600 rounded-lg shadow-lg hidden z-50">
+                <div id="menuDropdown" class="absolute right-0 mt-2 w-44 sm:w-48 bg-card border border-gray-600 rounded-lg hidden z-50">
                     <div class="py-1">
                         <a href="../index.html" class="nav-item block px-3 py-2 text-xs sm:text-sm text-pink-200 hover:bg-gray-700">Home</a>
                         <a href="../cookbook/book.html" class="nav-item block px-3 py-2 text-xs sm:text-sm text-pink-200 hover:bg-gray-700">Recipe Book</a>
@@ -81,22 +81,13 @@
         </div>
     </header>
 
-    <!-- Breadcrumb Navigation -->
-    <nav class="pt-16 sm:pt-20 md:pt-24 px-4 py-2 text-sm text-gray-400">
-        <ol class="flex items-center space-x-2">
-            <li><a href="../index.html" class="hover:text-white">Home</a></li>
-            <li>/</li>
-            <li class="text-white">Cookbook</li>
-        </ol>
-    </nav>
+
 
     <div class="app-container">
         <!-- Welcome Page -->
         <div id="welcome-page" class="page-section active">
             <div class="welcome-hero cookbook-bg">
-                <div class="farmhouse-bg">
-                    <img src="../assets/recipeBookBg.jpg" alt="Bagge Farmhouse" class="farmhouse-image" loading="lazy">
-                </div>
+                <div class="farmhouse-bg"></div>
                 <div class="welcome-content">
                     <h1 class="cookbook-title">Muriel's Farmhouse Cookbook</h1>
                     <p class="cookbook-subtitle">Recipes from Nowhere, Kansas</p>
@@ -111,7 +102,7 @@
 
         <!-- Recipe Browser -->
         <div id="recipe-browser" class="page-section">
-            <main class="px-2 sm:px-4 md:px-6 pt-2">
+            <main class="px-2 sm:px-4 md:px-6 pt-20 sm:pt-24 md:pt-28">
                 <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
                     <div>
                         <h1 class="text-white font-bold text-xl sm:text-2xl mb-2" style="color: #fdc3ed;">Muriel's Recipe Collection</h1>
