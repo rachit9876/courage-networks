@@ -26,8 +26,6 @@
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
         .pixel-computer{
             image-rendering: pixelated;
-            border: 4px solid #000;
-            box-shadow: inset 2px 2px 0 #fff, inset -2px -2px 0 #666, 4px 4px 0 #333, 8px 8px 0 #111;
             aspect-ratio: 3/2;
             max-width: 450px;
             width: 100%;
@@ -129,12 +127,12 @@
 
                 <div class="mt-4 max-w-2xl mx-auto px-4">
                     <div class="relative max-w-md mx-auto">
-                        <!-- 8-bit Pixel Computer Interface -->
-                        <div class="pixel-computer relative p-3" style="background-color:#c6c340;">
-                            <!-- Computer Screen -->
-                            <div class="pixel-screen h-full p-3 flex flex-col justify-between" style="background-color:#36a37a;">
-                                <!-- Terminal Text -->
-                                <div id="terminal-text" class="text-lg min-h-[24px] font-bold text-left terminal-text" style="color:#000; font-family:'Special Elite',monospace;"></div>
+                        <!-- Computer Image with Text Overlay -->
+                        <div class="relative">
+                            <img src="assets/computerSimon.png" alt="Computer" class="w-full h-auto pixel-computer">
+                            <!-- Text Overlay on Computer Screen -->
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div id="terminal-text" class="text-xs sm:text-sm font-bold text-center terminal-text px-4" style="color:#000; font-family:'Special Elite',monospace; margin-top: -20px;"></div>
                             </div>
                         </div>
                         
