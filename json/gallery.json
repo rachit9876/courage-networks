@@ -16,7 +16,7 @@
   },
   {
     "Name": "Courage",
-    "Details": "# Breed: Beagle; # D.O.B: 18-02-1979; # Colour(HEX): #e292dd[https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8]",
+    "Details": "# Breed: Beagle; # D.O.B: 18-02-1979; # Colour(HEX): e292dd[https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8]",
     "Path": "assets\\courage.png"
   },
   {
@@ -26,22 +26,27 @@
   },
   {
     "Name": "Nedd",
-    "Details": "# A yellow man shown at wall portrait; # He is from the show - Noodles and Nedd",
+    "Details": "# A yellow man; # Shown at wall portrait; # Origin: Noodles and Nedd",
     "Path": "assets\\photo.png"
   },
   {
     "Name": "House",
-    "Details": "# The house where courage lives with Eustace and Muriel Bagge; # Detailed House[house.html]; # 3D Game[https://game-networks.pages.dev/courage/]",
+    "Details": "# The house where courage lives with Eustace and Muriel Bagge; # Detailed House[house.html]; # Try 3D Game[https://game-networks.pages.dev/courage/]",
     "Path": "assets\\house.png"
   },
   {
     "Name": "Eustace's House",
-    "Details": "# The house where Eustace lives before marriage; # Detailed House[house.html]; # 3D Game[https://game-networks.pages.dev/courage/]",
+    "Details": "# The house where Eustace lives before marriage; # Detailed House[house.html]; # Try 3D Game[https://game-networks.pages.dev/courage/]",
     "Path": "assets\\EustaceHouse.png"
   },
   {
     "Name": "Cajun Fox",
     "Details": "# The Fox which wants Muriel Bagge to be his soup ingredient; # Enemy; # Season 01 Episode 01",
     "Path": "assets\\fox.png"
+  },
+  {
+    "Name": "Dr. Vindaloo",
+    "Details": "# The doctor who helps courage; # Friend; # Origin: India",
+    "Path": "assets\\drVindaloo.png"
   }
 ]
