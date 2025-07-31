@@ -1,22 +1,22 @@
 [
   {
     "Name": "Courage",
-    "Details": "# Breed: Beagle; # Owner: [Muriel Bagge](/gallery.html#2); # Lives with: [Eustace](/gallery.html#3); # D.O.B: 18-02-1979; # Colour(HEX): [e292dd](https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8)",
+    "Details": "# Breed: Beagle; # Owner: [ Muriel](/gallery.html#2); # Lives with: [Eustace](/gallery.html#3); # D.O.B: 18-02-1979; # Colour(HEX): [e292dd](https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8)",
     "Path": "assets\\courage.png"
   },
   {
-    "Name": "Muriel Bagge",
-    "Details": "# Pet: [Courage](/gallery.html#1); # Husband: [Eustace Bagge](/gallery.html#3); # Nature: Caring; # Follows: [Recipe Book](cookbook/book.html); # Origin: Scotland",
+    "Name": "  Muriel Bagge",
+    "Details": "# Pet: [Courage](/gallery.html#1); # Husband: [Eustace](/gallery.html#3); # Nature: Caring; # Follows: [Recipe Book](cookbook/book.html); # Origin: Scotland",
     "Path": "assets\\murielBagge.png"
   },
   {
-    "Name": "Eustace",
-    "Details": "# Nature: Evil; # Owner of [Courage](/gallery.html#1); # Wife: [Muriel Bagge](/gallery.html#2); # Brother: [Horst Bagge](/gallery.html#4)",
+    "Name": "Eustace Bagge",
+    "Details": "# Nature: Evil; # Owner of [Courage](/gallery.html#1); # Wife: [ Muriel](/gallery.html#2); # Brother: [Horst](/gallery.html#4)",
     "Path": "assets\\eustaceBagge.png"
   },
   {
     "Name": "Horst Bagge",
-    "Details": "# Brother of [Eustace Bagge](/gallery.html#3); # Uncle of [Courage](/gallery.html#1); # Powerful; # Nature: Evil",
+    "Details": "# Brother of [Eustace](/gallery.html#3); # Uncle of [Courage](/gallery.html#1); # Powerful; # Nature: Evil",
     "Path": "assets\\horstBagge.png"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "Name": "Cajun Fox",
-    "Details": "# The Fox which wants [Muriel Bagge](/gallery.html#2) to be his soup ingredient; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Season 01 Episode 01",
+    "Details": "# The Fox which wants [ Muriel](/gallery.html#2) to be his soup ingredient; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Season 01 Episode 01",
     "Path": "assets\\fox.png"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "Name": "House",
-    "Details": "# The house where [Courage](/gallery.html#1) lives with [Eustace](/gallery.html#3) and [Muriel Bagge](/gallery.html#2); # [Detailed House](house.html); # [Try 3D Game](https://game-networks.pages.dev/courage/)",
+    "Details": "# The house where [Courage](/gallery.html#1) lives with [Eustace](/gallery.html#3) and [ Muriel](/gallery.html#2); # [Detailed House](house.html); # [Try 3D Game](https://game-networks.pages.dev/courage/)",
     "Path": "assets\\house.png"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "Name": "Site Logo",
-    "Details": "# Project \"Courage Networks\"; # License: [MIT](https://mit-license.pages.dev)",
+    "Details": "# Project: [Courage Networks](/index.html); # License: [MIT](https://mit-license.pages.dev)",
     "Path": "assets\\logo.png"
   },
   {
