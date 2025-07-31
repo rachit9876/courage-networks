@@ -100,6 +100,7 @@
           const card = document.createElement('div');
           card.className = `flex flex-col border border-black h-full`;
           card.style.backgroundColor = '#411b51';
+          card.id = `${index + 1}`;
           
           // Create image container with 4:3 aspect ratio
           const imgContainer = document.createElement('div');
@@ -150,6 +151,17 @@
           card.appendChild(content);
           container.appendChild(card);
         });
+        
+        // Handle URL fragment scrolling
+        if (window.location.hash) {
+          const targetId = window.location.hash.substring(1);
+          const targetCard = document.getElementById(targetId);
+          if (targetCard) {
+            setTimeout(() => {
+              targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
+          }
+        }
       })
       .catch(error => console.error('Error loading gallery data:', error));
       
