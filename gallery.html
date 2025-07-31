@@ -24,6 +24,11 @@
       justify-content: center;
     }
     
+    /* Scroll offset for fixed header */
+    [id] {
+      scroll-margin-top: 80px;
+    }
+    
     @media(max-width:768px){
       .text-3xl{font-size:1.5rem}
       .text-4xl{font-size:1.875rem}
@@ -33,6 +38,10 @@
       .gap-8{gap:1rem}
       .p-6{padding:1rem}
       .px-4{padding-left:0.75rem;padding-right:0.75rem}
+      
+      [id] {
+        scroll-margin-top: 70px;
+      }
     }
   </style>
 </head>
@@ -138,9 +147,9 @@
           details.style.color = '#cc9cfa';
           // Replace semicolons with line breaks
           let detailsText = character.Details.replace(/;/g, '<br>');
-          // Convert text[path] patterns to links
-          detailsText = detailsText.replace(/([\w\s]+)\[([^\]]+)\]/g, function(match, linkText, path) {
-            return `<a href="${path}" class="text-[#87ceeb] underline">${linkText}</a>`;
+          // Convert [text](link) patterns to links
+          detailsText = detailsText.replace(/\[([^\]]+)\]\(([^)]+)\)/g, function(match, linkText, path) {
+            return `<a href="${path}" class="text-[#cc9cfa] underline">${linkText}</a>`;
           });
           details.innerHTML = detailsText;
           
