@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courage Fan Page</title>
-    <meta name="robots" content="noindex, nofollow">
+    <title>Courage the Cowardly Dog Fan Page - Complete Character Database & Episode Guide</title>
+    <meta name="description" content="The ultimate Courage the Cowardly Dog fan page featuring 200+ characters, episode guides, recipes, and interactive content. Explore Nowhere, Kansas with Courage, Muriel, and Eustace.">
+    <meta name="keywords" content="Courage the Cowardly Dog, fan page, characters, episodes, Nowhere Kansas, Muriel Bagge, Eustace Bagge, John R. Dilworth, Cartoon Network, animated series">
+    <meta name="author" content="Courage Networks Fan Site">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://courage-networks.pages.dev/">
+    <meta property="og:title" content="Courage the Cowardly Dog Fan Page - Complete Character Database">
+    <meta property="og:description" content="The ultimate Courage the Cowardly Dog fan page featuring 200+ characters, episode guides, recipes, and interactive content.">
+    <meta property="og:image" content="https://courage-networks.pages.dev/assets/courage.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://courage-networks.pages.dev/">
+    <meta property="twitter:title" content="Courage the Cowardly Dog Fan Page - Complete Character Database">
+    <meta property="twitter:description" content="The ultimate Courage the Cowardly Dog fan page featuring 200+ characters, episode guides, recipes, and interactive content.">
+    <meta property="twitter:image" content="https://courage-networks.pages.dev/assets/courage.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://courage-networks.pages.dev/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
@@ -12,6 +32,38 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="manifest" href="manifest.json">
     <script src="pwa-install.js"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Courage the Cowardly Dog Fan Page",
+      "description": "The ultimate Courage the Cowardly Dog fan page featuring 200+ characters, episode guides, recipes, and interactive content from the beloved animated series.",
+      "url": "https://courage-networks.pages.dev/",
+      "about": {
+        "@type": "TVSeries",
+        "name": "Courage the Cowardly Dog",
+        "creator": {
+          "@type": "Person",
+          "name": "John R. Dilworth"
+        },
+        "productionCompany": {
+          "@type": "Organization",
+          "name": "Cartoon Network"
+        },
+        "genre": ["Animation", "Horror", "Comedy"],
+        "numberOfSeasons": 4,
+        "numberOfEpisodes": 52
+      },
+      "mainEntity": {
+        "@type": "Dataset",
+        "name": "Courage the Cowardly Dog Character Database",
+        "description": "Comprehensive database of over 200 characters from the animated series",
+        "keywords": "Courage the Cowardly Dog, characters, database, fan site"
+      }
+    }
+    </script>
     <style>
         body{font-family:'Special Elite',monospace;background:#000;color:#fdc3ed;overflow-x:hidden}
         h1,h2,h3,.nav-item,.card-title{font-family:'Special Elite',monospace}
@@ -130,7 +182,7 @@
                 <div class="absolute inset-0 bg-main opacity-80"></div>
             </div>
             <div class="relative container mx-auto px-4 sm:px-6 lg:px-8">
-                <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight accent-text leading-tight">Courage</h1>
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight accent-text leading-tight">Courage the Cowardly Dog Fan Page</h1>
 
                 <div class="mt-4 max-w-2xl mx-auto px-4">
                     <div class="relative max-w-md mx-auto">
@@ -166,12 +218,14 @@
                         </div>
                     </div>
                 </div>
+                <p class="mt-4 max-w-2xl mx-auto text-center text-secondary text-sm">The ultimate fan-made tribute to John R. Dilworth's masterpiece. Explore 200+ characters, interactive recipes, house tours, and comprehensive research about the beloved Cartoon Network series.</p>
+                
                 <div class="mt-6 sm:mt-8 flex flex-wrap justify-center gap-2">
-                    <span class="inline-block horror-accent-bg horror-accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Research</span>
-
-                    <span class="inline-block accent-bg accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Archive</span>
-                    <span class="inline-block horror-accent-bg horror-accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Lost Media</span>
-                    <span class="inline-block horror-accent-bg horror-accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Open Source</span>
+                    <span class="inline-block horror-accent-bg horror-accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Fan Database</span>
+                    <span class="inline-block accent-bg accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Character Archive</span>
+                    <span class="inline-block horror-accent-bg horror-accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Episode Guide</span>
+                    <span class="inline-block horror-accent-bg horror-accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Interactive Content</span>
+                    <span class="inline-block accent-bg accent-text rounded-full px-3 py-1 text-xs sm:text-sm font-semibold">Cartoon Network</span>
                 </div>
             </div>
         </section>
@@ -329,12 +383,17 @@
 
         <section id="episodes" class="py-20 bg-main">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-4xl font-bold text-center accent-text">About Courage</h2>
-                <p class="mt-4 max-w-3xl mx-auto text-center text-secondary">Courage is an American animated horror comedy television series created by John R. Dilworth for Courage Networks. The show follows a dog named Courage who lives with his owners Muriel and Eustace Bagge in the middle of "Nowhere".</p>
+                <h2 class="text-4xl font-bold text-center accent-text">About Courage the Cowardly Dog</h2>
+                <p class="mt-4 max-w-3xl mx-auto text-center text-secondary">Courage the Cowardly Dog is an American animated horror comedy television series created by John R. Dilworth for Cartoon Network. The show follows a dog named Courage who lives with his owners Muriel and Eustace Bagge in the middle of "Nowhere", Kansas.</p>
                 <div class="mt-8 bg-card p-6 rounded-lg shadow">
-                    <p class="text-secondary mb-4">The series originally aired for 4 seasons from 1999 to 2002, with a total of 52 episodes. Each episode typically featured Courage protecting his owners from various supernatural threats and creatures.</p>
-                    <p class="text-secondary mb-4">Due to copyright restrictions, we cannot provide streaming access to episodes. Please support the original creators by watching through official channels.</p>
-                    <p class="text-secondary">This fan site provides information about the show's characters, setting, and cultural impact without distributing copyrighted content.</p>
+                    <h3 class="text-xl font-bold mb-4" style="color:#fdc3ed;">Series Information</h3>
+                    <p class="text-secondary mb-4">The series originally aired for 4 seasons from 1999 to 2002, with a total of 52 episodes. Each episode typically featured Courage protecting his owners from various supernatural threats and creatures that terrorize the fictional town of Nowhere, Kansas.</p>
+                    <p class="text-secondary mb-4"><strong>Created by:</strong> John R. Dilworth<br>
+                    <strong>Network:</strong> Cartoon Network<br>
+                    <strong>Genre:</strong> Animated Horror Comedy<br>
+                    <strong>Setting:</strong> Nowhere, Kansas</p>
+                    <p class="text-secondary mb-4">Due to copyright restrictions, we cannot provide streaming access to episodes. Please support the original creators by watching through official channels like HBO Max, Amazon Prime Video, or other licensed streaming services.</p>
+                    <p class="text-secondary">This fan site provides comprehensive information about the show's characters, setting, and cultural impact without distributing copyrighted content.</p>
                 </div>
             </div>
         </section>
@@ -456,9 +515,19 @@
         </div>
     </section>
 
-    <footer class="bg-card shadow-inner py-2 mt-8">
+    <footer class="bg-card shadow-inner py-6 mt-8">
         <div class="container mx-auto px-4 text-center text-secondary">
-            <p class="text-xs">Courage Fan Site | @rachit.zip | <a href="disclaimer.html" class="underline hover:text-pink-300">Copyright Disclaimer</a></p>
+            <h3 class="text-lg font-bold mb-2" style="color:#fdc3ed;">Courage the Cowardly Dog Fan Community</h3>
+            <p class="text-sm mb-4">A comprehensive fan-made tribute to the beloved animated series created by John R. Dilworth and aired on Cartoon Network. Featuring character databases, episode information, and interactive content for fans worldwide.</p>
+            <div class="flex flex-wrap justify-center gap-4 text-xs mb-4">
+                <a href="cookbook/book.html" class="hover:text-pink-300">Recipe Book</a>
+                <a href="gallery.html" class="hover:text-pink-300">Gallery</a>
+                <a href="research.html" class="hover:text-pink-300">Research</a>
+                <a href="house.html" class="hover:text-pink-300">House Tour</a>
+                <a href="disclaimer.html" class="hover:text-pink-300">Copyright Disclaimer</a>
+            </div>
+            <p class="text-xs">© 2024 Courage Networks Fan Site | Created by @rachit.zip | Not affiliated with Cartoon Network</p>
+            <p class="text-xs mt-2">"The things I do for love!" - Courage the Cowardly Dog</p>
         </div>
     </footer>
 
