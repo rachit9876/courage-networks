@@ -1,0 +1,1568 @@
+[
+  {
+    "Character": "Ai Shen",
+    "Role / Short Description": "Mysterious spirit; guardian of an ancient relic",
+    "Appearance Highlights": "Ethereal, dragon-like form with flowing mane",
+    "Habit / Behavior": "Silent observer, appears at dusk"
+  },
+  {
+    "Character": "Alien Brain Boss",
+    "Role / Short Description": "Villainous overlord of alien horde",
+    "Appearance Highlights": "Large floating brain with tentacles, glowing eyes",
+    "Habit / Behavior": "Issues orders telepathically, scheming"
+  },
+  {
+    "Character": "Alien Brain Visitor",
+    "Role / Short Description": "Scout sent by Brain Boss",
+    "Appearance Highlights": "Smaller brain with single eyestalk",
+    "Habit / Behavior": "Inquisitive, probes minds"
+  },
+  {
+    "Character": "Angry Mob",
+    "Role / Short Description": "Townsfolk turned hostile",
+    "Appearance Highlights": "Shadowy silhouettes with pitchforks",
+    "Habit / Behavior": "Shouts, chases intruders en masse"
+  },
+  {
+    "Character": "Antagonists",
+    "Role / Short Description": "Generic foes opposing Courage",
+    "Appearance Highlights": "Varies by episode",
+    "Habit / Behavior": "Scheming, antagonistic toward villagers"
+  },
+  {
+    "Character": "Apparitions",
+    "Role / Short Description": "Ghostly figures haunting Nowhere",
+    "Appearance Highlights": "Translucent shapes, pale glow",
+    "Habit / Behavior": "Drifting, moaning"
+  },
+  {
+    "Character": "Asian Lung Dragon",
+    "Role / Short Description": "Benevolent dragon deity",
+    "Appearance Highlights": "Long serpentine body, ornate scales",
+    "Habit / Behavior": "Breathes fire, offers cryptic wisdom"
+  },
+  {
+    "Character": "Aunt Gertrude",
+    "Role / Short Description": "Eustace’s eccentric aunt",
+    "Appearance Highlights": "Tall, severe bun, Victorian dress",
+    "Habit / Behavior": "Critiques Courage, fusses over manners"
+  },
+  {
+    "Character": "Baby Vultures",
+    "Role / Short Description": "Fledgling birds around vulture mother",
+    "Appearance Highlights": "Small, scruffy feathers",
+    "Habit / Behavior": "Peep constantly, follow mother"
+  },
+  {
+    "Character": "Banana People",
+    "Role / Short Description": "Mischievous banana-costumed trio",
+    "Appearance Highlights": "Bright yellow suits, oversized heads",
+    "Habit / Behavior": "Perform slapstick fruit fights"
+  },
+  {
+    "Character": "Banana Suit Dealer",
+    "Role / Short Description": "Vendor of Banana People outfits",
+    "Appearance Highlights": "Booth stacked with suits",
+    "Habit / Behavior": "Pushy salesman, offers “one-size-fits-all”"
+  },
+  {
+    "Character": "Barbara",
+    "Role / Short Description": "Minor local girl",
+    "Appearance Highlights": "Blue dress, pigtails",
+    "Habit / Behavior": "Shy, hides behind Muriel"
+  },
+  {
+    "Character": "Basil",
+    "Role / Short Description": "Wandering herbalist",
+    "Appearance Highlights": "Brown cloak, satchel of herbs",
+    "Habit / Behavior": "Offers potions, speaks in riddles"
+  },
+  {
+    "Character": "Bearded Man",
+    "Role / Short Description": "Wandering stranger",
+    "Appearance Highlights": "Large beard, patched clothes",
+    "Habit / Behavior": "Tells tall tales, drinks tea"
+  },
+  {
+    "Character": "Benton Tarantella",
+    "Role / Short Description": "Ghostly musician",
+    "Appearance Highlights": "Victorian suit, transparent violin",
+    "Habit / Behavior": "Plays haunting violin melodies"
+  },
+  {
+    "Character": "Big Bayou",
+    "Role / Short Description": "Swamp monster",
+    "Appearance Highlights": "Moss-covered, stumpy limbs",
+    "Habit / Behavior": "Emerges at night, lures victims"
+  },
+  {
+    "Character": "Big Toe",
+    "Role / Short Description": "Giant toe creature",
+    "Appearance Highlights": "Single oversized toe with eyeball",
+    "Habit / Behavior": "Grunts, stomps around"
+  },
+  {
+    "Character": "Bigfoot",
+    "Role / Short Description": "Legendary ape-like creature",
+    "Appearance Highlights": "Hairy, barefoot, massive",
+    "Habit / Behavior": "Elusive, leaves footprints"
+  },
+  {
+    "Character": "Black Puddle Queen",
+    "Role / Short Description": "Malevolent liquid monarch",
+    "Appearance Highlights": "Shifting black ooze, queen’s crown",
+    "Habit / Behavior": "Absorbs objects, commands puddle minions"
+  },
+  {
+    "Character": "Bluff",
+    "Role / Short Description": "Con-artist bird",
+    "Appearance Highlights": "Dapper tuxedo feathered, top hat",
+    "Habit / Behavior": "Tricks villagers, sleight of wing"
+  },
+  {
+    "Character": "Bobby Ganoush",
+    "Role / Short Description": "Local jazz musician",
+    "Appearance Highlights": "Fedora hat, saxophone",
+    "Habit / Behavior": "Plays smooth tunes at night"
+  },
+  {
+    "Character": "Box Demon",
+    "Role / Short Description": "Cursed box entity",
+    "Appearance Highlights": "Animated wooden crate with glowing runes",
+    "Habit / Behavior": "Jumps out to frighten, traps items inside"
+  },
+  {
+    "Character": "Brunhilde",
+    "Role / Short Description": "Valkyrie ally",
+    "Appearance Highlights": "Armor, winged helmet",
+    "Habit / Behavior": "Rides into battle, challenges Courage"
+  },
+  {
+    "Character": "Buck",
+    "Role / Short Description": "Farmhand friend",
+    "Appearance Highlights": "Overalls, straw hat",
+    "Habit / Behavior": "Mends fences, chats with Muriel"
+  },
+  {
+    "Character": "Buck’s Daughter",
+    "Role / Short Description": "Young girl in Buck’s care",
+    "Appearance Highlights": "Simple dress, braids",
+    "Habit / Behavior": "Helps feed animals, curious about Courage"
+  },
+  {
+    "Character": "Bugle Monster",
+    "Role / Short Description": "Sound-based villain",
+    "Appearance Highlights": "Humanoid with horned bugle head",
+    "Habit / Behavior": "Blasts sonic waves, hunts by sound"
+  },
+  {
+    "Character": "Bullfrogs",
+    "Role / Short Description": "Chorus of amphibians",
+    "Appearance Highlights": "Green, bulging eyes, plump bodies",
+    "Habit / Behavior": "Croak in unison, swarm around ponds"
+  },
+  {
+    "Character": "Bunny",
+    "Role / Short Description": "Friendly rabbit critter",
+    "Appearance Highlights": "White fur, pink ears",
+    "Habit / Behavior": "Hops around farm, nibbles vegetables"
+  },
+  {
+    "Character": "Cajun Courage",
+    "Role / Short Description": "Alternate Courage persona",
+    "Appearance Highlights": "Feathered hat, bandolier",
+    "Habit / Behavior": "Speaks in Cajun accent, swashbuckles"
+  },
+  {
+    "Character": "Cajun Fox",
+    "Role / Short Description": "Trickster ally",
+    "Appearance Highlights": "Red fur, sly grin",
+    "Habit / Behavior": "Offers cunning plans, steals treats"
+  },
+  {
+    "Character": "Captain Lazzo",
+    "Role / Short Description": "Pirate captain",
+    "Appearance Highlights": "Eye patch, tattered coat",
+    "Habit / Behavior": "Searches for treasure, sings sea shanties"
+  },
+  {
+    "Character": "Cariana",
+    "Role / Short Description": "Desert sorceress",
+    "Appearance Highlights": "Flowing robes, glowing staff",
+    "Habit / Behavior": "Conjures mirages, demands tribute"
+  },
+  {
+    "Character": "Carmen",
+    "Role / Short Description": "Itinerant singer",
+    "Appearance Highlights": "Flamenco dress, red rose in hair",
+    "Habit / Behavior": "Performs dramatic ballads"
+  },
+  {
+    "Character": "Cat Thieves",
+    "Role / Short Description": "Feline burglars",
+    "Appearance Highlights": "Cat masks, striped outfits",
+    "Habit / Behavior": "Steal shiny objects, vanish in shadows"
+  },
+  {
+    "Character": "Catherine",
+    "Role / Short Description": "Wandering poet",
+    "Appearance Highlights": "Quill, parchment",
+    "Habit / Behavior": "Recites verses, melancholic demeanor"
+  },
+  {
+    "Character": "Ceremonial Wild Boar",
+    "Role / Short Description": "Ritual guardian",
+    "Appearance Highlights": "Painted tusks, ceremonial headdress",
+    "Habit / Behavior": "Charges intruders, stands watch"
+  },
+  {
+    "Character": "Charlie the Mouse",
+    "Role / Short Description": "Courage’s small companion",
+    "Appearance Highlights": "Gray fur, tiny backpack",
+    "Habit / Behavior": "Nibbles cheese, squeaks warnings"
+  },
+  {
+    "Character": "Chicken / Chickens",
+    "Role / Short Description": "Flock of farm fowl",
+    "Appearance Highlights": "White feathers, red combs",
+    "Habit / Behavior": "Cluck nervously, scatter at threats"
+  },
+  {
+    "Character": "Chief Wicky Wicky",
+    "Role / Short Description": "Tribal jungle leader",
+    "Appearance Highlights": "Feathered mask, spear",
+    "Habit / Behavior": "Leads ceremonies, wary of outsiders"
+  },
+  {
+    "Character": "Cicada Queen / Cicadas",
+    "Role / Short Description": "Insect monarch & subjects",
+    "Appearance Highlights": "Shimmering wings, noisy swarm",
+    "Habit / Behavior": "Hum incessantly, enthrall passersby"
+  },
+  {
+    "Character": "Clyde the Fog Spirit",
+    "Role / Short Description": "Mist entity",
+    "Appearance Highlights": "Wispy form, glowing eyes",
+    "Habit / Behavior": "Drifts silently, chills air"
+  },
+  {
+    "Character": "Computer",
+    "Role / Short Description": "Smart farmhouse PC",
+    "Appearance Highlights": "CRT monitor, pixelated face",
+    "Habit / Behavior": "Gives technical advice, often warns of doom"
+  },
+  {
+    "Character": "Conway",
+    "Role / Short Description": "Traveling salesman",
+    "Appearance Highlights": "Suitcase, slick hair",
+    "Habit / Behavior": "Pitches wares, dodges questions"
+  },
+  {
+    "Character": "Coralites",
+    "Role / Short Description": "Ocean dwellers",
+    "Appearance Highlights": "Coral-encrusted bodies",
+    "Habit / Behavior": "Communicate via luminescent patterns"
+  },
+  {
+    "Character": "Courage",
+    "Role / Short Description": "Protagonist; timid but brave dog",
+    "Appearance Highlights": "Pink fur, big expressive eyes",
+    "Habit / Behavior": "Trembles, then saves the day"
+  },
+  {
+    "Character": "Dancing Rats",
+    "Role / Short Description": "Enchanted rodent troupe",
+    "Appearance Highlights": "Gray rats with glowing eyes",
+    "Habit / Behavior": "Perform synchronized dances, chase cheese"
+  },
+  {
+    "Character": "Daphne Blake",
+    "Role / Short Description": "Mystery-solving teen",
+    "Appearance Highlights": "Purple dress, orange scarf",
+    "Habit / Behavior": "Investigates mysteries, always with Courage"
+  },
+  {
+    "Character": "Deceased Characters",
+    "Role / Short Description": "Spirits of those passed on",
+    "Appearance Highlights": "Pale, wispy forms",
+    "Habit / Behavior": "Linger near graveyards, whisper names"
+  },
+  {
+    "Character": "Deities",
+    "Role / Short Description": "Various gods & goddesses",
+    "Appearance Highlights": "Varies—often regal attire, halos or auras",
+    "Habit / Behavior": "Grant boons or curses, demand worship"
+  },
+  {
+    "Character": "Demons",
+    "Role / Short Description": "Infernal antagonists",
+    "Appearance Highlights": "Horns, red skin, cloven hooves",
+    "Habit / Behavior": "Trick or torment mortals, tempt Courage"
+  },
+  {
+    "Character": "Di Lung",
+    "Role / Short Description": "Sushi chef turned dragon",
+    "Appearance Highlights": "Dragon body with sushi-patterned scales",
+    "Habit / Behavior": "Breathes wasabi fire, crafts exotic rolls"
+  },
+  {
+    "Character": "Dilly",
+    "Role / Short Description": "Eccentric tinkerer",
+    "Appearance Highlights": "Stained lab coat, wild hair",
+    "Habit / Behavior": "Builds odd contraptions, giggles manically"
+  },
+  {
+    "Character": "Dog Skeletons",
+    "Role / Short Description": "Undead canine horde",
+    "Appearance Highlights": "Exposed bones, eerie green glow",
+    "Habit / Behavior": "Rattle bones, stalk farm at midnight"
+  },
+  {
+    "Character": "Dolores Dolores",
+    "Role / Short Description": "Visionary artist",
+    "Appearance Highlights": "Paint-splattered smock, oversized beret",
+    "Habit / Behavior": "Paints moving murals, speaks in rhymes"
+  },
+  {
+    "Character": "Dolphin Trainer",
+    "Role / Short Description": "Enthusiastic marine handler",
+    "Appearance Highlights": "Wetsuit, whistle, clipboard",
+    "Habit / Behavior": "Trains dolphins to perform tricks for Courage"
+  },
+  {
+    "Character": "Dr. Gerbil",
+    "Role / Short Description": "Laboratory rodent scientist",
+    "Appearance Highlights": "Lab coat, glasses, clipboard",
+    "Habit / Behavior": "Conducts bizarre experiments on vegetables"
+  },
+  {
+    "Character": "Dr. Gerhart",
+    "Role / Short Description": "Retired surgeon with dark past",
+    "Appearance Highlights": "Bloodstained scrubs, surgical mask",
+    "Habit / Behavior": "Mutters about operations, haunts operating room"
+  },
+  {
+    "Character": "Dr. Vindaloo",
+    "Role / Short Description": "Spicy-food-obsessed physician",
+    "Appearance Highlights": "Curry-stained coat, spice jars belt",
+    "Habit / Behavior": "Prescribes chili remedies, breathes fire"
+  },
+  {
+    "Character": "Dr. Zalost",
+    "Role / Short Description": "Melancholic doctor",
+    "Appearance Highlights": "Gray suit, perpetually drooping mustache",
+    "Habit / Behavior": "Sighs deeply, offers gloomy diagnoses"
+  },
+  {
+    "Character": "Elephant",
+    "Role / Short Description": "Wandering pachyderm",
+    "Appearance Highlights": "Gray skin, long trunk",
+    "Habit / Behavior": "Blasts trumpet calls, stomps ground"
+  },
+  {
+    "Character": "Elisa and Eliza Stitch",
+    "Role / Short Description": "Twin seamstress spirits",
+    "Appearance Highlights": "Identical ghostly twins in Victorian dresses",
+    "Habit / Behavior": "Stitch ethereal garments, whisper secrets"
+  },
+  {
+    "Character": "Errol Van Volkheim",
+    "Role / Short Description": "Mad scientist antagonist",
+    "Appearance Highlights": "Wild hair, lab goggles, mechanical contraptions",
+    "Habit / Behavior": "Creates nightmarish inventions, laughs wildly"
+  },
+  {
+    "Character": "Eustace Bagge",
+    "Role / Short Description": "Courage’s grumpy owner",
+    "Appearance Highlights": "Overalls, fishing cap, perpetual scowl",
+    "Habit / Behavior": "Yells at Courage, drives farm tractor"
+  },
+  {
+    "Character": "Everett",
+    "Role / Short Description": "Wax museum survivor",
+    "Appearance Highlights": "Pale waxy skin, museum uniform",
+    "Habit / Behavior": "Freezes in place when frightened"
+  },
+  {
+    "Character": "Evil Carrot",
+    "Role / Short Description": "Carrot-turned-villain",
+    "Appearance Highlights": "Orange body, green leafy top, sinister grin",
+    "Habit / Behavior": "Dehydrates victims, plots vegetable uprising"
+  },
+  {
+    "Character": "Evil Eggplants",
+    "Role / Short Description": "Rogue produce villains",
+    "Appearance Highlights": "Purple eggplant bodies with eyes",
+    "Habit / Behavior": "Roll at high speed, ambush passersby"
+  },
+  {
+    "Character": "Evil Plants",
+    "Role / Short Description": "Carnivorous flora",
+    "Appearance Highlights": "Vines with fanged blossoms",
+    "Habit / Behavior": "Entangle victims, devour insects"
+  },
+  {
+    "Character": "Exterminator",
+    "Role / Short Description": "Pest-control antihero",
+    "Appearance Highlights": "Overalls, bug spray canister",
+    "Habit / Behavior": "Hunts supernatural pests, sprays everything"
+  },
+  {
+    "Character": "Farm and House",
+    "Role / Short Description": "Home setting as character",
+    "Appearance Highlights": "Red-roofed farmhouse, weathered barn",
+    "Habit / Behavior": "Guards its inhabitants, creaks ominously"
+  },
+  {
+    "Character": "Farmer Jiles Galette",
+    "Role / Short Description": "Gourmet farmer",
+    "Appearance Highlights": "Apron, basket of produce",
+    "Habit / Behavior": "Cultivates exotic gourds, boasts culinary skills"
+  },
+  {
+    "Character": "Federal Agents",
+    "Role / Short Description": "Government operatives",
+    "Appearance Highlights": "Dark suits, earpieces",
+    "Habit / Behavior": "Observe Courage, take notes in black notebooks"
+  },
+  {
+    "Character": "Federal Scientists",
+    "Role / Short Description": "Lab researchers",
+    "Appearance Highlights": "White coats, ID badges",
+    "Habit / Behavior": "Run tests on alien phenomena, scribble equations"
+  },
+  {
+    "Character": "Female Characters",
+    "Role / Short Description": "All female inhabitants of Nowhere",
+    "Appearance Highlights": "Varies—dresses, farmwear, sometimes armor",
+    "Habit / Behavior": "Varies by individual"
+  },
+  {
+    "Character": "Feo the Alien",
+    "Role / Short Description": "Friendly extraterrestrial",
+    "Appearance Highlights": "Sleek silver suit, antenna",
+    "Habit / Behavior": "Communicates by humming, studies Earth customs"
+  },
+  {
+    "Character": "Fish",
+    "Role / Short Description": "Generic aquatic critters",
+    "Appearance Highlights": "Scaly bodies, fins",
+    "Habit / Behavior": "Swim in ponds, blink at Courage"
+  },
+  {
+    "Character": "Fishsionary",
+    "Role / Short Description": "Evangelical fish creature",
+    "Appearance Highlights": "Blue scales, preacher’s collar",
+    "Habit / Behavior": "Delivers sermons underwater, splashes audience"
+  },
+  {
+    "Character": "Floyd",
+    "Role / Short Description": "Local handyman",
+    "Appearance Highlights": "Tool belt, grease-stained cap",
+    "Habit / Behavior": "Fixes farm equipment, offers advice"
+  },
+  {
+    "Character": "Flying Dragon",
+    "Role / Short Description": "Mythical ally",
+    "Appearance Highlights": "Winged, scaled body with glowing eyes",
+    "Habit / Behavior": "Soars above Nowhere, breathes protective fire"
+  },
+  {
+    "Character": "Former Villains",
+    "Role / Short Description": "Redeemed antagonists",
+    "Appearance Highlights": "Varies—often disarmed or tattered attire",
+    "Habit / Behavior": "Occasionally relapse into mischief"
+  },
+  {
+    "Character": "Frau Glockenspiel",
+    "Role / Short Description": "Clockwork musician",
+    "Appearance Highlights": "Mechanical limbs, music-box chest",
+    "Habit / Behavior": "Chimes tunes in German, winds up townsfolk"
+  },
+  {
+    "Character": "Fred",
+    "Role / Short Description": "Nervous shopkeeper",
+    "Appearance Highlights": "Checkered shirt, bowtie",
+    "Habit / Behavior": "Sweats profusely, fumbles transactions"
+  },
+  {
+    "Character": "Fred Jones",
+    "Role / Short Description": "Mystery-solving teen (Scooby-Doo crossover)",
+    "Appearance Highlights": "Orange shirt, blue pants",
+    "Habit / Behavior": "Chases clues, calls for Scooby"
+  },
+  {
+    "Character": "Fred’s Hamster",
+    "Role / Short Description": "Fred’s pet sidekick",
+    "Appearance Highlights": "Tiny furball with goggles",
+    "Habit / Behavior": "Runs on wheel, squeaks encouragement"
+  },
+  {
+    "Character": "Furniture",
+    "Role / Short Description": "Animated household items",
+    "Appearance Highlights": "Varies—chairs, tables with eyes",
+    "Habit / Behavior": "Rearranges itself, blocks Courage"
+  },
+  {
+    "Character": "Fusilli",
+    "Role / Short Description": "Living pasta villain",
+    "Appearance Highlights": "Spiraled fusilli body with noodle arms",
+    "Habit / Behavior": "Binds victims in dough, creeps across floors"
+  },
+  {
+    "Character": "Gamemaxter",
+    "Role / Short Description": "Arcade game master",
+    "Appearance Highlights": "Blocky pixelated form, joystick hands",
+    "Habit / Behavior": "Challenges Courage to high-stakes games"
+  },
+  {
+    "Character": "General Horton",
+    "Role / Short Description": "Military officer",
+    "Appearance Highlights": "Camouflage uniform, stern visor",
+    "Habit / Behavior": "Issues orders, inspects farm for “threats”"
+  },
+  {
+    "Character": "Gerhart’s House",
+    "Role / Short Description": "Haunted mansion",
+    "Appearance Highlights": "Gothic turrets, boarded windows",
+    "Habit / Behavior": "Emits creaks, doors slam unexpectedly"
+  },
+  {
+    "Character": "Giant Starfish",
+    "Role / Short Description": "Sea creature villain",
+    "Appearance Highlights": "Five massive arms, bioluminescent spots",
+    "Habit / Behavior": "Clings to barn walls, squeezes with tentacles"
+  },
+  {
+    "Character": "Giraffe",
+    "Role / Short Description": "Wandering zoo escapee",
+    "Appearance Highlights": "Tall neck, spotted hide",
+    "Habit / Behavior": "Peeks over fences, munches treetops"
+  },
+  {
+    "Character": "Gloria Bomfim/Dinah",
+    "Role / Short Description": "Traveling magician",
+    "Appearance Highlights": "Top hat, sequined cape",
+    "Habit / Behavior": "Pulls rabbits from hats, vanishes mid-act"
+  },
+  {
+    "Character": "Goat",
+    "Role / Short Description": "Stubborn farm animal",
+    "Appearance Highlights": "Curved horns, coarse fur",
+    "Habit / Behavior": "Head-butts intruders, nibbles fences"
+  },
+  {
+    "Character": "Goldfish",
+    "Role / Short Description": "Household pet",
+    "Appearance Highlights": "Orange scales, bubble-blowing",
+    "Habit / Behavior": "Swims in bowl, taps glass for attention"
+  },
+  {
+    "Character": "Golem",
+    "Role / Short Description": "Clay guardian",
+    "Appearance Highlights": "Muddy humanoid, glowing runes",
+    "Habit / Behavior": "Protects sacred sites, stomps intruders"
+  },
+  {
+    "Character": "Goose God",
+    "Role / Short Description": "Divine bird deity",
+    "Appearance Highlights": "Majestic wings, golden halo",
+    "Habit / Behavior": "Grants boons to pilgrims, honks thunderously"
+  },
+  {
+    "Character": "Grizzly Bear",
+    "Role / Short Description": "Forest beast",
+    "Appearance Highlights": "Muscular frame, brown fur",
+    "Habit / Behavior": "Roars to intimidate, swipes at anything moving"
+  },
+  {
+    "Character": "GroJW",
+    "Role / Short Description": "Mysterious netizen",
+    "Appearance Highlights": "Hooded avatar, pixel mask",
+    "Habit / Behavior": "Posts cryptic messages, guides Courage online"
+  },
+  {
+    "Character": "Hamilton",
+    "Role / Short Description": "Traveling minstrel",
+    "Appearance Highlights": "Lute in hand, colorful tunic",
+    "Habit / Behavior": "Sings ballads, collects stories"
+  },
+  {
+    "Character": "Hamster",
+    "Role / Short Description": "Common pet",
+    "Appearance Highlights": "Fluffy coat, twitching whiskers",
+    "Habit / Behavior": "Runs in wheel, hoards seeds"
+  },
+  {
+    "Character": "Hard Drive Virus",
+    "Role / Short Description": "Digital menace",
+    "Appearance Highlights": "Circuit-patterned body, red glitchy veins",
+    "Habit / Behavior": "Corrupts files, leaps into screens"
+  },
+  {
+    "Character": "Henry and Teresa",
+    "Role / Short Description": "Charming peasant couple",
+    "Appearance Highlights": "Simple tunics, clasped hands",
+    "Habit / Behavior": "Dance in moonlight, offer hospitality"
+  },
+  {
+    "Character": "Heroes",
+    "Role / Short Description": "Champions aiding Courage",
+    "Appearance Highlights": "Varies—armor, capes, insignias",
+    "Habit / Behavior": "Rally to defend Nowhere, inspire Courage"
+  },
+  {
+    "Character": "Hohouser",
+    "Role / Short Description": "Inventive toymaker",
+    "Appearance Highlights": "Goggles, tool-laden apron",
+    "Habit / Behavior": "Crafts living toys, tests them on Courage"
+  },
+  {
+    "Character": "Horst Bagge",
+    "Role / Short Description": "Eustace’s long‑lost cousin",
+    "Appearance Highlights": "Slicked-back hair, tailored suit",
+    "Habit / Behavior": "Attempts to claim the farm, offers eerie deals"
+  },
+  {
+    "Character": "Hostile Hairball",
+    "Role / Short Description": "Sentient tangle of fur",
+    "Appearance Highlights": "Rolling mass of hair strands",
+    "Habit / Behavior": "Unravels into sticky traps, chases victims"
+  },
+  {
+    "Character": "Humans",
+    "Role / Short Description": "The townsfolk of Nowhere",
+    "Appearance Highlights": "Varies—jeans, work shirts, dresses",
+    "Habit / Behavior": "Go about daily life, panic at strange events"
+  },
+  {
+    "Character": "Hunchback",
+    "Role / Short Description": "Echo‑haunted bell tower dweller",
+    "Appearance Highlights": "Crooked spine, tattered robes",
+    "Habit / Behavior": "Rings bells to warn, mutters prophecies"
+  },
+  {
+    "Character": "Ickett Bagge",
+    "Role / Short Description": "Courage’s infant ancestor (tiny ghost)",
+    "Appearance Highlights": "Transparent bonnet, ghostly rattle",
+    "Habit / Behavior": "Appears in lullabies, floats through walls"
+  },
+  {
+    "Character": "Insects",
+    "Role / Short Description": "Various creepy‑crawlies",
+    "Appearance Highlights": "Multi‑legged, segmented bodies",
+    "Habit / Behavior": "Swarm in masses, buzz incessantly"
+  },
+  {
+    "Character": "Instant Eel",
+    "Role / Short Description": "Fast‑moving electric eel",
+    "Appearance Highlights": "Sleek blue body, sparking skin",
+    "Habit / Behavior": "Zaps intruders, slithers through fences"
+  },
+  {
+    "Character": "Ivana",
+    "Role / Short Description": "Traveling fortune‑teller",
+    "Appearance Highlights": "Flowing robes, crystal ball",
+    "Habit / Behavior": "Reads palms, predicts doom"
+  },
+  {
+    "Character": "",
+    "Role / Short Description": "",
+    "Appearance Highlights": "",
+    "Habit / Behavior": ""
+  },
+  {
+    "Character": "Jay",
+    "Role / Short Description": "Radio DJ host",
+    "Appearance Highlights": "Microphone headset, colorful jacket",
+    "Habit / Behavior": "Spins records, narrates station IDs"
+  },
+  {
+    "Character": "Jay O Kerwood",
+    "Role / Short Description": "Mysterious woodsman",
+    "Appearance Highlights": "Wide-brimmed hat, cloak of leaves",
+    "Habit / Behavior": "Whittles wooden charms, appears at twilight"
+  },
+  {
+    "Character": "Jean Bon",
+    "Role / Short Description": "French baker turned villain",
+    "Appearance Highlights": "Flour-dusted apron, menacing baguette",
+    "Habit / Behavior": "Bakes traps into bread, taunts Courage"
+  },
+  {
+    "Character": "Jean Bon’s Wife",
+    "Role / Short Description": "Accomplice to Jean Bon",
+    "Appearance Highlights": "Matching chef’s attire, flour handprints",
+    "Habit / Behavior": "Distracts victims with pastries"
+  },
+  {
+    "Character": "Jeeves Weevil",
+    "Role / Short Description": "Aristocratic insect",
+    "Appearance Highlights": "Tiny tuxedo, monocle",
+    "Habit / Behavior": "Inspects under a microscope, demands tea"
+  },
+  {
+    "Character": "Jennings",
+    "Role / Short Description": "Local handyman’s apprentice",
+    "Appearance Highlights": "Overalls, cap, toolbox",
+    "Habit / Behavior": "Imitates Floyd, fumbles simple repairs"
+  },
+  {
+    "Character": "Jimbo",
+    "Role / Short Description": "Teenage hitchhiker",
+    "Appearance Highlights": "Leather jacket, guitar case",
+    "Habit / Behavior": "Strums chords, tells road stories"
+  },
+  {
+    "Character": "Jojo",
+    "Role / Short Description": "Circus acrobat",
+    "Appearance Highlights": "Striped leotard, juggling pins",
+    "Habit / Behavior": "Flips through the air, occasionally drops gear"
+  },
+  {
+    "Character": "Kangaroo Courage",
+    "Role / Short Description": "Alternate Courage form",
+    "Appearance Highlights": "Kangaroo pouch, boxing gloves",
+    "Habit / Behavior": "Hops fiercely, defends Muriel"
+  },
+  {
+    "Character": "Kangaroo Eustace",
+    "Role / Short Description": "Alternate Eustace form",
+    "Appearance Highlights": "Kangaroo pouch, grumpy scowl",
+    "Habit / Behavior": "Hops angrily, complains nonstop"
+  },
+  {
+    "Character": "Kangaroo Monster",
+    "Role / Short Description": "Hop‑scare creature",
+    "Appearance Highlights": "Muscular kangaroo build, monstrous claws",
+    "Habit / Behavior": "Leaps on targets, lets out ear‑splitting screech"
+  },
+  {
+    "Character": "Katz",
+    "Role / Short Description": "Smooth‑talking villain",
+    "Appearance Highlights": "Tall figure, red suit, devil‑like horns",
+    "Habit / Behavior": "Sings lullabies to ensnare Courage"
+  },
+  {
+    "Character": "Katz’s Jam Monster",
+    "Role / Short Description": "Giant jam‑splattered beast",
+    "Appearance Highlights": "Sticky purple fur, dripping preserves",
+    "Habit / Behavior": "Smears victims in jam, laughs maniacally"
+  },
+  {
+    "Character": "Katz’s Spiders",
+    "Role / Short Description": "Web‑weaving minions",
+    "Appearance Highlights": "Tiny red spiders with glowing eyes",
+    "Habit / Behavior": "Spin sticky traps, swarm intruders"
+  },
+  {
+    "Character": "King Buffo",
+    "Role / Short Description": "Toad king of swamp",
+    "Appearance Highlights": "Crown of reeds, royal royal-green skin",
+    "Habit / Behavior": "Demands tribute of flies, croaks orders"
+  },
+  {
+    "Character": "King Buffo’s Advisor",
+    "Role / Short Description": "Counsel to King Buffo",
+    "Appearance Highlights": "Rodent‑skin robes, curled staff",
+    "Habit / Behavior": "Whispers strategies, polishes crown"
+  },
+  {
+    "Character": "King Ghidorah",
+    "Role / Short Description": "Three‑headed dragon ally",
+    "Appearance Highlights": "Three golden necks, massive wings",
+    "Habit / Behavior": "Soars overhead, breathes lightning"
+  },
+  {
+    "Character": "King Kong",
+    "Role / Short Description": "Gigantic ape antagonist",
+    "Appearance Highlights": "Dark fur, massive fists",
+    "Habit / Behavior": "Slams ground, roars in rage"
+  },
+  {
+    "Character": "King of Flan",
+    "Role / Short Description": "Dessert deity",
+    "Appearance Highlights": "Wobbly flan body, syrup crown",
+    "Habit / Behavior": "Slides around, offers sticky blessings"
+  },
+  {
+    "Character": "King Ramses",
+    "Role / Short Description": "Mummy pharaoh spirit",
+    "Appearance Highlights": "Bandaged robes, jeweled headdress",
+    "Habit / Behavior": "Utters “Return the slab!” in booming voice"
+  },
+  {
+    "Character": "Kitty",
+    "Role / Short Description": "Housecat companion",
+    "Appearance Highlights": "Sleek fur, glinting eyes",
+    "Habit / Behavior": "Purrs on laps, scratches unwary intruders"
+  },
+  {
+    "Character": "Le Quack",
+    "Role / Short Description": "Wily duck con‑artist",
+    "Appearance Highlights": "Feathered tuxedo, top hat",
+    "Habit / Behavior": "Quacks “Trust me,” escapes every trap"
+  },
+  {
+    "Character": "Leader Monk",
+    "Role / Short Description": "Head of mountain temple",
+    "Appearance Highlights": "Orange robes, prayer beads",
+    "Habit / Behavior": "Leads chants, meditates atop peaks"
+  },
+  {
+    "Character": "Leech",
+    "Role / Short Description": "Blood‑sucking parasite",
+    "Appearance Highlights": "Slimy body, sucker mouths",
+    "Habit / Behavior": "Latches onto foes, drains energy"
+  },
+  {
+    "Character": "Librarian",
+    "Role / Short Description": "Keeper of ancient tomes",
+    "Appearance Highlights": "Glasses, dusty robe",
+    "Habit / Behavior": "Reads aloud spells, shushes intruders"
+  },
+  {
+    "Character": "Lieutenant Gidley",
+    "Role / Short Description": "Military attaché to General Horton",
+    "Appearance Highlights": "Formal uniform, polished boots",
+    "Habit / Behavior": "Writes reports, drills soldiers"
+  },
+  {
+    "Character": "Lint Lady",
+    "Role / Short Description": "Worker who collects lint creatures",
+    "Appearance Highlights": "Duster in hand, apron with pockets",
+    "Habit / Behavior": "Gathers lint critters, reprimands dusty items"
+  },
+  {
+    "Character": "Lion Statues",
+    "Role / Short Description": "Stone guardians of temple",
+    "Appearance Highlights": "Carved marble, regal manes",
+    "Habit / Behavior": "Stand motionless, animate when threatened"
+  },
+  {
+    "Character": "Little Girl",
+    "Role / Short Description": "Shy child in Nowhere",
+    "Appearance Highlights": "Ragged dress, wide eyes",
+    "Habit / Behavior": "Hides behind Courage, offers candy"
+  },
+  {
+    "Character": "Little Muriel",
+    "Role / Short Description": "Child version of Muriel (ghost)",
+    "Appearance Highlights": "Miniature dress, translucent",
+    "Habit / Behavior": "Giggles softly, floats around"
+  },
+  {
+    "Character": "Lobsters",
+    "Role / Short Description": "Coastal crustaceans",
+    "Appearance Highlights": "Red shells, large claws",
+    "Habit / Behavior": "Pinch anything in reach, scuttle sideways"
+  },
+  {
+    "Character": "Ma Bagge",
+    "Role / Short Description": "Matriarch of the Bagge family",
+    "Appearance Highlights": "Nurse’s cap, floral dress",
+    "Habit / Behavior": "Cares for Courage, bakes pies"
+  },
+  {
+    "Character": "Mad Dog",
+    "Role / Short Description": "Hound of Hell villain",
+    "Appearance Highlights": "Red glowing eyes, spiked collar",
+    "Habit / Behavior": "Howls menacingly, terrorizes farm"
+  },
+  {
+    "Character": "Mad Dog’s Minions",
+    "Role / Short Description": "Hellish hounds",
+    "Appearance Highlights": "Smaller red-eyed dogs",
+    "Habit / Behavior": "Scurry in packs, obey Mad Dog"
+  },
+  {
+    "Character": "Malcolm",
+    "Role / Short Description": "Eccentric archaeologist",
+    "Appearance Highlights": "Safari jacket, pith helmet",
+    "Habit / Behavior": "Excavates ruins, mutters “ancient secrets…”"
+  },
+  {
+    "Character": "Maria and Mano Ladrones",
+    "Role / Short Description": "Thieving duo",
+    "Appearance Highlights": "Matching bandit masks, striped shirts",
+    "Habit / Behavior": "Steal trinkets, argue over loot"
+  },
+  {
+    "Character": "Mattress Demon",
+    "Role / Short Description": "Sleeping-inducing demon",
+    "Appearance Highlights": "Inflated mattress body, stitched smile",
+    "Habit / Behavior": "Coaxes victims to lie down, emits lullabies"
+  },
+  {
+    "Character": "Mayan Baker",
+    "Role / Short Description": "Ancient pastry chef",
+    "Appearance Highlights": "Feathered headdress, flour-dusted tunic",
+    "Habit / Behavior": "Bakes enchanted loaves, demands human tribute"
+  },
+  {
+    "Character": "Mayan Princess",
+    "Role / Short Description": "Royal descendant",
+    "Appearance Highlights": "Jade jewelry, embroidered robe",
+    "Habit / Behavior": "Seeks lost kingdom, speaks in riddles"
+  },
+  {
+    "Character": "Mayor of Nowhere",
+    "Role / Short Description": "Elected official",
+    "Appearance Highlights": "Top hat, sash reading “Mayor”",
+    "Habit / Behavior": "Gives speeches, panics during crises"
+  },
+  {
+    "Character": "McPhearson Phantom",
+    "Role / Short Description": "Phantom stage actor",
+    "Appearance Highlights": "Victorian tailcoat, ghostly makeup",
+    "Habit / Behavior": "Re-enacts tragedies, vanishes backstage"
+  },
+  {
+    "Character": "Mecha Courage",
+    "Role / Short Description": "Robotic Courage counterpart",
+    "Appearance Highlights": "Metallic pink plating, LED eyes",
+    "Habit / Behavior": "Charges enemies, emits mechanical growl"
+  },
+  {
+    "Character": "Mei Ling",
+    "Role / Short Description": "Martial-arts master",
+    "Appearance Highlights": "Silk robe, dragon tattoo",
+    "Habit / Behavior": "Trains Courage in kung fu, offers tea"
+  },
+  {
+    "Character": "Mildred",
+    "Role / Short Description": "Nosy neighbor",
+    "Appearance Highlights": "Green cardigan, clasped pearls",
+    "Habit / Behavior": "Eavesdrops, reports gossip"
+  },
+  {
+    "Character": "Mona Lisa",
+    "Role / Short Description": "Living painting",
+    "Appearance Highlights": "Iconic smile, flowing Renaissance robes",
+    "Habit / Behavior": "Observes silently, shifts position subtly"
+  },
+  {
+    "Character": "Mondo",
+    "Role / Short Description": "Roller-skating troublemaker",
+    "Appearance Highlights": "Leather jacket, bright roller skates",
+    "Habit / Behavior": "Zooms past crowds, plays pranks"
+  },
+  {
+    "Character": "Monkey",
+    "Role / Short Description": "Jungle primate",
+    "Appearance Highlights": "Brown fur, agile frame",
+    "Habit / Behavior": "Swings from rafters, steals bananas"
+  },
+  {
+    "Character": "Monks",
+    "Role / Short Description": "Temple guardians",
+    "Appearance Highlights": "Brown robes, shaved heads",
+    "Habit / Behavior": "Chant in unison, maintain temple grounds"
+  },
+  {
+    "Character": "Mosquito",
+    "Role / Short Description": "Bloodthirsty insect",
+    "Appearance Highlights": "Thin body, buzzing wings",
+    "Habit / Behavior": "Bites unwilling victims, swarms at dusk"
+  },
+  {
+    "Character": "Mother Vulture",
+    "Role / Short Description": "Matriarch of vulture brood",
+    "Appearance Highlights": "Dark feathers, protective stance",
+    "Habit / Behavior": "Guards young, circles overhead"
+  },
+  {
+    "Character": "Mountain Ape",
+    "Role / Short Description": "Primitive beast",
+    "Appearance Highlights": "Massive muscular frame, shaggy fur",
+    "Habit / Behavior": "Roars echoingly, slams chest"
+  },
+  {
+    "Character": "Mouse",
+    "Role / Short Description": "Small barn rodent",
+    "Appearance Highlights": "Gray fur, twitching whiskers",
+    "Habit / Behavior": "Scampers through walls, nibbles crumbs"
+  },
+  {
+    "Character": "Mr. Glockenspiel",
+    "Role / Short Description": "Clockwork creature",
+    "Appearance Highlights": "Metal frame, bell-like resonator",
+    "Habit / Behavior": "Tolls hours, plays melody when approached"
+  },
+  {
+    "Character": "Mr. McGill",
+    "Role / Short Description": "Mysterious stranger",
+    "Appearance Highlights": "Tuxedo, wide-brimmed hat",
+    "Habit / Behavior": "Offers dubious deals, vanishes at dawn"
+  },
+  {
+    "Character": "Mr. Nasty",
+    "Role / Short Description": "Sneering antagonist",
+    "Appearance Highlights": "Snarling grin, torn clothing",
+    "Habit / Behavior": "Taunts Courage, sets traps"
+  },
+  {
+    "Character": "Muriel Bagge",
+    "Role / Short Description": "Kind-hearted owner",
+    "Appearance Highlights": "Floral dress, round glasses",
+    "Habit / Behavior": "Coos lovingly, comforts Courage"
+  },
+  {
+    "Character": "Mustafa al Bacterius",
+    "Role / Short Description": "Bacterial overlord",
+    "Appearance Highlights": "Slimy green form, swirling spores",
+    "Habit / Behavior": "Plans microbial takeover, dissolves objects"
+  },
+  {
+    "Character": "Norwegian Blue",
+    "Role / Short Description": "Exotic parrot",
+    "Appearance Highlights": "Bright blue feathers, banded legs",
+    "Habit / Behavior": "“Polly wants a cracker,” recites old jokes"
+  },
+  {
+    "Character": "Nowhere Mayor",
+    "Role / Short Description": "Alternate title for Mayor of Nowhere",
+    "Appearance Highlights": "See “Mayor of Nowhere”",
+    "Habit / Behavior": "See “Mayor of Nowhere”"
+  },
+  {
+    "Character": "Nowhere Newsman",
+    "Role / Short Description": "Local reporter",
+    "Appearance Highlights": "Press hat, notepad",
+    "Habit / Behavior": "Reports odd events, films with handheld camera"
+  },
+  {
+    "Character": "Nutcracker",
+    "Role / Short Description": "Living toy soldier",
+    "Appearance Highlights": "Wooden body, painted uniform",
+    "Habit / Behavior": "Cracks nuts with jaw, stands at attention"
+  },
+  {
+    "Character": "Octopus",
+    "Role / Short Description": "Tentacled sea creature",
+    "Appearance Highlights": "Eight arms, ink sac",
+    "Habit / Behavior": "Camouflages against walls, squirts ink"
+  },
+  {
+    "Character": "Orange Bearded Man",
+    "Role / Short Description": "Roadside vendor",
+    "Appearance Highlights": "Fiery orange beard, patched jacket",
+    "Habit / Behavior": "Sells odd trinkets, laughs heartily"
+  },
+  {
+    "Character": "Ostrich",
+    "Role / Short Description": "Large flightless bird",
+    "Appearance Highlights": "Long neck, spotted plumage",
+    "Habit / Behavior": "Buries head in sand, kicks if startled"
+  },
+  {
+    "Character": "Otto",
+    "Role / Short Description": "Mad submarine captain",
+    "Appearance Highlights": "Navy uniform, steel-rimmed goggles",
+    "Habit / Behavior": "Commands toy submarine, torpedoes farm pond"
+  },
+  {
+    "Character": "Paper Muriel and Eustace",
+    "Role / Short Description": "Two‑dimensional impostors",
+    "Appearance Highlights": "Flat, paper-cut outlines",
+    "Habit / Behavior": "Flap in the wind, mimic voices from afar"
+  },
+  {
+    "Character": "Parachute Lady",
+    "Role / Short Description": "Skydiving enthusiast",
+    "Appearance Highlights": "Bright jumpsuit, floppy parachute",
+    "Habit / Behavior": "Free‑falls gracefully, deploys chute at last second"
+  },
+  {
+    "Character": "Perfectionist",
+    "Role / Short Description": "Obsessive cleaner",
+    "Appearance Highlights": "Starched uniform, spotless gloves",
+    "Habit / Behavior": "Polishes surfaces nonstop, glares at dust"
+  },
+  {
+    "Character": "PIane Pilot",
+    "Role / Short Description": "Wildlife aerial surveyor",
+    "Appearance Highlights": "Seaplane uniform, aviator goggles",
+    "Habit / Behavior": "Circles farm in plane, snaps photos"
+  },
+  {
+    "Character": "Pig",
+    "Role / Short Description": "Farm animal",
+    "Appearance Highlights": "Pink skin, curly tail",
+    "Habit / Behavior": "Oinks loudly, wallows in mud"
+  },
+  {
+    "Character": "Pigeons",
+    "Role / Short Description": "Urban bird flock",
+    "Appearance Highlights": "Gray feathers, iridescent necks",
+    "Habit / Behavior": "Coos on rooftops, pecks at crumbs"
+  },
+  {
+    "Character": "Pixie",
+    "Role / Short Description": "Mischievous fairy",
+    "Appearance Highlights": "Tiny wings, glowing wand",
+    "Habit / Behavior": "Sprinkles fairy dust, plays pranks"
+  },
+  {
+    "Character": "Polar Bear",
+    "Role / Short Description": "Arctic visitor",
+    "Appearance Highlights": "White fur, towering frame",
+    "Habit / Behavior": "Slaps ice blocks, looks for fish"
+  },
+  {
+    "Character": "Policeman",
+    "Role / Short Description": "Law enforcer",
+    "Appearance Highlights": "Blue uniform, badge",
+    "Habit / Behavior": "Questions Courage, writes citations"
+  },
+  {
+    "Character": "Poohbah",
+    "Role / Short Description": "Royal advisor",
+    "Appearance Highlights": "Ornate robes, jeweled scepter",
+    "Habit / Behavior": "Counsels kings, speaks in riddles"
+  },
+  {
+    "Character": "Prickle Pirate",
+    "Role / Short Description": "Thorn‑covered buccaneer",
+    "Appearance Highlights": "Spiky vest, pirate hat",
+    "Habit / Behavior": "Boards ships with railings, swashes cutlasses"
+  },
+  {
+    "Character": "Professor Frith",
+    "Role / Short Description": "Eccentric academic",
+    "Appearance Highlights": "Tweed jacket, elbow patches",
+    "Habit / Behavior": "Lectures on metaphysics, misplaces notes"
+  },
+  {
+    "Character": "Protagonists",
+    "Role / Short Description": "Heroic figures assisting Courage",
+    "Appearance Highlights": "Varies—often capes, badges",
+    "Habit / Behavior": "Unite against threats, inspire teamwork"
+  },
+  {
+    "Character": "Pwr0422003",
+    "Role / Short Description": "Mysterious coder",
+    "Appearance Highlights": "Glowing keyboard, digital aura",
+    "Habit / Behavior": "Types in code rapidly, debug with flair"
+  },
+  {
+    "Character": "Rabbit",
+    "Role / Short Description": "Farm creature",
+    "Appearance Highlights": "Floppy ears, twitching nose",
+    "Habit / Behavior": "Hops between bushes, nibbles carrots"
+  },
+  {
+    "Character": "Raccoons",
+    "Role / Short Description": "Masked bandits",
+    "Appearance Highlights": "Gray fur, black eye masks",
+    "Habit / Behavior": "Raid trash cans, wash food before eating"
+  },
+  {
+    "Character": "Race of Robots",
+    "Role / Short Description": "Mechanical adversaries",
+    "Appearance Highlights": "Metal bodies, blinking LED eyes",
+    "Habit / Behavior": "March in formation, shoot lasers"
+  },
+  {
+    "Character": "Radio City Rockettes",
+    "Role / Short Description": "Dance troupe",
+    "Appearance Highlights": "Sparkly costumes, high kicks",
+    "Habit / Behavior": "Perform precision dance routines"
+  },
+  {
+    "Character": "Raisin",
+    "Role / Short Description": "Walking dried grape",
+    "Appearance Highlights": "Wrinkled purple skin, grape vine tendrils",
+    "Habit / Behavior": "Rolls downhill, hopes to be eaten"
+  },
+  {
+    "Character": "RAM",
+    "Role / Short Description": "Computer memory entity",
+    "Appearance Highlights": "3D chip-like body, glowing circuits",
+    "Habit / Behavior": "Stores data, occasionally overheats"
+  },
+  {
+    "Character": "Rat / Rats",
+    "Role / Short Description": "Nibbling rodents",
+    "Appearance Highlights": "Brown or gray fur, long tails",
+    "Habit / Behavior": "Scurry in alleys, steal crumbs"
+  },
+  {
+    "Character": "Ratatouille",
+    "Role / Short Description": "Animated dish villain",
+    "Appearance Highlights": "Sizzling pan body, stirring spoon arms",
+    "Habit / Behavior": "Cooks up trouble, simmers schemes"
+  },
+  {
+    "Character": "Recurring Characters",
+    "Role / Short Description": "Regulars in Nowhere’s tales",
+    "Appearance Highlights": "Varies—distinctive outfits",
+    "Habit / Behavior": "Appear in multiple episodes, provide continuity"
+  },
+  {
+    "Character": "Reptiles",
+    "Role / Short Description": "Scaled creatures",
+    "Appearance Highlights": "Scutes and scales, forked tongues",
+    "Habit / Behavior": "Bask in sun, hiss when startled"
+  },
+  {
+    "Character": "Sand Whale",
+    "Role / Short Description": "Burrowing desert leviathan",
+    "Appearance Highlights": "Sandy, whale-like with dorsal fin",
+    "Habit / Behavior": "Dives beneath dunes, emerges to swallow sand"
+  },
+  {
+    "Character": "Sandman",
+    "Role / Short Description": "Sleep-bringing spirit",
+    "Appearance Highlights": "Blue cloak, pouch of dream-dust",
+    "Habit / Behavior": "Sprinkles dust to induce sleep, whispers lullabies"
+  },
+  {
+    "Character": "Scarecrow",
+    "Role / Short Description": "Animated straw guardian",
+    "Appearance Highlights": "Ragged clothes, hollow eyes",
+    "Habit / Behavior": "Guards fields, cackles when intruders near"
+  },
+  {
+    "Character": "Schwick",
+    "Role / Short Description": "Mischievous imp",
+    "Appearance Highlights": "Red skin, curled horns",
+    "Habit / Behavior": "Plays pranks, vanishes in a puff of smoke"
+  },
+  {
+    "Character": "Schwick’s Pet",
+    "Role / Short Description": "Tiny trickster companion",
+    "Appearance Highlights": "Mini imp form, tiny horns",
+    "Habit / Behavior": "Mirrors Schwick’s antics, giggles devilishly"
+  },
+  {
+    "Character": "Scooby‑Doo",
+    "Role / Short Description": "Crossover canine friend",
+    "Appearance Highlights": "Spotted brown fur, collar with “SD” tag",
+    "Habit / Behavior": "Fears ghosts, eats snacks, helps solve mysteries"
+  },
+  {
+    "Character": "Sea Judges",
+    "Role / Short Description": "Marine tribunal",
+    "Appearance Highlights": "Shell helmets, coral robes",
+    "Habit / Behavior": "Hear underwater disputes, slam gavel made of driftwood"
+  },
+  {
+    "Character": "Seagull",
+    "Role / Short Description": "Coastal scavenger",
+    "Appearance Highlights": "Gray-white plumage, yellow beak",
+    "Habit / Behavior": "Squawks loudly, snatches fish"
+  },
+  {
+    "Character": "Shadow",
+    "Role / Short Description": "Dark doppelgänger",
+    "Appearance Highlights": "Black silhouette, glowing red eyes",
+    "Habit / Behavior": "Mimics Courage’s moves, melts into shadows"
+  },
+  {
+    "Character": "Shaggy Rogers",
+    "Role / Short Description": "Mystery-solving teen (Scooby-Doo crossover)",
+    "Appearance Highlights": "Green shirt, brown pants",
+    "Habit / Behavior": "Munches sandwiches, panics at monsters"
+  },
+  {
+    "Character": "Shark",
+    "Role / Short Description": "Ocean predator",
+    "Appearance Highlights": "Sleek gray body, rows of sharp teeth",
+    "Habit / Behavior": "Patrols pond edges, lunges at prey"
+  },
+  {
+    "Character": "Sheep",
+    "Role / Short Description": "Woolly farm animal",
+    "Appearance Highlights": "Fluffy white coat, black face patches",
+    "Habit / Behavior": "Baa softly, graze in flocks"
+  },
+  {
+    "Character": "Ship Captain",
+    "Role / Short Description": "Nautical explorer",
+    "Appearance Highlights": "Tricorn hat, gold‑trimmed coat",
+    "Habit / Behavior": "Yells “Ahoy!”, steers ghost ship around Nowhere"
+  },
+  {
+    "Character": "Shirley",
+    "Role / Short Description": "Nervous waitress",
+    "Appearance Highlights": "Pink uniform, tray of dishes",
+    "Habit / Behavior": "Spills orders, apologizes profusely"
+  },
+  {
+    "Character": "Silhouette Maker",
+    "Role / Short Description": "Shadow‑crafting entity",
+    "Appearance Highlights": "All-black form, scissor‑blade hands",
+    "Habit / Behavior": "Carves shadows of passersby, traps them in silhouettes"
+  },
+  {
+    "Character": "Slugs",
+    "Role / Short Description": "Slimy invertebrate swarm",
+    "Appearance Highlights": "Moist bodies, antennae",
+    "Habit / Behavior": "Leave mucous trails, slide across surfaces"
+  },
+  {
+    "Character": "Snake",
+    "Role / Short Description": "Reptilian slitherer",
+    "Appearance Highlights": "Scaled skin, forked tongue",
+    "Habit / Behavior": "Hisses warnings, coils around branches"
+  },
+  {
+    "Character": "Snowman",
+    "Role / Short Description": "Frosty homunculus",
+    "Appearance Highlights": "Carrot nose, coal eyes",
+    "Habit / Behavior": "Melts reluctantly in sun, rebuilds itself at night"
+  },
+  {
+    "Character": "Space Chicken / Son / Wife",
+    "Role / Short Description": "Cosmic poultry family",
+    "Appearance Highlights": "Feathers with star patterns, glowing beaks",
+    "Habit / Behavior": "Peck cosmic dust, cluck alien languages"
+  },
+  {
+    "Character": "Space Dino",
+    "Role / Short Description": "Prehistoric alien reptile",
+    "Appearance Highlights": "Scaly armor‑plating, comet‑tail crest",
+    "Habit / Behavior": "Stomps meteor fragments, roars across craters"
+  },
+  {
+    "Character": "Space Whale",
+    "Role / Short Description": "Celestial leviathan",
+    "Appearance Highlights": "Nebula‑patterned skin, trailing stardust",
+    "Habit / Behavior": "Floats between stars, sings cosmic hums"
+  },
+  {
+    "Character": "Spirit of the Harvest Moon",
+    "Role / Short Description": "Ethereal guardian",
+    "Appearance Highlights": "Pale mask, cloak of autumn leaves",
+    "Habit / Behavior": "Blesses crops, appears under full moons"
+  },
+  {
+    "Character": "Squirrel",
+    "Role / Short Description": "Nut‑gathering critter",
+    "Appearance Highlights": "Bushy tail, sharp claws",
+    "Habit / Behavior": "Stashes acorns, chatters excitedly"
+  },
+  {
+    "Character": "Starmakers",
+    "Role / Short Description": "Cosmic forgers",
+    "Appearance Highlights": "Floating metallic bodies, forging hammers",
+    "Habit / Behavior": "Hammer starlight into shapes, drift silently"
+  },
+  {
+    "Character": "Storm Goddess",
+    "Role / Short Description": "Weather deity",
+    "Appearance Highlights": "Cloud‑like hair, lightning bolt staff",
+    "Habit / Behavior": "Summons storms, whispers thunder"
+  },
+  {
+    "Character": "Teddy Bears",
+    "Role / Short Description": "Living toy guardians",
+    "Appearance Highlights": "Fluffy bodies, stitched smiles",
+    "Habit / Behavior": "Offer hugs, stand protectively"
+  },
+  {
+    "Character": "The Beaver / The Beaver’s Parents",
+    "Role / Short Description": "Woodland builders",
+    "Appearance Highlights": "Flat tails, buck teeth",
+    "Habit / Behavior": "Gnaw on trees, construct dams"
+  },
+  {
+    "Character": "The Captain",
+    "Role / Short Description": "Alternate nautical hero",
+    "Appearance Highlights": "See “Ship Captain”",
+    "Habit / Behavior": "See “Ship Captain”"
+  },
+  {
+    "Character": "The Clown",
+    "Role / Short Description": "Carnival trickster",
+    "Appearance Highlights": "White face paint, colorful costume",
+    "Habit / Behavior": "Juggles ominous props, laughs maniacally"
+  },
+  {
+    "Character": "The Great Eggplant",
+    "Role / Short Description": "Vegetable overlord",
+    "Appearance Highlights": "Giant purple body, menacing grin",
+    "Habit / Behavior": "Rules over gardens, punishes pests"
+  },
+  {
+    "Character": "The Magic Tree of Nowhere",
+    "Role / Short Description": "Enchanted sentinel",
+    "Appearance Highlights": "Gnarled trunk, glowing fruit",
+    "Habit / Behavior": "Sprouts protective roots, whispers ancient lore"
+  },
+  {
+    "Character": "The Mayor",
+    "Role / Short Description": "See “Mayor of Nowhere”",
+    "Appearance Highlights": "See “Mayor of Nowhere”",
+    "Habit / Behavior": "See “Mayor of Nowhere”"
+  },
+  {
+    "Character": "The Precious, Wonderful… Duckling",
+    "Role / Short Description": "Adorable creature",
+    "Appearance Highlights": "Tiny yellow body, oversized eyes",
+    "Habit / Behavior": "Quacks “goo‑goo”, enchants onlookers"
+  },
+  {
+    "Character": "The Puppet",
+    "Role / Short Description": "Marionette antagonist",
+    "Appearance Highlights": "Wooden joints, painted grin",
+    "Habit / Behavior": "Moves on invisible strings, taunts victims"
+  },
+  {
+    "Character": "The Whip",
+    "Role / Short Description": "Living weapon",
+    "Appearance Highlights": "Striped length, barbed tip",
+    "Habit / Behavior": "Cracks to intimidate, lashes at foes"
+  },
+  {
+    "Character": "Thinker",
+    "Role / Short Description": "Philosophical automaton",
+    "Appearance Highlights": "Bronze body, thoughtful pose",
+    "Habit / Behavior": "Strokes chin, poses rhetorical questions"
+  },
+  {
+    "Character": "Tick",
+    "Role / Short Description": "Tiny parasite",
+    "Appearance Highlights": "Armored shell, pincer limbs",
+    "Habit / Behavior": "Latches onto hosts, feeds quietly"
+  },
+  {
+    "Character": "Tiger",
+    "Role / Short Description": "Striped jungle cat",
+    "Appearance Highlights": "Orange coat, black stripes",
+    "Habit / Behavior": "Prowls silently, pounces on prey"
+  },
+  {
+    "Character": "Troll King / Trolls",
+    "Role / Short Description": "Bridge-dwelling royalty & subjects",
+    "Appearance Highlights": "Mossy crowns, stone-like skin",
+    "Habit / Behavior": "Demand tolls, grumble in goblin tongues"
+  },
+  {
+    "Character": "Tulip / Tulip Worm",
+    "Role / Short Description": "Floral being & parasitic worm",
+    "Appearance Highlights": "Petaled bloom form / worm body painted like petals",
+    "Habit / Behavior": "Blooms each morning / wriggles through soil"
+  },
+  {
+    "Character": "Ulcer",
+    "Role / Short Description": "Oozing disease entity",
+    "Appearance Highlights": "Red, inflamed body",
+    "Habit / Behavior": "Spreads infection, pulses painfully"
+  },
+  {
+    "Character": "UltraXmaster",
+    "Role / Short Description": "Elite net runner",
+    "Appearance Highlights": "Neon suit, digital visor",
+    "Habit / Behavior": "Hacks systems instantly, leaves cryptic logs"
+  },
+  {
+    "Character": "Unnamed Old Lady",
+    "Role / Short Description": "Ghostly matron",
+    "Appearance Highlights": "Tattered shawl, pale visage",
+    "Habit / Behavior": "Roams halls, hums lullabies"
+  },
+  {
+    "Character": "Undead",
+    "Role / Short Description": "Reanimated corpses",
+    "Appearance Highlights": "Decaying flesh, vacant eyes",
+    "Habit / Behavior": "Shamble in hordes, moan for “brains”"
+  },
+  {
+    "Character": "Unseen Characters",
+    "Role / Short Description": "Off-screen presences",
+    "Appearance Highlights": "Invisible silhouettes",
+    "Habit / Behavior": "Speak from darkness, influence events unseen"
+  },
+  {
+    "Character": "Valkyries",
+    "Role / Short Description": "Warrior maidens",
+    "Appearance Highlights": "Winged armor, shining spears",
+    "Habit / Behavior": "Escort souls to Valhalla, test Courage’s valor"
+  },
+  {
+    "Character": "Velma Dinkley",
+    "Role / Short Description": "Mystery-solving teen (Scooby-Doo crossover)",
+    "Appearance Highlights": "Orange turtleneck, pleated skirt",
+    "Habit / Behavior": "Solves clues, adjusts glasses"
+  },
+  {
+    "Character": "Velvet Vic",
+    "Role / Short Description": "Smooth-talking conman",
+    "Appearance Highlights": "Velvet suit, slick hair",
+    "Habit / Behavior": "Sells fake antiques, charms victims"
+  },
+  {
+    "Character": "Villains",
+    "Role / Short Description": "All primary antagonists",
+    "Appearance Highlights": "Varies—often imposing attire",
+    "Habit / Behavior": "Plot schemes, confront Courage"
+  },
+  {
+    "Character": "Violin Girl",
+    "Role / Short Description": "Melancholic musician",
+    "Appearance Highlights": "Pale dress, tear-stained face",
+    "Habit / Behavior": "Plays haunting violin solos"
+  },
+  {
+    "Character": "Volcano God",
+    "Role / Short Description": "Fiery mountain deity",
+    "Appearance Highlights": "Molten lava skin, obsidian crown",
+    "Habit / Behavior": "Erupts volcanoes, commands magma flows"
+  },
+  {
+    "Character": "Waitress",
+    "Role / Short Description": "Diner server",
+    "Appearance Highlights": "Apron, notepad",
+    "Habit / Behavior": "Takes orders, spills coffee"
+  },
+  {
+    "Character": "Walrus",
+    "Role / Short Description": "Tusked sea mammal",
+    "Appearance Highlights": "Whiskers, blubbery body",
+    "Habit / Behavior": "Basks on sandbars, bellows loudly"
+  },
+  {
+    "Character": "Weasel",
+    "Role / Short Description": "Sly forest forager",
+    "Appearance Highlights": "Slender body, sharp teeth",
+    "Habit / Behavior": "Steals eggs, darts between shadows"
+  },
+  {
+    "Character": "Weremole",
+    "Role / Short Description": "Burrowing lycanthrope",
+    "Appearance Highlights": "Mole-like fur, glowing eyes",
+    "Habit / Behavior": "Digs tunnels, howls at full moon"
+  },
+  {
+    "Character": "Whales",
+    "Role / Short Description": "Gentle marine giants",
+    "Appearance Highlights": "Massive bodies, melodic voices",
+    "Habit / Behavior": "Sing whale songs, breach water"
+  },
+  {
+    "Character": "White Tiger",
+    "Role / Short Description": "Rare jungle guardian",
+    "Appearance Highlights": "White coat, black stripes",
+    "Habit / Behavior": "Stalks intruders, guards ancient ruins"
+  },
+  {
+    "Character": "Wicky Wicky Woo",
+    "Role / Short Description": "Tribal sorcerer",
+    "Appearance Highlights": "War paint, bone necklace",
+    "Habit / Behavior": "Casts nature spells, leads rituals"
+  },
+  {
+    "Character": "William / William (shop owner) / Brother",
+    "Role / Short Description": "Local artisan & kin",
+    "Appearance Highlights": "Apron & tools / shopkeeper’s vest / similar attire",
+    "Habit / Behavior": "Crafts goods / greets customers / teases sibling"
+  },
+  {
+    "Character": "Windmill Vandals",
+    "Role / Short Description": "Mischief-makers",
+    "Appearance Highlights": "Tattered clothing, crowbar",
+    "Habit / Behavior": "Sabotage windmills, giggle in the night"
+  }
+]

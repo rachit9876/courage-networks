@@ -1,0 +1,249 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Character Cards</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:'Special Elite',monospace;background:#000;color:#fdc3ed;overflow-x:hidden}
+    h1,h2,h3,.nav-item,.card-title{font-family:'Special Elite',monospace}
+    .bg-main{background:#000}.bg-card{background:#333}.text-primary{color:#fdc3ed}.text-secondary{color:#ccc}
+    .accent-bg,.horror-accent-bg,.love-accent-bg{background:#333}
+    .accent-text,.horror-accent-text,.love-accent-text{color:#fdc3ed}
+    .nav-item.active{border-bottom:2px solid #fdc3ed;color:#fdc3ed}
+    /* Gallery image styles */
+    .gallery-img-container {
+      background-color: #0a0a0a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    @media(max-width:768px){
+      .text-3xl{font-size:1.5rem}
+      .text-4xl{font-size:1.875rem}
+      .container{padding-left:1rem;padding-right:1rem}
+      .py-20{padding-top:3rem;padding-bottom:3rem}
+      .pt-16{padding-top:4rem}
+      .gap-8{gap:1rem}
+      .p-6{padding:1rem}
+      .px-4{padding-left:0.75rem;padding-right:0.75rem}
+    }
+  </style>
+</head>
+<body class="bg-main text-primary">
+  <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30 border-b border-white/10 flex items-center justify-between px-4 py-2">
+    <img src="logo.svg" alt="CN Logo" class="h-8 sm:h-10 w-auto flex-shrink-0" />
+    
+    <div class="flex items-center gap-2">
+      <button id="aspect-4-3" class="px-2 py-0.5 rounded-md text-xs font-bold active" style="background-color: #411b51; color: #cc9cfa;">4:3</button>
+      <button id="aspect-16-9" class="px-2 py-0.5 bg-gray-700 text-pink-200 rounded-md text-xs font-bold">16:9</button>
+      <button id="aspect-1-1" class="px-2 py-0.5 bg-gray-700 text-pink-200 rounded-md text-xs font-bold">1:1</button>
+    </div>
+    
+    <div class="flex items-center flex-shrink-0 gap-2" style="color:#fdc3ed;">
+      <a href="#" style="background-color:#fdc3ed;" class="hover:opacity-80 px-2 py-0.5 sm:px-2.5 sm:py-0.5 rounded-full text-xs sm:text-sm font-semibold text-black">@rachit.zip</a>
+      <div class="relative">
+        <button id="menuBtn" class="focus:outline-none hover:text-gray-300 p-1">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+        <div id="menuDropdown" class="absolute right-0 mt-2 w-44 sm:w-48 bg-card border border-gray-600 rounded-lg shadow-lg hidden z-50">
+          <div class="py-1">
+            <a href="index.html" class="nav-item block px-3 py-2 text-xs sm:text-sm text-pink-200 hover:bg-gray-700">Home</a>
+            <a href="cookbook/book.html" class="nav-item block px-3 py-2 text-xs sm:text-sm text-pink-200 hover:bg-gray-700">Recipe Book</a>
+            <a href="research.html" class="nav-item block px-3 py-2 text-xs sm:text-sm text-pink-200 hover:bg-gray-700">Research</a>
+            <a href="https://game-networks.pages.dev/courage/" class="nav-item block px-3 py-2 text-xs sm:text-sm text-pink-200 hover:bg-gray-700">Web Game</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-16 p-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 mb-8 text-center">
+
+      <p class="mt-4 max-w-3xl mx-auto text-center text-secondary">⚠️ No Copyright as all images are AI generated -OR- made by @rachit.zip</p>
+    </div>
+    <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+      <!-- Cards will be dynamically generated here -->
+    </div>
+  </main>
+
+  <footer class="bg-card shadow-inner py-2 mt-8">
+    <div class="container mx-auto px-4 text-center text-secondary">
+      <p class="text-xs">Courage Fan Site | @rachit.zip | <a href="disclaimer.html" class="underline hover:text-pink-300">Copyright Disclaimer</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Fetch the JSON file
+    fetch('./json/gallery.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(characters => {
+        console.log('Gallery data:', characters);
+        const container = document.getElementById('card-container');
+        
+        // Generate a card for each character
+        characters.forEach((character, index) => {
+          const card = document.createElement('div');
+          card.className = `flex flex-col border border-black h-full`;
+          card.style.backgroundColor = '#411b51';
+          
+          // Create image container with 4:3 aspect ratio
+          const imgContainer = document.createElement('div');
+          imgContainer.className = 'w-full aspect-[4/3] overflow-hidden gallery-img-container';
+          
+          // Create image element
+          const img = document.createElement('img');
+          if (character.Path) {
+            // Make sure path starts with ./ for relative paths
+            let path = character.Path.replace(/\\/g, '/');
+            if (!path.startsWith('./') && !path.startsWith('/')) {
+              path = './' + path;
+            }
+            img.src = path;
+          } else {
+            img.src = '';
+          }
+          img.alt = character.Name || '';
+          img.className = 'w-full h-full object-contain';
+          imgContainer.appendChild(img);
+          
+          // Create content container
+          const content = document.createElement('div');
+          content.className = 'p-6';
+          
+          // Create name heading
+          const name = document.createElement('h2');
+          name.className = 'font-extrabold text-xl';
+          name.style.color = '#cccccc';
+          name.textContent = character.Name;
+          
+          // Create details paragraph
+          const details = document.createElement('p');
+          details.className = 'font-semibold leading-snug mt-2';
+          details.style.color = '#cc9cfa';
+          // Replace semicolons with line breaks
+          let detailsText = character.Details.replace(/;/g, '<br>');
+          // Convert text[path] patterns to links
+          detailsText = detailsText.replace(/([\w\s]+)\[([^\]]+)\]/g, function(match, linkText, path) {
+            return `<a href="${path}" class="text-[#cccccc] underline">${linkText}</a>`;
+          });
+          details.innerHTML = detailsText;
+          
+          // Append all elements
+          content.appendChild(name);
+          content.appendChild(details);
+          card.appendChild(imgContainer);
+          card.appendChild(content);
+          container.appendChild(card);
+        });
+      })
+      .catch(error => console.error('Error loading gallery data:', error));
+      
+    // Menu dropdown toggle functionality
+    document.addEventListener('DOMContentLoaded', () => {
+      const menuBtn = document.getElementById('menuBtn');
+      const menuDropdown = document.getElementById('menuDropdown');
+      
+      menuBtn?.addEventListener('click', () => {
+        menuDropdown.classList.toggle('hidden');
+      });
+      
+      // Close menu when clicking nav links or outside
+      document.addEventListener('click', (e) => {
+        if (menuBtn && !menuBtn.contains(e.target) && !menuDropdown.contains(e.target)) {
+          menuDropdown.classList.add('hidden');
+        }
+      });
+      
+      menuDropdown?.addEventListener('click', (e) => {
+        if (e.target.classList.contains('nav-item')) {
+          menuDropdown.classList.add('hidden');
+        }
+      });
+      
+      // Aspect ratio toggle functionality
+      const aspect43Btn = document.getElementById('aspect-4-3');
+      const aspect169Btn = document.getElementById('aspect-16-9');
+      const aspect11Btn = document.getElementById('aspect-1-1');
+      
+      function updateAspectRatio(ratio) {
+        const imgContainers = document.querySelectorAll('.gallery-img-container');
+        
+        // Update button styles
+        [aspect43Btn, aspect169Btn, aspect11Btn].forEach(btn => {
+          btn.classList.remove('bg-gray-700', 'text-pink-200');
+          btn.classList.add('bg-gray-700', 'text-pink-200');
+          btn.style.backgroundColor = '';
+          btn.style.color = '';
+        });
+        
+        // Set active button
+        const activeBtn = document.getElementById(`aspect-${ratio.replace('/', '-')}`);
+        if (activeBtn) {
+          activeBtn.classList.remove('bg-gray-700', 'text-pink-200');
+          activeBtn.style.backgroundColor = '#411b51';
+          activeBtn.style.color = '#cc9cfa';
+        }
+        
+        // Update all image containers
+        imgContainers.forEach(container => {
+          // Remove existing aspect ratio classes
+          container.classList.remove('aspect-[4/3]', 'aspect-[16/9]', 'aspect-square');
+          
+          // Add new aspect ratio class
+          if (ratio === '4/3') {
+            container.classList.add('aspect-[4/3]');
+          } else if (ratio === '16/9') {
+            container.classList.add('aspect-[16/9]');
+          } else if (ratio === '1/1') {
+            container.classList.add('aspect-square');
+          }
+        });
+        
+        // Save preference to localStorage
+        localStorage.setItem('preferredAspectRatio', ratio);
+      }
+      
+      // Set up event listeners for aspect ratio buttons
+      aspect43Btn?.addEventListener('click', () => updateAspectRatio('4/3'));
+      aspect169Btn?.addEventListener('click', () => updateAspectRatio('16/9'));
+      aspect11Btn?.addEventListener('click', () => updateAspectRatio('1/1'));
+      
+      // Load saved preference or default to 4:3
+      const savedRatio = localStorage.getItem('preferredAspectRatio') || '4/3';
+      updateAspectRatio(savedRatio);
+      
+      // Header search functionality
+      const headerSearch = document.getElementById('headerSearch');
+      let searchTimeout;
+      
+      headerSearch?.addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+          const query = e.target.value.toLowerCase();
+          if (!query.trim()) return;
+          
+          // Implement search functionality here if needed
+        }, 300);
+      });
+    });
+  </script>
+  
+</body>
+</html>

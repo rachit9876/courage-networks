@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "Site Logo",
+    "Details": "# This is a fan-made project; \"Courage Networks",
+    "Path": "assets\\logo.png"
+  },
+  {
+    "Name": "Courage Fans",
+    "Details": "# Recreation of Stretch.Philms",
+    "Path": "assets\\logo2.png"
+  },
+  {
+    "Name": "Muriel Bagge",
+    "Details": "Pet: Courage; # Husband: Eustace Bagge; # Nature: Caring; # Follows: Recipe Book[cookbook/book.html]; # Origin: Scotland",
+    "Path": "assets\\murielBagge.png"
+  },
+  {
+    "Name": "Courage",
+    "Details": "# Breed: Beagle; # D.O.B: 18-02-1979; # Colour(HEX): #e292dd[https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8]",
+    "Path": "assets\\courage.png"
+  },
+  {
+    "Name": "Eustace",
+    "Details": "# Rude Man; # Owner of Courage",
+    "Path": "assets\\eustaceBagge.png"
+  },
+  {
+    "Name": "Nedd",
+    "Details": "# A yellow man shown at wall portrait; # He is from the show - Noodles and Nedd",
+    "Path": "assets\\photo.png"
+  },
+  {
+    "Name": "House",
+    "Details": "# The house where courage lives with Eustace and Muriel Bagge; # Detailed House[house.html]; # 3D Game[https://game-networks.pages.dev/courage/]",
+    "Path": "assets\\house.png"
+  },
+  {
+    "Name": "Eustace's House",
+    "Details": "# The house where Eustace lives before marriage; # Detailed House[house.html]; # 3D Game[https://game-networks.pages.dev/courage/]",
+    "Path": "assets\\EustaceHouse.png"
+  },
+  {
+    "Name": "Cajun Fox",
+    "Details": "# The Fox which wants Muriel Bagge to be his soup ingredient; # Enemy; # Season 01 Episode 01",
+    "Path": "assets\\fox.png"
+  }
+]
