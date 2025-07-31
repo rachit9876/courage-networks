@@ -87,8 +87,15 @@
     </style>
 </head>
 <body class="bg-main text-primary">
+    <!-- Loading Screen -->
+    <div id="loading" class="fixed inset-0 bg-black flex items-center justify-center z-50">
+        <div class="text-center">
+            <div class="text-2xl font-bold" style="color:#fdc3ed;">Loading...</div>
+            <div class="text-lg mt-2" style="color:#fdc3ed;">your experience</div>
+        </div>
+    </div>
 
-    <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30 border-b border-white/10 flex items-center justify-between px-4 py-2">
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30 border-b border-white/10 flex items-center justify-between px-4 py-2" style="opacity:0;">
         <img src="logo.svg" alt="CN Logo" class="h-8 sm:h-10 w-auto flex-shrink-0" />
         
         <div class="flex-1 max-w-xs sm:max-w-sm md:max-w-md mx-2 sm:mx-4">
@@ -800,6 +807,15 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    
+    // Hide loading screen and show header when page is fully loaded
+    window.addEventListener('load', () => {
+        const loading = document.getElementById('loading');
+        const header = document.getElementById('header');
+        loading.style.opacity = '0';
+        header.style.opacity = '1';
+        setTimeout(() => loading.remove(), 300);
+    });
     
     // Header search functionality
     const headerSearch = document.getElementById('headerSearch');

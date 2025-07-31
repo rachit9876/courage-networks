@@ -46,7 +46,14 @@
   </style>
 </head>
 <body class="bg-main text-primary">
-  <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30 border-b border-white/10 flex items-center justify-between px-4 py-2">
+  <!-- Loading Screen -->
+  <div id="loading" class="fixed inset-0 bg-black flex items-center justify-center z-50" style="opacity:1;transition:opacity 0.3s ease;">
+    <div class="text-center">
+      <div class="text-2xl font-bold" style="color:#fdc3ed;">Loading...</div>
+      <div class="text-lg mt-2" style="color:#fdc3ed;">your experience</div>
+    </div>
+  </div>
+  <header id="header" class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30 border-b border-white/10 flex items-center justify-between px-4 py-2" style="opacity:0;transition:opacity 0.3s ease;">
     <img src="logo.svg" alt="CN Logo" class="h-8 sm:h-10 w-auto flex-shrink-0" />
     
     <div class="flex items-center gap-2">
@@ -75,7 +82,7 @@
     </div>
   </header>
 
-  <main class="pt-16 p-8">
+  <main id="main" class="pt-16 p-8" style="opacity:0;transition:opacity 0.3s ease;">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 mb-8 text-center">
 
       <p class="mt-4 max-w-3xl mx-auto text-center text-secondary">⚠️ No Copyright as all images are AI generated -OR- made by @rachit.zip</p>
@@ -117,6 +124,7 @@
           
           // Create image element
           const img = document.createElement('img');
+          img.loading = 'lazy';
           if (character.Path) {
             // Make sure path starts with ./ for relative paths
             let path = character.Path.replace(/\\/g, '/');
@@ -171,6 +179,22 @@
             }, 100);
           }
         }
+        // Wait for images in initial viewport to load (lazy-loading respected)
+        const loadingElem = document.getElementById('loading');
+        const headerElem = document.getElementById('header');
+        const mainElem = document.getElementById('main');
+        const allImgs = Array.from(container.querySelectorAll('img'));
+        const initialImgs = allImgs.filter(img => img.getBoundingClientRect().top < window.innerHeight);
+        const imgPromises = initialImgs.map(img => new Promise(resolve => {
+          if (img.complete) resolve();
+          else { img.addEventListener('load', resolve); img.addEventListener('error', resolve); }
+        }));
+        Promise.all(imgPromises).then(() => {
+          loadingElem.style.opacity = '0';
+          headerElem.style.opacity = '1';
+          mainElem.style.opacity = '1';
+          setTimeout(() => loadingElem.remove(), 300);
+        });
       })
       .catch(error => console.error('Error loading gallery data:', error));
       
@@ -248,19 +272,6 @@
       const savedRatio = localStorage.getItem('preferredAspectRatio') || '4/3';
       updateAspectRatio(savedRatio);
       
-      // Header search functionality
-      const headerSearch = document.getElementById('headerSearch');
-      let searchTimeout;
-      
-      headerSearch?.addEventListener('input', (e) => {
-        clearTimeout(searchTimeout);
-        searchTimeout = setTimeout(() => {
-          const query = e.target.value.toLowerCase();
-          if (!query.trim()) return;
-          
-          // Implement search functionality here if needed
-        }, 300);
-      });
     });
   </script>
   
