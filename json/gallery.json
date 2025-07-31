@@ -1,7 +1,7 @@
 [
   {
     "Name": "Site Logo",
-    "Details": "# This is a fan-made project; \"Courage Networks",
+    "Details": "# Project \"Courage Networks\"; # License: MIT",
     "Path": "assets\\logo.png"
   },
   {
@@ -48,5 +48,10 @@
     "Name": "Dr. Vindaloo",
     "Details": "# The doctor who helps courage; # Friend; # Origin: India",
     "Path": "assets\\drVindaloo.png"
+  },
+  {
+    "Name": "Host Bagge",
+    "Details": "# Brother of Eustace Bagge; # Powerful",
+    "Path": "assets\\horstBagge.png"
   }
 ]
