@@ -65,6 +65,11 @@
     "Path": "assets\\motel.webp"
   },
   {
+    "Name": "Fred",
+    "Details": "# The barber who cuts hair; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # [Muriel](/gallery.html#2)'s nephew",
+    "Path": "assets\\fred.webp"
+  },
+  {
     "Name": "Site Logo",
     "Details": "# Project: [Courage Networks](/index.html); # License: [MIT](https://mit-license.pages.dev)",
     "Path": "assets\\logo.webp"
@@ -73,5 +78,10 @@
     "Name": "Courage Fans",
     "Details": "# Recreation of Stretch.Philms",
     "Path": "assets\\logo2.webp"
+  },
+  {
+    "Name": "King Ramses",
+    "Details": "# Ancient Egyptian pharaoh; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Famous quote: Return the slab",
+    "Path": "assets\\kingRamses.webp"
   }
 ]
