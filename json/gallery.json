@@ -1,23 +1,23 @@
 [
   {
     "Name": "Courage",
-    "Details": "# Breed: Beagle; # Owner: [ Muriel](/gallery.html#2); # Lives with: [Eustace](/gallery.html#3); # D.O.B: 18-02-1979; # Colour(HEX): [e292dd](https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8)",
+    "Details": "# Breed: Beagle; # Owner: [Muriel](/gallery.html#2); # Lives with: [Eustace](/gallery.html#3); # D.O.B: 18-02-1979; # Colour(HEX): [e292dd](https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8)",
     "Path": "assets\\courage.webp"
   },
   {
-    "Name": "  Muriel Bagge",
+    "Name": "Muriel Bagge",
     "Details": "# Pet: [Courage](/gallery.html#1); # Husband: [Eustace](/gallery.html#3); # Nature: Caring; # Follows: [Recipe Book](cookbook/book.html); # Origin: Scotland",
     "Path": "assets\\murielBagge.webp"
   },
   {
     "Name": "Eustace Bagge",
-    "Details": "# Nature: Evil; # Owner of [Courage](/gallery.html#1); # Wife: [ Muriel](/gallery.html#2); # Brother: [Horst](/gallery.html#4)",
+    "Details": "# Nature: Evil; # Owner of [Courage](/gallery.html#1); # Wife: [Muriel](/gallery.html#2); # Brother: [Horst](/gallery.html#6)",
     "Path": "assets\\eustaceBagge.webp"
   },
   {
-    "Name": "Horst Bagge",
-    "Details": "# Brother of [Eustace](/gallery.html#3); # Uncle of [Courage](/gallery.html#1); # Powerful; # Nature: Evil",
-    "Path": "assets\\horstBagge.webp"
+    "Name": "The Computer",
+    "Details": "# PC of [Courage](/gallery.html#1); # Nature: Friendly; # Self-awared; # You Twit",
+    "Path": "assets\\computerSimon.webp"
   },
   {
     "Name": "Dr. Vindaloo",
@@ -25,9 +25,19 @@
     "Path": "assets\\drVindaloo.webp"
   },
   {
+    "Name": "Horst Bagge",
+    "Details": "# Brother of [Eustace](/gallery.html#3); # Uncle of [Courage](/gallery.html#1); # Powerful; # Nature: Evil",
+    "Path": "assets\\horstBagge.webp"
+  },
+  {
     "Name": "Cajun Fox",
-    "Details": "# The Fox which wants [ Muriel](/gallery.html#2) to be his soup ingredient; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Season 01 Episode 01",
+    "Details": "# The Fox which wants [Muriel](/gallery.html#2) to be his soup ingredient; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Season 01 Episode 01",
     "Path": "assets\\fox.webp"
+  },
+  {
+    "Name": "Katz",
+    "Details": "# The Cat which wants to defeat [Muriel](/gallery.html#2); # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Owner of [Motle](/gallery.html#13)",
+    "Path": "assets\\katz.webp"
   },
   {
     "Name": "Nedd",
@@ -36,13 +46,23 @@
   },
   {
     "Name": "House",
-    "Details": "# The house where [Courage](/gallery.html#1) lives with [Eustace](/gallery.html#3) and [ Muriel](/gallery.html#2); # [Detailed House](house.html); # [Try 3D Game](https://game-networks.pages.dev/courage/)",
+    "Details": "# The house where [Courage](/gallery.html#1) lives with [Eustace](/gallery.html#3) and [Muriel](/gallery.html#2); # [Detailed House](house.html); # [Try 3D Game](https://game-networks.pages.dev/courage/)",
     "Path": "assets\\house.webp"
   },
   {
-    "Name": "Eustace's House",
-    "Details": "# The house where [Eustace](/gallery.html#3) lives before marriage to [Muriel](/gallery.html#2); # [Detailed House](house.html); # [Try 3D Game](https://game-networks.pages.dev/courage/)",
-    "Path": "assets\\eustaceHouse.webp"
+    "Name": "Kitchen",
+    "Details": "# Kitchen where [Muriel](/gallery.html#2) cooks; # [Try all recipes](cookbook/book.html); # 🛖 [GF-02](/gallery.html#10)",
+    "Path": "assets\\recipeBookBg.webp"
+  },
+  {
+    "Name": "Nowhere City",
+    "Details": "# City where [Courage](/gallery.html#1) lives; # Address: Nowhere Kansas USA",
+    "Path": "assets\\nowherecity2.webp"
+  },
+  {
+    "Name": "Motel",
+    "Details": "# Famous motel of [Nowhere](/gallery.html#12); # Owner: [Katz](/gallery.html#8)",
+    "Path": "assets\\motel.webp"
   },
   {
     "Name": "Site Logo",
