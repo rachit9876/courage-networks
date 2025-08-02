@@ -15,7 +15,6 @@ A comprehensive fan-made website dedicated to the animated series "Courage the C
 ### Interactive Elements
 - **Character Database** - Comprehensive searchable database of 200+ characters
 - **Pixel Art Interface** - Retro computer terminal with realistic typing effects
-- **Notification System** - Consolidated toast notification system
 - **Progressive Web App** - Installable with instant updates
 - **Responsive Design** - Mobile-first approach optimized for all devices
 
@@ -26,104 +25,62 @@ Visit the live site: [Courage Networks](https://courage-networks.pages.dev/)
 ## Project Structure
 
 ```
-courage-networks
-│     .htaccess
-│      disclaimer.html
-│      gallery.html
-│      house.html
-│      index.html
-│      logo.svg
-│      manifest.json
-│      pwa-install.js
-│      README.md
-│      research.html
-│      robots.txt
-│      sitemap.xml
-│      sw.js
-│
-├───assets
-│       backYard.webp
-│       bed.webp
-│       computerSimon.svg
-│       computerSimon.webp
-│       courage.webp
-│       door.webp
-│       drVindaloo.webp
-│       ending.gif
-│       eustaceBagge.webp
-│       eustaceHouse.webp
-│       food.webp
-│       food2.webp
-│       fox.webp
-│       frame.webp
-│       frame2.webp
-│       fred.webp
-│       horstBagge.webp
-│       house.webp
-│       iceCream.webp
-│       intro.webp
-│       katz.webp
-│       kingRamses.webp
-│       logo.webp
-│       logo2.webp
-│       motel.webp
-│       murielBagge.webp
-│       music.webp
-│       nowherecity.webp
-│       nowherecity2.webp
-│       nowherecity3.webp
-│       nowherecity4.webp
-│       nowherecity6.webp
-│       nowherecity8.webp
-│       pc.webp
-│       photo.webp
-│       photo2.webp
-│       recipeBookBg.webp
-│       researchCentre.webp
-│       show.webp
-│       squid.webp
-│       stretchfilms.gif
-│       stretchfilms4k.webp
-│       track.webp
-│       tree.webp
-│       tv.webp
-│       window.webp
-│
-├───cookbook
-│       app.js
-│       book.html
-│       courage_cookbook.json
-│       style.css
-│
-├───json
-│       characters.json
-│       gallery.json
-│
-├───notifications
-│       notifications.js
-│
-└───researchPaper
-        ResearchPaper.docx
-        ResearchPaper.pdf
+courage-networks/
+├── assets/                    # Image assets (35+ WebP images)
+│   ├── computerSimon.webp     # Main terminal interface
+│   ├── courage.webp           # Character images
+│   ├── murielBagge.webp
+│   ├── eustaceBagge.webp
+│   ├── house.webp             # Location images
+│   ├── recipeBookBg.webp
+│   └── ... (30+ more images)
+├── cookbook/                  # Recipe book section
+│   ├── app.js                 # Cookbook functionality
+│   ├── book.html              # Recipe book interface
+│   ├── courage_cookbook.json  # Recipe database
+│   └── style.css              # Cookbook styling
+├── json/                      # Data files
+│   ├── characters.json        # 200+ character database
+│   └── gallery.json           # Gallery metadata
+├── notifications/             # Notification system
+│   └── notifications.js       # Toast notifications
+├── researchPaper/            # Academic content
+│   ├── ResearchPaper.docx
+│   └── ResearchPaper.pdf
+├── index.html                # Main landing page
+├── gallery.html              # Image gallery
+├── house.html                # Virtual house tour
+├── research.html             # Research paper display
+├── disclaimer.html           # Copyright disclaimer
+├── manifest.json             # PWA configuration
+├── sw.js                     # Service worker
+├── pwa-install.js           # PWA installation
+├── logo.svg                 # Site logo
+├── sitemap.xml              # SEO sitemap
+├── robots.txt               # Search engine directives
+└── .htaccess                # Server configuration
 ```
 
 ## Technologies Used
 
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript (ES6+)
 - **Styling**: Tailwind CSS CDN, Custom CSS with retro pixel aesthetics
-- **Data Visualization**: Chart.js for awards visualization
 - **PWA**: Service Workers with instant updates, Web App Manifest
 - **Performance**: Intersection Observer API, Lazy Loading, Progressive Enhancement
 - **Data Storage**: JSON-based character and recipe databases
+- **Charts**: Chart.js for data visualization
 - **Fonts**: Google Fonts (Special Elite monospace)
 - **Image Optimization**: WebP format for all assets
 - **SEO**: Structured data, sitemap, meta tags
 
-
-
-
-
 ## Key Features
+
+### Character Database
+- **Comprehensive Collection**: 200+ characters from the series
+- **Searchable Interface**: Real-time filtering by name and description
+- **Detailed Information**: Character roles, appearance, and behavior patterns
+- **Interactive Display**: Hover effects and modal popups for main characters
+- **Lazy Loading**: Performance-optimized loading when section becomes visible
 
 ### Recipe Book
 - **Farmhouse Interface**: Immersive cookbook experience with authentic styling
@@ -213,12 +170,20 @@ courage-networks
   "name": "Courage Fan Page",
   "short_name": "Courage",
   "description": "Personal fan page",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "start_url": "/",
-  "scope": "/"
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
 ```
 
@@ -234,11 +199,11 @@ courage-networks
 - **Intersection Observer**: Efficient viewport detection for content loading
 - **Progressive Enhancement**: Core functionality works without JavaScript
 - **WebP Images**: All assets optimized in modern WebP format
-- **CDN Integration**: Tailwind CSS and external libraries via CDN
+- **CDN Integration**: Tailwind CSS and Chart.js via CDN
 
 ### Caching Strategy
-- **Service Worker**: Instant updates with offline fallback
-- **Browser Cache**: Optimized headers for static assets
+- **Service Worker**: Instant updates with cache invalidation
+- **No-Cache Fetch**: Always fetches latest content when available
 - **Memory Management**: Efficient DOM manipulation and cleanup
 - **Search Optimization**: Real-time filtering without server requests
 
@@ -246,7 +211,9 @@ courage-networks
 
 ### SEO Features
 - **Semantic HTML**: Proper heading structure and landmarks
-- **Meta Tags**: Comprehensive metadata
+- **Meta Tags**: Comprehensive Open Graph and Twitter Card metadata
+- **Structured Data**: JSON-LD schema for search engines
+- **Sitemap**: XML sitemap for search engine indexing
 - **FAQ Section**: Structured Q&A for search engines
 
 ### Accessibility
@@ -255,38 +222,36 @@ courage-networks
 - **Color Contrast**: WCAG compliant color schemes
 - **Alt Text**: Descriptive image alternatives
 
-## Media Integration
+## Interactive Features
 
-### Image Gallery
-- **Metadata System**: Detailed image information
-- **Responsive Images**: Multiple resolution support
-- **Lazy Loading**: Performance-optimized loading
+### Terminal Interface
+- **Pixel Art Computer**: Retro CRT monitor aesthetic with typing animations
+- **Dynamic Text**: Real-time typing effect displaying version updates
+- **Responsive Design**: Scales appropriately on mobile devices
+
+### Search Functionality
+- **Global Search**: Header search bar with real-time highlighting
+- **Character Search**: Dedicated search for character database
+- **Smooth Scrolling**: Auto-scroll to first search result
+
+### Data Visualization
+- **Awards Chart**: Interactive Chart.js visualization of show's accolades
+- **Character Statistics**: Comprehensive database with filtering capabilities
 
 ## Project Statistics
 
 ### Content Metrics
 - **Characters**: 200+ detailed character entries with comprehensive data
 - **Recipes**: 8 complete recipes with episode context and cooking instructions
-- **Assets**: 40+ optimized WebP images and media files
+- **Assets**: 35+ optimized WebP images and media files
 - **Pages**: 6 main HTML pages plus external game integration
-- **Notifications**: Unified toast notification system with 12+ preset types
 
 ### Technical Metrics
-- **Total Files**: 25+ files in streamlined, organized structure
+- **Total Files**: 25+ files in organized structure
 - **Database Entries**: JSON-based character and recipe databases
 - **Image Optimization**: 100% WebP format for faster loading
 - **Mobile-First**: Responsive design with touch-optimized interactions
 - **Browser Support**: Modern browsers with ES6+ and WebP support
-
-
-
-
-
-
-
-
-
-
 
 ## Browser Compatibility
 
@@ -297,12 +262,13 @@ courage-networks
 - **Edge**: 80+
 
 ### Required Features
-- ES6+ JavaScript support (arrow functions, async/await, modules)
+- ES6+ JavaScript support (arrow functions, async/await)
 - CSS Grid and Flexbox for responsive layouts
 - Intersection Observer API for lazy loading
-- Service Worker support for PWA and caching
+- Service Worker support for PWA functionality
 - WebP image format support
 - CSS Custom Properties (CSS Variables)
+- Chart.js for data visualization
 
 ---
 
@@ -313,4 +279,5 @@ courage-networks
 **Live Site**: [courage-networks.pages.dev](https://courage-networks.pages.dev/)  
 **External Game**: [game-networks.pages.dev/courage/](https://game-networks.pages.dev/courage/)
 
-License [MIT](https://mit-license.pages.dev/)
+**Created by**: @rachit.zip  
+**License**: MIT
