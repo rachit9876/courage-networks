@@ -528,7 +528,6 @@
             </div>
             <p class="text-xs">© 2024 Courage Networks Fan Site | Created by @rachit.zip | Not affiliated with Cartoon Network</p>
             <p class="text-xs mt-2">"The things I do for love!" - Courage the Cowardly Dog</p>
-            <p class="text-xs mt-2">Unique Visitors: <span id="visit-count">Loading...</span></p>
         </div>
     </footer>
 
@@ -942,27 +941,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 <!--<script src="notifications/webGame.js"></script>-->
-<script>
-// Unique visitor tracking
-const namespace = "courage-networks.pages.dev";
-const key = "unique-visits";
-
-if (!localStorage.getItem("visited_courage_networks")) {
-    fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
-        .then(res => res.json())
-        .then(data => {
-            document.getElementById("visit-count").innerText = data.value;
-        })
-        .catch(() => document.getElementById("visit-count").innerText = "Error");
-    localStorage.setItem("visited_courage_networks", "true");
-} else {
-    fetch(`https://api.countapi.xyz/get/${namespace}/${key}`)
-        .then(res => res.json())
-        .then(data => {
-            document.getElementById("visit-count").innerText = data.value;
-        })
-        .catch(() => document.getElementById("visit-count").innerText = "Error");
-}
-</script>
 </body>
 </html>
