@@ -113,7 +113,13 @@ let filteredRecipes = recipeData.recipes;
 document.addEventListener('DOMContentLoaded', function() {
   setupEventListeners();
   renderRecipeGrid();
-  showWelcomePage();
+  
+  // Check if URL contains #enter to auto-enter kitchen
+  if (window.location.hash === '#enter') {
+    showRecipeBrowser();
+  } else {
+    showWelcomePage();
+  }
 });
 
 // Event listeners
