@@ -20,6 +20,11 @@ RewriteEngine On
     </RequireAll>
 </FilesMatch>
 
+# XML MIME type for sitemap
+<FilesMatch "\.(xml)$">
+    AddType application/xml .xml
+</FilesMatch>
+
 # Security headers
 <IfModule mod_headers.c>
     Header always set X-Content-Type-Options nosniff
@@ -31,13 +36,18 @@ RewriteEngine On
     # SEO-friendly headers
     Header always set X-Robots-Tag "index, follow, archive, snippet, imageindex"
     
-    # Enable caching only for video files
+    # Enable caching for sitemap and robots.txt
+    <FilesMatch "\.(xml|txt)$">
+        Header set Cache-Control "max-age=86400, public"
+    </FilesMatch>
+    
+    # Enable caching for video files
     <FilesMatch "\.(mp4|webm|mkv|avi|mov)$">
         Header set Cache-Control "max-age=604800, public"
     </FilesMatch>
     
-    # Disable caching for all other content
-    <FilesMatch "^(?!.*\.(mp4|webm|mkv|avi|mov)$).*$">
+    # Disable caching for all other content except XML and video
+    <FilesMatch "^(?!.*\.(mp4|webm|mkv|avi|mov|xml|txt)$).*$">
         Header set Cache-Control "no-cache, no-store, must-revalidate"
         Header set Pragma "no-cache"
         Header set Expires "0"
