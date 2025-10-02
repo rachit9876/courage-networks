@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
 # Priority pages for indexing
 Allow: /index.html
@@ -8,6 +9,5 @@ Allow: /research.html
 Allow: /house.html
 Allow: /cookbook/
 
-# Sitemap locations
+# Sitemap location
 Sitemap: https://courage-networks.pages.dev/sitemap.xml
-Sitemap: https://courage-networks.pages.dev/sitemap_index.xml
