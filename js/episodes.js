@@ -1,7 +1,7 @@
 let episodes = [];
 
 async function loadEpisodes() {
-    const res = await fetch('json/episodes.json');
+    const res = await fetch('../json/episodes.json');
     episodes = await res.json();
     renderEpisodes(episodes);
 }
@@ -31,6 +31,7 @@ function showModal(id) {
     `;
     
     modal.classList.add('active');
+    document.body.classList.add('modal-open');
 }
 
 document.getElementById('episode-search').addEventListener('input', (e) => {
@@ -44,11 +45,13 @@ document.getElementById('episode-search').addEventListener('input', (e) => {
 
 document.querySelector('.modal-close').addEventListener('click', () => {
     document.getElementById('modal').classList.remove('active');
+    document.body.classList.remove('modal-open');
 });
 
 document.getElementById('modal').addEventListener('click', (e) => {
     if (e.target.id === 'modal') {
         document.getElementById('modal').classList.remove('active');
+        document.body.classList.remove('modal-open');
     }
 });
 

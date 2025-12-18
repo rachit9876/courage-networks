@@ -69,6 +69,11 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
+.app-bar nav {
+    display: flex;
+    gap: 12px;
+}
+
 .logo {
     font-size: 28px;
     font-weight: 700;
@@ -76,9 +81,21 @@ body::-webkit-scrollbar {
     letter-spacing: 0.5px;
 }
 
-nav {
+.hero nav {
     display: flex;
     gap: 12px;
+    justify-content: center;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.index-only .app-bar .container {
+    justify-content: center;
+}
+
+.index-only .app-bar nav {
+    display: none;
 }
 
 .nav-btn {
@@ -93,6 +110,7 @@ nav {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     display: inline-block;
+    white-space: nowrap;
 }
 
 .nav-btn:hover {
@@ -113,7 +131,7 @@ nav {
 .computer-wrapper {
     position: relative;
     max-width: 600px;
-    margin: 0 auto 24px;
+    margin: 0 auto 32px;
 }
 
 .hero-image {
@@ -149,7 +167,7 @@ nav {
 
 @media (max-width: 480px) {
     .container {
-        padding: 0 12px;
+        padding: 0;
     }
     
     main {
@@ -162,11 +180,6 @@ nav {
     
     .logo {
         font-size: 20px;
-    }
-    
-    .nav-btn {
-        padding: 8px 16px;
-        font-size: 13px;
     }
     
     .section-header {
@@ -215,7 +228,7 @@ nav {
     }
     
     .hero {
-        padding: 40px 12px;
+        padding: 40px 0;
     }
     
     .hero-title {
@@ -225,6 +238,18 @@ nav {
     
     .hero-text {
         font-size: 14px;
+    }
+    
+    .hero nav {
+        gap: 2px;
+        padding: 0;
+    }
+    
+    .nav-btn {
+        padding: 4px 6px;
+        font-size: 8px;
+        border-radius: 50px;
+        letter-spacing: -0.5px;
     }
 }
 
@@ -343,6 +368,10 @@ main {
     display: flex;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 .modal-content {
     background: var(--md-sys-color-surface);
     border-radius: 28px;
@@ -406,6 +435,13 @@ main {
     padding: 20px;
 }
 
+.gallery-card .card-image {
+    height: 250px;
+    object-fit: contain;
+    padding: 20px;
+    background: var(--md-sys-color-background);
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 0 16px;
@@ -420,10 +456,7 @@ main {
         padding: 12px 0;
     }
     
-    .app-bar .container {
-        flex-direction: column;
-        gap: 12px;
-    }
+
     
     .logo {
         font-size: 24px;
@@ -465,5 +498,9 @@ main {
     
     .hero-text {
         font-size: 18px;
+    }
+    
+    .hero nav {
+        gap: 10px;
     }
 }

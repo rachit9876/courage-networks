@@ -2,86 +2,86 @@
   {
     "Name": "Courage",
     "Details": "# Breed: Beagle; # Owner: [Muriel](/gallery.html#2); # Lives with: [Eustace](/gallery.html#3); # D.O.B: 18-02-1979; # Colour(HEX): [e292dd](https://www.google.com/search?q=%23e292dd&sourceid=chrome&ie=UTF-8)",
-    "Path": "assets\\courage.webp"
+    "Path": "assets/gallery/courage.webp"
   },
   {
     "Name": "Muriel Bagge",
     "Details": "# Pet: [Courage](/gallery.html#1); # Husband: [Eustace](/gallery.html#3); # Nature: Caring; # Follows: [Recipe Book](cookbook/book.html); # Origin: Scotland",
-    "Path": "assets\\murielBagge.webp"
+    "Path": "assets/gallery/murielBagge.webp"
   },
   {
     "Name": "Eustace Bagge",
     "Details": "# Nature: Evil; # Owner of [Courage](/gallery.html#1); # Wife: [Muriel](/gallery.html#2); # Brother: [Horst](/gallery.html#6)",
-    "Path": "assets\\eustaceBagge.webp"
+    "Path": "assets/gallery/eustaceBagge.webp"
   },
   {
     "Name": "The Computer",
     "Details": "# PC of [Courage](/gallery.html#1); # Nature: Friendly; # Self-awared; # You Twit",
-    "Path": "assets\\computerSimon.webp"
+    "Path": "assets/gallery/computerSimon.webp"
   },
   {
     "Name": "Dr. Vindaloo",
     "Details": "# The doctor who helps [Courage](/gallery.html#1); # Nature: Friendly; # Origin: India",
-    "Path": "assets\\drVindaloo.webp"
+    "Path": "assets/gallery/drVindaloo.webp"
   },
   {
     "Name": "Horst Bagge",
     "Details": "# Brother of [Eustace](/gallery.html#3); # Uncle of [Courage](/gallery.html#1); # Powerful; # Nature: Evil",
-    "Path": "assets\\horstBagge.webp"
+    "Path": "assets/gallery/horstBagge.webp"
   },
   {
     "Name": "Cajun Fox",
     "Details": "# The Fox which wants [Muriel](/gallery.html#2) to be his soup ingredient; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Season 01 Episode 01",
-    "Path": "assets\\fox.webp"
+    "Path": "assets/gallery/fox.webp"
   },
   {
     "Name": "Katz",
     "Details": "# The Cat which wants to defeat [Muriel](/gallery.html#2); # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Owner of [Motle](/gallery.html#13)",
-    "Path": "assets\\katz.webp"
+    "Path": "assets/gallery/katz.webp"
   },
   {
     "Name": "Nedd",
     "Details": "# A yellow man; # Shown at wall portrait; # Origin: Noodles and Nedd",
-    "Path": "assets\\photo.webp"
+    "Path": "assets/gallery/photo.webp"
   },
   {
     "Name": "House",
     "Details": "# The house where [Courage](/gallery.html#1) lives with [Eustace](/gallery.html#3) and [Muriel](/gallery.html#2); # [Detailed House](house.html); # [Try 3D Game](https://game-networks.pages.dev/courage/)",
-    "Path": "assets\\house.webp"
+    "Path": "assets/gallery/house.webp"
   },
   {
     "Name": "Kitchen",
     "Details": "# Kitchen where [Muriel](/gallery.html#2) cooks; # [Try all recipes](cookbook/book.html); # 🛖 [GF-02](/gallery.html#10)",
-    "Path": "assets\\recipeBookBg.webp"
+    "Path": "assets/gallery/recipeBookBg.webp"
   },
   {
     "Name": "Nowhere City",
     "Details": "# City where [Courage](/gallery.html#1) lives; # Address: Nowhere Kansas USA",
-    "Path": "assets\\nowherecity2.webp"
+    "Path": "assets/gallery/nowherecity2.webp"
   },
   {
     "Name": "Motel",
     "Details": "# Famous motel of [Nowhere](/gallery.html#12); # Owner: [Katz](/gallery.html#8)",
-    "Path": "assets\\motel.webp"
+    "Path": "assets/gallery/motel.webp"
   },
   {
     "Name": "Fred",
     "Details": "# The barber who cuts hair; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # [Muriel](/gallery.html#2)'s nephew",
-    "Path": "assets\\fred.webp"
+    "Path": "assets/gallery/fred.webp"
   },
   {
     "Name": "Site Logo",
     "Details": "# Project: [Courage Networks](/index.html); # License: [MIT](https://mit-license.pages.dev)",
-    "Path": "assets\\logo.webp"
+    "Path": "assets/gallery/logo.webp"
   },
   {
     "Name": "Courage Fans",
     "Details": "# Recreation of Stretch.Philms",
-    "Path": "assets\\logo2.webp"
+    "Path": "assets/gallery/logo2.webp"
   },
   {
     "Name": "King Ramses",
     "Details": "# Ancient Egyptian pharaoh; # Antagonist of [Courage](/gallery.html#1); # Nature: Evil; # Famous quote: Return the slab",
-    "Path": "assets\\kingRamses.webp"
+    "Path": "assets/gallery/kingRamses.webp"
   }
 ]
