@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "universe": "Courage the Cowardly Dog",
+    "primaryLocationName": "Bagge Farmhouse (Nowhere, Kansas)",
+    "notes": [
+      "The farmhouse interior changes between episodes (cartoon logic). Treat this as a 'typical/most-referenced' map rather than a perfect blueprint.",
+      "IDs are stable keys intended for games/tools; display names are in 'name'."
+    ],
+    "sources": [
+      {
+        "title": "Bagge Farmhouse (Courage wiki / Fandom)",
+        "url": "https://courage.fandom.com/wiki/Bagge_Farmhouse"
+      },
+      {
+        "title": "Courage the Cowardly Dog (Wikipedia premise / Nowhere, Kansas)",
+        "url": "https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog"
+      },
+      {
+        "title": "Computer location (Wikipedia character list: attic)",
+        "url": "https://en.wikipedia.org/wiki/List_of_Courage_the_Cowardly_Dog_characters"
+      },
+      {
+        "title": "Windmill Vandals (episode/wiki background on windmill curse)",
+        "url": "https://courage.fandom.com/wiki/Windmill_Vandals"
+      }
+    ],
+    "schemaVersion": "1.1"
+  },
+  "levels": [
+    { "id": "basement", "name": "Cellar / Basement", "order": 0 },
+    { "id": "ground", "name": "Ground Floor", "order": 1 },
+    { "id": "second", "name": "Second Floor", "order": 2 },
+    { "id": "attic", "name": "Attic", "order": 3 },
+    { "id": "exterior", "name": "Exterior (Property)", "order": 4 }
+  ],
+  "areas": [
+    {
+      "id": "cellar",
+      "name": "Cellar",
+      "type": "room",
+      "levelId": "basement",
+      "description": "Underground cellar/basement space; commonly depicted with a dirt floor.",
+      "typicalFeatures": ["dirt floor", "storage area", "boiler (often referenced as being in the cellar)"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "living-room",
+      "name": "Living Room",
+      "type": "room",
+      "levelId": "ground",
+      "description": "Main living space on the first floor; set dressing varies by episode.",
+      "typicalFeatures": ["seating area", "TV (often present)", "front windows (often shown)"],
+      "canonicality": "recurring-but-variable"
+    },
+    {
+      "id": "dining-room",
+      "name": "Dining Room",
+      "type": "room",
+      "levelId": "ground",
+      "description": "First-floor dining area between/near living room and kitchen in many depictions.",
+      "typicalFeatures": ["dining table", "chairs", "furnace (referenced as being in the dining room)"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "type": "room",
+      "levelId": "ground",
+      "description": "First-floor kitchen connected to the dining area in many depictions.",
+      "typicalFeatures": ["sink", "stove/oven", "cabinets", "food prep area"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "bedroom",
+      "name": "Bedroom (Muriel & Eustace)",
+      "type": "room",
+      "levelId": "second",
+      "description": "Primary bedroom on the second floor.",
+      "typicalFeatures": ["bed", "nightstands", "dresser/wardrobe (varies)"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "bathroom",
+      "name": "Bathroom",
+      "type": "room",
+      "levelId": "second",
+      "description": "Bathroom on the second floor.",
+      "typicalFeatures": ["bathtub", "sink", "toilet"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "attic-computer-room",
+      "name": "Attic / Computer Room",
+      "type": "room",
+      "levelId": "attic",
+      "description": "Attic space that serves as Courage's computer room.",
+      "typicalFeatures": ["computer (speaking 'Computer')", "attic storage (varies)"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "stairs-ground-second",
+      "name": "Staircase (Ground ↔ Second)",
+      "type": "connector",
+      "levelId": "ground",
+      "description": "Main interior stairs connecting the first and second floors.",
+      "typicalFeatures": ["wooden stairs", "landing/hallway (varies)"],
+      "canonicality": "recurring-but-variable"
+    },
+    {
+      "id": "access-second-attic",
+      "name": "Attic Access (Second ↔ Attic)",
+      "type": "connector",
+      "levelId": "second",
+      "description": "Access point to the attic (often depicted as a hatch/doorway/short stair depending on episode).",
+      "typicalFeatures": ["hatch or doorway", "ladder/steps (varies)"],
+      "canonicality": "variable"
+    },
+    {
+      "id": "access-ground-cellar",
+      "name": "Cellar Access (Ground ↔ Cellar)",
+      "type": "connector",
+      "levelId": "ground",
+      "description": "Access down to the cellar/basement (location and style varies by episode).",
+      "typicalFeatures": ["basement door", "stairs down"],
+      "canonicality": "variable"
+    },
+    {
+      "id": "front-porch",
+      "name": "Front Porch",
+      "type": "structure",
+      "levelId": "exterior",
+      "description": "Front entry porch area outside the main door.",
+      "typicalFeatures": ["front steps", "porch platform"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "windmill",
+      "name": "Windmill",
+      "type": "landmark",
+      "levelId": "exterior",
+      "description": "Windmill near the farmhouse; a distinctive property landmark.",
+      "typicalFeatures": ["tall windmill tower", "blades/vanes"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "chicken-coop",
+      "name": "Chicken Coop",
+      "type": "structure",
+      "levelId": "exterior",
+      "description": "Chicken coop on/near the farmhouse property.",
+      "typicalFeatures": ["hens/chickens", "coop structure"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "water-pump",
+      "name": "Water Pump",
+      "type": "landmark",
+      "levelId": "exterior",
+      "description": "Manual water pump outside the farmhouse.",
+      "typicalFeatures": ["hand pump", "water source point"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "road",
+      "name": "Lonely Road (by the Farmhouse)",
+      "type": "environment",
+      "levelId": "exterior",
+      "description": "A single road adjacent to the farmhouse property in many exterior shots.",
+      "typicalFeatures": ["isolated roadway", "flat/open landscape"],
+      "canonicality": "recurring"
+    },
+    {
+      "id": "barn",
+      "name": "Barn (appears in some episodes)",
+      "type": "structure",
+      "levelId": "exterior",
+      "description": "A barn that appears outside the farmhouse in some episodes.",
+      "typicalFeatures": ["barn building", "farm storage/animals (varies)"],
+      "canonicality": "appears-sometimes"
+    }
+  ],
+  "connections": [
+    {
+      "id": "c01",
+      "fromAreaId": "living-room",
+      "toAreaId": "dining-room",
+      "kind": "doorway",
+      "bidirectional": true
+    },
+    {
+      "id": "c02",
+      "fromAreaId": "dining-room",
+      "toAreaId": "kitchen",
+      "kind": "doorway",
+      "bidirectional": true
+    },
+    {
+      "id": "c03",
+      "fromAreaId": "living-room",
+      "toAreaId": "stairs-ground-second",
+      "kind": "passage",
+      "bidirectional": true
+    },
+    {
+      "id": "c04",
+      "fromAreaId": "stairs-ground-second",
+      "toAreaId": "bedroom",
+      "kind": "stairs-up",
+      "bidirectional": true
+    },
+    {
+      "id": "c05",
+      "fromAreaId": "stairs-ground-second",
+      "toAreaId": "bathroom",
+      "kind": "stairs-up",
+      "bidirectional": true
+    },
+    {
+      "id": "c06",
+      "fromAreaId": "bedroom",
+      "toAreaId": "access-second-attic",
+      "kind": "access",
+      "bidirectional": true
+    },
+    {
+      "id": "c07",
+      "fromAreaId": "access-second-attic",
+      "toAreaId": "attic-computer-room",
+      "kind": "ladder-or-stairs-up",
+      "bidirectional": true
+    },
+    {
+      "id": "c08",
+      "fromAreaId": "dining-room",
+      "toAreaId": "access-ground-cellar",
+      "kind": "access",
+      "bidirectional": true
+    },
+    {
+      "id": "c09",
+      "fromAreaId": "access-ground-cellar",
+      "toAreaId": "cellar",
+      "kind": "stairs-down",
+      "bidirectional": true
+    },
+    {
+      "id": "c10",
+      "fromAreaId": "living-room",
+      "toAreaId": "front-porch",
+      "kind": "front-door",
+      "bidirectional": true
+    },
+    {
+      "id": "c11",
+      "fromAreaId": "front-porch",
+      "toAreaId": "road",
+      "kind": "path",
+      "bidirectional": true
+    },
+    {
+      "id": "c12",
+      "fromAreaId": "front-porch",
+      "toAreaId": "water-pump",
+      "kind": "yard-path",
+      "bidirectional": true
+    },
+    {
+      "id": "c13",
+      "fromAreaId": "front-porch",
+      "toAreaId": "chicken-coop",
+      "kind": "yard-path",
+      "bidirectional": true
+    },
+    {
+      "id": "c14",
+      "fromAreaId": "front-porch",
+      "toAreaId": "windmill",
+      "kind": "yard-path",
+      "bidirectional": true
+    },
+    {
+      "id": "c15",
+      "fromAreaId": "front-porch",
+      "toAreaId": "barn",
+      "kind": "yard-path",
+      "bidirectional": true,
+      "notes": "Barn connection is optional because the barn is not present in every episode depiction."
+    }
+  ]
+}
