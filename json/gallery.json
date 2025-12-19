@@ -8,7 +8,7 @@
   {
     "id": "muriel",
     "Name": "Muriel Bagge",
-    "Details": "**Pet:** [Courage](#courage)\n**Husband:** [Eustace](#eustace)\n**Nature:** Caring\n**Follows:** [Recipe Book](cookbook/book.html)\n**Origin:** Scotland",
+    "Details": "**Pet:** [Courage](#courage)\n**Husband:** [Eustace](#eustace)\n**Nature:** Caring\n**Follows:** [Recipe Book](../pages/cookbook.html)\n**Origin:** Scotland",
     "Path": "assets/gallery/murielBagge.webp"
   },
   {
@@ -62,7 +62,7 @@
   {
     "id": "kitchen",
     "Name": "Kitchen",
-    "Details": "**Cook:** [Muriel](#muriel)\n**Recipes:** [Try all recipes](cookbook/book.html)\n**Location:** 🛖 [House](#house)",
+    "Details": "**Cook:** [Muriel](#muriel)\n**Recipes:** [Try all recipes](../pages/cookbook.html)\n**Location:** 🛖 [House](#house)",
     "Path": "assets/gallery/recipeBookBg.webp"
   },
   {

@@ -1,6 +1,20 @@
 let episodes = [];
 
+function showSkeleton() {
+    const grid = document.getElementById('episodes-grid');
+    grid.innerHTML = Array(12).fill(0).map(() => `
+        <div class="skeleton-card">
+            <div class="skeleton-content">
+                <div class="skeleton skeleton-title"></div>
+                <div class="skeleton skeleton-text"></div>
+                <div class="skeleton skeleton-text"></div>
+            </div>
+        </div>
+    `).join('');
+}
+
 async function loadEpisodes() {
+    showSkeleton();
     const res = await fetch('../json/episodes.json');
     episodes = await res.json();
     renderEpisodes(episodes);
