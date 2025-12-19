@@ -91,7 +91,7 @@ body::-webkit-scrollbar {
 }
 
 .index-only .app-bar .container {
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .index-only .app-bar nav {
