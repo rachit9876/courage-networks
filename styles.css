@@ -142,15 +142,28 @@ body::-webkit-scrollbar {
 
 .screen-text {
     position: absolute;
-    top: 35%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #000000;
     font-family: monospace;
-    font-size: clamp(10px, 3vw, 18px);
-    white-space: pre-line;
-    text-align: center;
-    width: 80%;
+    font-size: clamp(6px, 1.6vw, 13px);
+    line-height: 1.4;
+    text-align: left;
+    width: 48%;
+    max-height: 38%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.screen-text::-webkit-scrollbar {
+    display: none;
+}
+
+.screen-text a {
+    font-size: clamp(6px, 1.6vw, 13px);
+    line-height: 1.4;
 }
 
 .hero-title {
@@ -250,6 +263,19 @@ body::-webkit-scrollbar {
         font-size: 8px;
         border-radius: 50px;
         letter-spacing: -0.5px;
+    }
+    
+    .screen-text {
+        font-size: 5px;
+        width: 46%;
+        max-height: 32%;
+        top: 37%;
+        line-height: 1.2;
+    }
+    
+    .screen-text a {
+        font-size: 5px;
+        line-height: 1.2;
     }
 }
 
