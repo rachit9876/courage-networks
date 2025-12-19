@@ -9,7 +9,7 @@ async function loadGallery() {
 function renderGallery(data) {
     const grid = document.getElementById('gallery-grid');
     grid.innerHTML = data.map(item => `
-        <div class="card gallery-card" onclick="showModal('${item.Name.replace(/'/g, "\\'")}')">
+        <div class="card gallery-card" onclick="showModalById('${item.id}')">
             <img src="../${item.Path}" alt="${item.Name}" class="card-image" onerror="this.style.display='none'">
             <div class="card-content">
                 <div class="card-title">${item.Name}</div>
@@ -18,21 +18,28 @@ function renderGallery(data) {
     `).join('');
 }
 
-function showModal(name) {
-    const item = gallery.find(g => g.Name === name);
+function showModalById(id) {
+    const item = gallery.find(g => g.id === id);
+    if (!item) return;
+    
     const modal = document.getElementById('modal');
     const modalBody = document.getElementById('modal-body');
     
-    const details = item.Details.replace(/# /g, '<br>• ').replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+    const details = item.Details
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n/g, '<br>')
+        .replace(/\[([^\]]+)\]\(#([^)]+)\)/g, '<a href="#$2" onclick="event.preventDefault(); showModalById(\'$2\');">$1</a>')
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
     
     modalBody.innerHTML = `
-        <img src="../${item.Path}" alt="${item.Name}" style="max-width: 100%; border-radius: 16px; margin-bottom: 24px;" onerror="this.style.display='none'">
+        <img src="../${item.Path}" alt="${item.Name}" style="max-width: 100%; max-height: 300px; object-fit: contain; border-radius: 16px; margin-bottom: 24px;" onerror="this.style.display='none'">
         <h2 class="modal-title">${item.Name}</h2>
         <div class="modal-description">${details}</div>
     `;
     
     modal.classList.add('active');
     document.body.classList.add('modal-open');
+    window.location.hash = id;
 }
 
 document.getElementById('gallery-search').addEventListener('input', (e) => {
@@ -57,3 +64,13 @@ document.getElementById('modal').addEventListener('click', (e) => {
 });
 
 loadGallery();
+
+window.addEventListener('hashchange', () => {
+    const hash = window.location.hash.substring(1);
+    if (hash) showModalById(hash);
+});
+
+window.addEventListener('load', () => {
+    const hash = window.location.hash.substring(1);
+    if (hash) showModalById(hash);
+});
