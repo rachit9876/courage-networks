@@ -2,116 +2,294 @@
   {
     "title": "Cajun Fox Theme",
     "path": "/OST/cajun-fox.mp3",
-    "tags": ["Cajun", "Bayou", "Accordion", "Fiddle", "Funky", "Swamp groove", "Character motif", "Upbeat", "Slide guitar", "Playful menace"]
+    "tags": [
+      "Cajun Fox",
+      "Cajun",
+      "Bayou",
+      "Accordion",
+      "Fiddle",
+      "Funky",
+      "Swamp groove",
+      "Slide guitar",
+      "Playful menace",
+      "Character motif",
+      "Upbeat"
+    ]
   },
   {
     "title": "Clam Theme",
     "path": "/OST/clam.mp3",
-    "tags": ["Underwater", "Subaqueous ambience", "Echoing shells", "Droning bass", "Sparse piano", "Mysterious", "Slow pulse", "Ambient horror", "Bowed textures"]
+    "tags": [
+      "Giant Clam",
+      "Underwater",
+      "Subaqueous ambience",
+      "Echoing shells",
+      "Droning bass",
+      "Sparse piano",
+      "Mysterious",
+      "Slow pulse",
+      "Ambient horror",
+      "Bowed textures",
+      "Character motif"
+    ]
   },
   {
     "title": "Dr. Zalost Theme",
     "path": "/OST/dr-zalost.mp3",
-    "tags": ["Melancholic", "Orchestral sweep", "Somber electronics", "Professor motif", "Unhappy leitmotif", "Atmospheric swell", "Finale cue", "Brooding"]
+    "tags": [
+      "Dr. Zalost",
+      "Melancholic",
+      "Somber electronics",
+      "Atmospheric swell",
+      "Brooding",
+      "Finale cue",
+      "Character motif"
+    ]
   },
   {
     "title": "End Theme",
     "path": "/OST/end.mp3",
-    "tags": ["Outro", "Credits motif", "Warm nostalgia", "Acoustic guitar", "Short hook", "Reflective", "Soft brass underscoring", "Closing motif"]
+    "tags": [
+      "Outro",
+      "Credits motif",
+      "Warm nostalgia",
+      "Acoustic guitar",
+      "Soft brass underscoring",
+      "Reflective",
+      "Closing"
+    ]
   },
   {
     "title": "Ezrin",
     "path": "/OST/ezrin.mp3",
-    "tags": ["Background underscore", "Piano pad", "Ambient strings", "Subtle tension", "Reflective", "Scene bed", "Composer cue"]
+    "tags": [
+      "Background underscore",
+      "Piano pad",
+      "Ambient strings",
+      "Subtle tension",
+      "Scene bed",
+      "Calm",
+      "Reflective"
+    ]
   },
   {
     "title": "Freaky Fred Theme",
     "path": "/OST/freaky-fred.mp3",
-    "tags": ["Barber-shop lullaby", "Creepy lullaby", "Childlike melody", "Whistling motif", "Pendulum rhythm", "Unsettling", "Character theme", "Minimal percussion"]
+    "tags": [
+      "Freaky Fred",
+      "Creepy",
+      "Creepy lullaby",
+      "Whistling motif",
+      "Pendulum rhythm",
+      "Unsettling",
+      "Quirky",
+      "Character motif"
+    ]
   },
   {
     "title": "The Great Fusilli Theme",
     "path": "/OST/great-fusilli.mp3",
-    "tags": ["Circus", "Carnival", "Italianate waltz", "Accordion", "Puppet-theatre", "Venetian/mask vibe", "Playful menace", "Showman motif", "Tango-ish flourish"]
+    "tags": [
+      "Great Fusilli",
+      "Circus",
+      "Carnival",
+      "Accordion",
+      "Puppet-theatre",
+      "Tango-ish flourish",
+      "Playful menace",
+      "Humorous",
+      "Character motif"
+    ]
   },
   {
     "title": "The Hunchback of Nowhere",
     "path": "/OST/hunchback-of-nowhere.mp3",
-    "tags": ["Handbells", "Bell music", "Barn-loft bells", "Melancholic folk", "Gothic-tinge", "Lonely motif", "Warm melancholy", "Acoustic underscoring"]
+    "tags": [
+      "Hunchback",
+      "Handbells",
+      "Bell music",
+      "Barn loft bells",
+      "Melancholic",
+      "Acoustic underscoring",
+      "Character motif",
+      "Gothic"
+    ]
   },
   {
     "title": "Intro Theme",
     "path": "/OST/intro.mp3",
-    "tags": ["Opening theme", "Acoustic banjo/ukulele", "Catchy hook", "Playful fanfare", "Signature motif", "Whistled line", "Theme statement"]
+    "tags": [
+      "Opening theme",
+      "Acoustic banjo/ukulele",
+      "Whistled line",
+      "Theme statement",
+      "Classic",
+      "Iconic"
+    ]
   },
   {
     "title": "TV Intro Theme",
     "path": "/OST/intro-tv.mp3",
-    "tags": ["TV opening", "Short hook", "Instrumental fanfare", "Acoustic string", "Theme motif", "Punchy intro"]
+    "tags": [
+      "Punchy intro",
+      "TV opening",
+      "Instrumental fanfare",
+      "Classic",
+      "Short hook"
+    ]
   },
   {
     "title": "Katz Theme",
     "path": "/OST/katz.mp3",
-    "tags": ["Duet/chanson", "Cabaret lounge", "Sinister elegance", "French duet (Duo)", "Suspenseful lounge", "Sultry strings", "Cabaret piano"]
+    "tags": [
+      "Katz",
+      "Cabaret lounge",
+      "Sultry piano",
+      "Sinister elegance",
+      "French duet vibe",
+      "Suspense",
+      "Character motif"
+    ]
   },
   {
     "title": "Katz Theme (Remaster)",
     "path": "/OST/katz-remaster.mp3",
-    "tags": ["Duet/chanson", "Cabaret lounge", "Remaster", "Cleaner mix", "Suspense lounge", "Sinister elegance", "Sultry piano"]
+    "tags": [
+      "Katz",
+      "Cabaret lounge",
+      "Remaster",
+      "Sultry piano",
+      "Sinister elegance",
+      "Suspense",
+      "Character motif"
+    ]
   },
   {
     "title": "King Ramses Theme",
     "path": "/OST/king-ramses.mp3",
-    "tags": ["Egyptian motif", "Pharaonic chant", "Curse motif", "Man-in-gauze phonograph reference", "Locust/plague texture", "Creepy chant", "Mummy motif"]
+    "tags": [
+      "King Ramses",
+      "Pharaonic chant",
+      "Curse motif",
+      "Creepy chant",
+      "Locust/plague texture",
+      "Ancient",
+      "Character motif"
+    ]
   },
   {
     "title": "Last of the Starmakers",
     "path": "/OST/last-of-the-starmakers.mp3",
-    "tags": ["Sci-fi", "Cosmic pad", "Synth textures", "Orchestral stinger", "Space wonder", "Atmospheric", "Exploration motif"]
+    "tags": [
+      "Sci-fi",
+      "Cosmic pad",
+      "Atmospheric",
+      "Exploration motif",
+      "Wonder",
+      "Space"
+    ]
   },
   {
     "title": "Last of the Starmakers (Remaster)",
     "path": "/OST/last-of-the-starmakers-remaster.mp3",
-    "tags": ["Sci-fi", "Cosmic pad", "Remaster", "Cleaner synths", "Space underscore", "Epic motif"]
+    "tags": [
+      "Sci-fi",
+      "Cosmic pad",
+      "Remaster",
+      "Cleaner synths",
+      "Space"
+    ]
   },
   {
     "title": "Muriel's Sitar Song",
     "path": "/OST/muriels-sitar.mp3",
-    "tags": ["Sitar", "Indian classical influence", "Lullaby", "Soothing", "Traditional string", "Peaceful motif", "Character motif"]
+    "tags": [
+      "Muriel",
+      "Sitar",
+      "Traditional string",
+      "Lullaby",
+      "Soothing",
+      "Character motif",
+      "Peaceful"
+    ]
   },
   {
     "title": "Muriel's Sitar Song (Remaster)",
     "path": "/OST/muriels-sitar-remaster.mp3",
-    "tags": ["Sitar", "Indian classical influence", "Remaster", "Soothing", "Lullaby", "Cleaner mix", "Character motif"]
+    "tags": [
+      "Muriel",
+      "Sitar",
+      "Remaster",
+      "Soothing",
+      "Lullaby",
+      "Character motif",
+      "Peaceful"
+    ]
   },
   {
     "title": "Normal Theme",
     "path": "/OST/normal.mp3",
-    "tags": ["Domestic underscore", "Light piano", "Pastoral", "Everyday motif", "Warm ambience", "Gentle strings", "Calm background"]
+    "tags": [
+      "Domestic underscore",
+      "Pastoral",
+      "Gentle strings",
+      "Calm background",
+      "Everyday"
+    ]
   },
   {
     "title": "On My Momma",
     "path": "/OST/on-my-momma.mp3",
-    "tags": ["Hip hop", "Trap", "Drill rhythm", "Contemporary rap", "Explicit vocals", "Urban beat", "Modern production"]
+    "tags": [
+      "Hip hop",
+      "Trap",
+      "Drill rhythm",
+      "Contemporary rap",
+      "Explicit vocals"
+    ]
   },
   {
     "title": "Panic Theme",
     "path": "/OST/panic.mp3",
-    "tags": ["Alarm motif", "Staccato strings", "High tension", "Chaotic percussion", "Urgent ostinato", "Fearful textures", "Rapid arpeggios"]
+    "tags": [
+      "Alarm motif",
+      "Staccato strings",
+      "Chaotic percussion",
+      "Urgent ostinato",
+      "Tension"
+    ]
   },
   {
     "title": "Panic Theme (Original)",
     "path": "/OST/panic-original.mp3",
-    "tags": ["Alarm motif", "Original mix", "Staccato strings", "Tension", "Chaotic percussion", "Urgent ostinato"]
+    "tags": [
+      "Alarm motif",
+      "Original mix",
+      "Staccato strings",
+      "Urgent ostinato",
+      "Tension"
+    ]
   },
   {
     "title": "Sad Theme",
     "path": "/OST/sad.mp3",
-    "tags": ["Melancholy", "Minor key", "Solo piano", "Heartfelt", "Somber strings", "Emotional underscore", "Slow tempo"]
+    "tags": [
+      "Minor key",
+      "Solo piano",
+      "Heartfelt",
+      "Somber strings",
+      "Emotional"
+    ]
   },
   {
     "title": "Sad Theme (Remaster)",
     "path": "/OST/sad-remaster.mp3",
-    "tags": ["Melancholy", "Remaster", "Solo piano", "Cleaner mix", "Heartfelt", "Somber strings", "Emotional underscore"]
+    "tags": [
+      "Minor key",
+      "Remaster",
+      "Solo piano",
+      "Heartfelt",
+      "Emotional"
+    ]
   }
 ]
