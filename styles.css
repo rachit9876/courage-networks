@@ -121,13 +121,13 @@ body::-webkit-scrollbar {
 .nav-btn.glow {
     background: var(--md-sys-color-primary);
     color: var(--md-sys-color-on-primary);
-    box-shadow: 0 0 20px var(--md-sys-color-primary), 0 0 40px var(--md-sys-color-primary);
+    box-shadow: 0 0 8px var(--md-sys-color-primary), 0 0 15px var(--md-sys-color-primary);
     animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-    0%, 100% { box-shadow: 0 0 20px var(--md-sys-color-primary), 0 0 40px var(--md-sys-color-primary); }
-    50% { box-shadow: 0 0 30px var(--md-sys-color-primary), 0 0 60px var(--md-sys-color-primary); }
+    0%, 100% { box-shadow: 0 0 8px var(--md-sys-color-primary), 0 0 15px var(--md-sys-color-primary); }
+    50% { box-shadow: 0 0 12px var(--md-sys-color-primary), 0 0 20px var(--md-sys-color-primary); }
 }
 
 .nav-btn.active {
