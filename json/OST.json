@@ -1,242 +1,117 @@
 [
   {
-    "title": "Andy Hall (C) AwH – TV theme 2 - Courage - The Cowardly Dog.mp3",
-    "path": "/OST/Andy Hall (C) AwH – TV theme 2 - Courage - The Cowardly Dog.mp3",
-    "tags": ["TV Theme", "Instrumental", "Animated Series", "Cartoon", "Dog", "Hero", "Fun", "Nostalgia", "Soundtrack", "Whimsical"]
+    "title": "Cajun Fox Theme",
+    "path": "/OST/cajun-fox.mp3",
+    "tags": ["Cajun", "Bayou", "Accordion", "Fiddle", "Funky", "Swamp groove", "Character motif", "Upbeat", "Slide guitar", "Playful menace"]
   },
   {
-    "title": "Cartoon Network – Courage the Cowardly Dog End Theme.mp3",
-    "path": "/OST/Cartoon Network – Courage the Cowardly Dog End Theme.mp3",
-    "tags": ["End Theme", "Cartoon", "Network", "Outro", "Animated Series", "Dog", "Farewell", "Instrumental", "Nostalgia", "Reflective"]
+    "title": "Clam Theme",
+    "path": "/OST/clam.mp3",
+    "tags": ["Underwater", "Subaqueous ambience", "Echoing shells", "Droning bass", "Sparse piano", "Mysterious", "Slow pulse", "Ambient horror", "Bowed textures"]
   },
   {
-    "title": "Cartoon Network – Courage the Cowardly Dog OST.mp3",
-    "path": "/OST/Cartoon Network – Courage the Cowardly Dog OST.mp3",
-    "tags": ["Soundtrack", "Cartoon", "Network", "OST", "Animated Series", "Dog", "Collection", "Instrumental", "Background", "Score"]
+    "title": "Dr. Zalost Theme",
+    "path": "/OST/dr-zalost.mp3",
+    "tags": ["Melancholic", "Orchestral sweep", "Somber electronics", "Professor motif", "Unhappy leitmotif", "Atmospheric swell", "Finale cue", "Brooding"]
   },
   {
-    "title": "Cartoon Network – Courage the Cowardly Dog.mp3",
-    "path": "/OST/Cartoon Network – Courage the Cowardly Dog.mp3",
-    "tags": ["Cartoon", "Network", "Theme", "Dog", "Animated Series", "Main Theme", "Iconic", "Nostalgia", "Instrumental", "Opening"]
+    "title": "End Theme",
+    "path": "/OST/end.mp3",
+    "tags": ["Outro", "Credits motif", "Warm nostalgia", "Acoustic guitar", "Short hook", "Reflective", "Soft brass underscoring", "Closing motif"]
   },
   {
-    "title": "Chief Keef – On My Momma.mp3",
-    "path": "/OST/Chief Keef – On My Momma.mp3",
-    "tags": ["Hip Hop", "Rap", "Chief Keef", "Modern", "Song", "Trap", "Drill", "Urban", "Contemporary", "Explicit"]
+    "title": "Ezrin",
+    "path": "/OST/ezrin.mp3",
+    "tags": ["Background underscore", "Piano pad", "Ambient strings", "Subtle tension", "Reflective", "Scene bed", "Composer cue"]
   },
   {
-    "title": "Courage - The Cowardly Dog – Katz theme 1.mp3",
-    "path": "/OST/Courage - The Cowardly Dog – Katz theme 1.mp3",
-    "tags": ["Katz", "Theme", "Villain", "Spooky", "Creepy", "Suspense", "Dramatic", "Instrumental", "Evil", "Mysterious"]
+    "title": "Freaky Fred Theme",
+    "path": "/OST/freaky-fred.mp3",
+    "tags": ["Barber-shop lullaby", "Creepy lullaby", "Childlike melody", "Whistling motif", "Pendulum rhythm", "Unsettling", "Character theme", "Minimal percussion"]
   },
   {
-    "title": "Courage - the cowardly dog – Katz theme.mp3",
-    "path": "/OST/Courage - the cowardly dog – Katz theme.mp3",
-    "tags": ["Katz", "Theme", "Villain", "Creepy", "Spooky", "Suspense", "Dramatic", "Instrumental", "Evil", "Mysterious"]
+    "title": "The Great Fusilli Theme",
+    "path": "/OST/great-fusilli.mp3",
+    "tags": ["Circus", "Carnival", "Italianate waltz", "Accordion", "Puppet-theatre", "Venetian/mask vibe", "Playful menace", "Showman motif", "Tango-ish flourish"]
   },
   {
-    "title": "Courage the Cowardly Dog OST – Cajun Fox Theme.mp3",
-    "path": "/OST/Courage the Cowardly Dog OST – Cajun Fox Theme.mp3",
-    "tags": ["Cajun", "Fox", "Theme", "Soundtrack", "Instrumental", "Quirky", "Whimsical", "Animated Series", "Unique", "Character"]
+    "title": "The Hunchback of Nowhere",
+    "path": "/OST/hunchback-of-nowhere.mp3",
+    "tags": ["Handbells", "Bell music", "Barn-loft bells", "Melancholic folk", "Gothic-tinge", "Lonely motif", "Warm melancholy", "Acoustic underscoring"]
   },
   {
-    "title": "Courage The Cowardly Dog OST – Dr Zalost Theme.mp3",
-    "path": "/OST/Courage The Cowardly Dog OST – Dr Zalost Theme.mp3",
-    "tags": ["Dr Zalost", "Theme", "Villain", "OST", "Spooky", "Creepy", "Dark", "Instrumental", "Animated Series", "Gloomy"]
+    "title": "Intro Theme",
+    "path": "/OST/intro.mp3",
+    "tags": ["Opening theme", "Acoustic banjo/ukulele", "Catchy hook", "Playful fanfare", "Signature motif", "Whistled line", "Theme statement"]
   },
   {
-    "title": "Courage the Cowardly Dog ost – Katz Theme.mp3",
-    "path": "/OST/Courage the Cowardly Dog ost – Katz Theme.mp3",
-    "tags": ["Katz", "Theme", "Soundtrack", "Villain", "Spooky", "Creepy", "Suspense", "Instrumental", "Animated Series", "Mysterious"]
+    "title": "TV Intro Theme",
+    "path": "/OST/intro-tv.mp3",
+    "tags": ["TV opening", "Short hook", "Instrumental fanfare", "Acoustic string", "Theme motif", "Punchy intro"]
   },
   {
-    "title": "Courage the Cowardly Dog OST – King Ramses Theme when standing.mp3",
-    "path": "/OST/Courage the Cowardly Dog OST – King Ramses Theme when standing.mp3",
-    "tags": ["King Ramses", "Theme", "Ancient", "OST", "Egyptian", "Mysterious", "Spooky", "Instrumental", "Animated Series", "Curse"]
+    "title": "Katz Theme",
+    "path": "/OST/katz.mp3",
+    "tags": ["Duet/chanson", "Cabaret lounge", "Sinister elegance", "French duet (Duo)", "Suspenseful lounge", "Sultry strings", "Cabaret piano"]
   },
   {
-    "title": "Courage the Cowardly Dog OST – Last of the Starmakers Extended.mp3",
-    "path": "/OST/Courage the Cowardly Dog OST – Last of the Starmakers Extended.mp3",
-    "tags": ["Starmakers", "Extended", "Soundtrack", "Sci-Fi", "Space", "Instrumental", "Animated Series", "Cosmic", "Exploration", "Wonder"]
+    "title": "Katz Theme (Remaster)",
+    "path": "/OST/katz-remaster.mp3",
+    "tags": ["Duet/chanson", "Cabaret lounge", "Remaster", "Cleaner mix", "Suspense lounge", "Sinister elegance", "Sultry piano"]
   },
   {
-    "title": "Courage the Cowardly Dog – Courage the Cowardly Dog.mp3",
-    "path": "/OST/Courage the Cowardly Dog – Courage the Cowardly Dog.mp3",
-    "tags": ["Cartoon", "Theme", "Dog", "Animated Series", "Main Theme", "Iconic", "Nostalgia", "Instrumental", "Opening", "Classic"]
+    "title": "King Ramses Theme",
+    "path": "/OST/king-ramses.mp3",
+    "tags": ["Egyptian motif", "Pharaonic chant", "Curse motif", "Man-in-gauze phonograph reference", "Locust/plague texture", "Creepy chant", "Mummy motif"]
   },
   {
-    "title": "Courage the Cowardly Dog – Courage.mp3",
-    "path": "/OST/Courage the Cowardly Dog – Courage.mp3",
-    "tags": ["Cartoon", "Theme", "Dog", "Animated Series", "Brave", "Hero", "Iconic", "Instrumental", "Opening", "Classic"]
+    "title": "Last of the Starmakers",
+    "path": "/OST/last-of-the-starmakers.mp3",
+    "tags": ["Sci-fi", "Cosmic pad", "Synth textures", "Orchestral stinger", "Space wonder", "Atmospheric", "Exploration motif"]
   },
   {
-    "title": "Courage the Cowardly Dog – Dr. Zalost.mp3",
-    "path": "/OST/Courage the Cowardly Dog – Dr. Zalost.mp3",
-    "tags": ["Dr Zalost", "Villain", "Theme", "Spooky", "Creepy", "Dark", "Instrumental", "Animated Series", "Gloomy", "Character"]
+    "title": "Last of the Starmakers (Remaster)",
+    "path": "/OST/last-of-the-starmakers-remaster.mp3",
+    "tags": ["Sci-fi", "Cosmic pad", "Remaster", "Cleaner synths", "Space underscore", "Epic motif"]
   },
   {
-    "title": "Courage The Cowardly Dog – Ezrin.mp3",
-    "path": "/OST/Courage The Cowardly Dog – Ezrin.mp3",
-    "tags": ["Ezrin", "Instrumental", "Background", "Score", "Animated Series", "Composer", "Soundtrack", "Calm", "Reflective", "Underscore"]
+    "title": "Muriel's Sitar Song",
+    "path": "/OST/muriels-sitar.mp3",
+    "tags": ["Sitar", "Indian classical influence", "Lullaby", "Soothing", "Traditional string", "Peaceful motif", "Character motif"]
   },
   {
-    "title": "Courage the Cowardly Dog – Freaky Fred Theme.mp3",
-    "path": "/OST/Courage the Cowardly Dog – Freaky Fred Theme.mp3",
-    "tags": ["Freaky Fred", "Theme", "Creepy", "Villain", "Spooky", "Quirky", "Animated Series", "Instrumental", "Mysterious", "Character"]
+    "title": "Muriel's Sitar Song (Remaster)",
+    "path": "/OST/muriels-sitar-remaster.mp3",
+    "tags": ["Sitar", "Indian classical influence", "Remaster", "Soothing", "Lullaby", "Cleaner mix", "Character motif"]
   },
   {
-    "title": "Courage The Cowardly Dog – Fred s theme.mp3",
-    "path": "/OST/Courage The Cowardly Dog – Fred s theme.mp3",
-    "tags": ["Fred", "Theme", "Character", "Quirky", "Animated Series", "Instrumental", "Humorous", "Eccentric", "Playful", "Unique"]
+    "title": "Normal Theme",
+    "path": "/OST/normal.mp3",
+    "tags": ["Domestic underscore", "Light piano", "Pastoral", "Everyday motif", "Warm ambience", "Gentle strings", "Calm background"]
   },
   {
-    "title": "Courage the Cowardly Dog – Intro Theme.mp3",
-    "path": "/OST/Courage the Cowardly Dog – Intro Theme.mp3",
-    "tags": ["Intro", "Theme", "Opening", "Cartoon", "Animated Series", "Dog", "Iconic", "Instrumental", "Nostalgia", "Classic"]
+    "title": "On My Momma",
+    "path": "/OST/on-my-momma.mp3",
+    "tags": ["Hip hop", "Trap", "Drill rhythm", "Contemporary rap", "Explicit vocals", "Urban beat", "Modern production"]
   },
   {
-    "title": "Courage the Cowardly Dog – Katz Theme.mp3",
-    "path": "/OST/Courage the Cowardly Dog – Katz Theme.mp3",
-    "tags": ["Katz", "Theme", "Villain", "Suspense", "Spooky", "Creepy", "Dramatic", "Instrumental", "Animated Series", "Mysterious"]
+    "title": "Panic Theme",
+    "path": "/OST/panic.mp3",
+    "tags": ["Alarm motif", "Staccato strings", "High tension", "Chaotic percussion", "Urgent ostinato", "Fearful textures", "Rapid arpeggios"]
   },
   {
-    "title": "Courage The Cowardly Dog – Last Of The Starmakers.mp3",
-    "path": "/OST/Courage The Cowardly Dog – Last Of The Starmakers.mp3",
-    "tags": ["Starmakers", "Sci-Fi", "Instrumental", "Space", "Animated Series", "Cosmic", "Exploration", "Wonder", "Mysterious", "Epic"]
+    "title": "Panic Theme (Original)",
+    "path": "/OST/panic-original.mp3",
+    "tags": ["Alarm motif", "Original mix", "Staccato strings", "Tension", "Chaotic percussion", "Urgent ostinato"]
   },
   {
-    "title": "Courage The Cowardly Dog – Muriel s sitar song.mp3",
-    "path": "/OST/Courage The Cowardly Dog – Muriel s sitar song.mp3",
-    "tags": ["Muriel", "Sitar", "Calm", "Instrumental", "Relaxing", "Peaceful", "Animated Series", "Character", "Traditional", "Soothing"]
+    "title": "Sad Theme",
+    "path": "/OST/sad.mp3",
+    "tags": ["Melancholy", "Minor key", "Solo piano", "Heartfelt", "Somber strings", "Emotional underscore", "Slow tempo"]
   },
   {
-    "title": "Courage The Cowardly Dog – MusicThe Great Fusilli Theme.mp3",
-    "path": "/OST/Courage The Cowardly Dog – MusicThe Great Fusilli Theme.mp3",
-    "tags": ["Great Fusilli", "Theme", "Circus", "Villain", "Quirky", "Animated Series", "Instrumental", "Humorous", "Playful", "Character"]
-  },
-  {
-    "title": "Courage The Cowardly Dog – Panic.mp3",
-    "path": "/OST/Courage The Cowardly Dog – Panic.mp3",
-    "tags": ["Panic", "Suspense", "Dramatic", "Tension", "Fear", "Animated Series", "Instrumental", "Urgent", "Chaotic", "Anxious"]
-  },
-  {
-    "title": "Courage The Cowardly Dog – Piano Fan Version.mp3",
-    "path": "/OST/Courage The Cowardly Dog – Piano Fan Version.mp3",
-    "tags": ["Piano", "Fan Version", "Instrumental", "Cover", "Emotional", "Melancholy", "Animated Series", "Solo", "Adaptation", "Beautiful"]
-  },
-  {
-    "title": "Courage the Cowardly Dog – Sad Theme (Cover).mp3",
-    "path": "/OST/Courage the Cowardly Dog – Sad Theme (Cover).mp3",
-    "tags": ["Sad", "Theme", "Emotional", "Cover", "Melancholy", "Instrumental", "Animated Series", "Depressing", "Heartfelt", "Somber"]
-  },
-  {
-    "title": "Courage The Cowardly Dog – Sad Theme.mp3",
-    "path": "/OST/Courage The Cowardly Dog – Sad Theme.mp3",
-    "tags": ["Sad", "Theme", "Emotional", "Melancholy", "Instrumental", "Animated Series", "Depressing", "Heartfelt", "Somber", "Reflective"]
-  },
-  {
-    "title": "Courage the Cowardly dog – Sitar theme soundtrack - (cover remastered).mp3",
-    "path": "/OST/Courage the Cowardly dog – Sitar theme soundtrack - (cover remastered).mp3",
-    "tags": ["Sitar", "Theme", "Remastered", "Instrumental", "Soundtrack", "Calm", "Peaceful", "Animated Series", "Traditional", "Soothing"]
-  },
-  {
-    "title": "Courage The Cowardly Dog – The Great Fusilli.mp3",
-    "path": "/OST/Courage The Cowardly Dog – The Great Fusilli.mp3",
-    "tags": ["Great Fusilli", "Circus", "Villain", "Theme", "Quirky", "Animated Series", "Instrumental", "Humorous", "Playful", "Character"]
-  },
-  {
-    "title": "Courage the cowardly dog – The Hunchback of Nowhere.mp3",
-    "path": "/OST/Courage the cowardly dog – The Hunchback of Nowhere.mp3",
-    "tags": ["Hunchback", "Nowhere", "Spooky", "Theme", "Mysterious", "Animated Series", "Instrumental", "Creepy", "Gothic", "Dark"]
-  },
-  {
-    "title": "Courage the Cowardly Dog – Zalost.mp3",
-    "path": "/OST/Courage the Cowardly Dog – Zalost.mp3",
-    "tags": ["Zalost", "Villain", "Theme", "Dark", "Spooky", "Creepy", "Instrumental", "Animated Series", "Gloomy", "Character"]
-  },
-  {
-    "title": "Courage the Cowardly Dog, VGR – Courage the Cowardly Dog (Theme Song).mp3",
-    "path": "/OST/Courage the Cowardly Dog, VGR – Courage the Cowardly Dog (Theme Song).mp3",
-    "tags": ["Theme Song", "VGR", "Cartoon", "Iconic", "Animated Series", "Main Theme", "Opening", "Nostalgia", "Instrumental", "Classic"]
-  },
-  {
-    "title": "Courage The Cowardly – Dog Muriels Theme.mp3",
-    "path": "/OST/Courage The Cowardly – Dog Muriels Theme.mp3",
-    "tags": ["Muriel", "Theme", "Dog", "Character", "Animated Series", "Instrumental", "Calm", "Reflective", "Nostalgia", "Soothing"]
-  },
-  {
-    "title": "Courage – Courage the Cowardly Dog - End Theme.mp3",
-    "path": "/OST/Courage – Courage the Cowardly Dog - End Theme.mp3",
-    "tags": ["End Theme", "Outro", "Cartoon", "Dog", "Animated Series", "Farewell", "Instrumental", "Nostalgia", "Reflective", "Closing"]
-  },
-  {
-    "title": "Jody Gray and Andy Ezrin – Courage The Cowardly Dog.mp3",
-    "path": "/OST/Jody Gray and Andy Ezrin – Courage The Cowardly Dog.mp3",
-    "tags": ["Jody Gray", "Andy Ezrin", "Theme", "Collaboration", "Instrumental", "Animated Series", "Composer", "Soundtrack", "Iconic", "Duo"]
-  },
-  {
-    "title": "Juice Abuse – Courage The Cowardly Dog.mp3",
-    "path": "/OST/Juice Abuse – Courage The Cowardly Dog.mp3",
-    "tags": ["Juice Abuse", "Remix", "Electronic", "Fan", "Animated Series", "Instrumental", "Upbeat", "Modern", "Energetic", "Dance"]
-  },
-  {
-    "title": "kayn – courage the cowardly dog.mp3",
-    "path": "/OST/kayn – courage the Cowardly Dog.mp3",
-    "tags": ["Kayn", "Remix", "Electronic", "Fan", "Animated Series", "Instrumental", "Upbeat", "Modern", "Energetic", "Dance"]
-  },
-  {
-    "title": "OST. Courage the Cowardly Dog. – Katz Theme Beat Loop.mp3",
-    "path": "/OST/OST. Courage the Cowardly Dog. – Katz Theme Beat Loop.mp3",
-    "tags": ["Katz", "Theme", "Beat Loop", "OST", "Villain", "Spooky", "Creepy", "Instrumental", "Animated Series", "Repetitive"]
-  },
-  {
-    "title": "OST. Courage the Cowardly Dog. – muriels sitar song.mp3",
-    "path": "/OST/OST. Courage the Cowardly Dog. – muriels sitar song.mp3",
-    "tags": ["Muriel", "Sitar", "OST", "Calm", "Instrumental", "Relaxing", "Peaceful", "Animated Series", "Character", "Soothing"]
-  },
-  {
-    "title": "Shaggy and Scooby feat. Courage the Cowardly Dog – LOOK AT ME.mp3",
-    "path": "/OST/Shaggy and Scooby feat. Courage the Cowardly Dog – LOOK AT ME.mp3",
-    "tags": ["Shaggy", "Scooby", "Crossover", "Rap", "Hip Hop", "Animated Series", "Collaboration", "Cartoon", "Fun", "Humorous"]
-  },
-  {
-    "title": "The Courage Cowardly Dog – The End.mp3",
-    "path": "/OST/The Courage Cowardly Dog – The End.mp3",
-    "tags": ["The End", "Outro", "Cartoon", "Finale", "Animated Series", "Instrumental", "Closing", "Reflective", "Somber", "Nostalgia"]
-  },
-  {
-    "title": "The Enochian – End Credits (Courage The Cowardly Dog).mp3",
-    "path": "/OST/The Enochian – End Credits (Courage The Cowardly Dog).mp3",
-    "tags": ["End Credits", "Enochian", "Outro", "Instrumental", "Animated Series", "Closing", "Reflective", "Somber", "Nostalgia", "Cinematic"]
-  },
-  {
-    "title": "They Might Be Giants – Courage The Cowardly Dog.mp3",
-    "path": "/OST/They Might Be Giants – Courage The Cowardly Dog.mp3",
-    "tags": ["They Might Be Giants", "Band", "Theme", "Song", "Alternative", "Rock", "Animated Series", "Iconic", "Nostalgia", "Quirky"]
-  },
-  {
-    "title": "Zareh Kan – Courage The Cowardly Dog.mp3",
-    "path": "/OST/Zareh Kan – Courage The Cowardly Dog.mp3",
-    "tags": ["Zareh Kan", "Cover", "Instrumental", "Fan", "Animated Series", "Adaptation", "Piano", "Solo", "Emotional", "Beautiful"]
-  },
-  {
-    "title": "Кураж Трусливый Пес – Грустная Мелодия.mp3",
-    "path": "/OST/Кураж Трусливый Пес – Грустная Мелодия.mp3",
-    "tags": ["Sad Melody", "Russian", "Instrumental", "Emotional", "Melancholy", "Animated Series", "Somber", "Reflective", "Depressing", "Nostalgia"]
-  },
-  {
-    "title": "М.С Кураж - трусливый пёс – Courage The Cowardly Dog Theme.mp3",
-    "path": "/OST/М.С Кураж - трусливый пёс – Courage The Cowardly Dog Theme.mp3",
-    "tags": ["Theme", "Russian", "Rap", "Cartoon", "Animated Series", "Hip Hop", "Instrumental", "Nostalgia", "Iconic", "Energetic"]
-  },
-  {
-    "title": "Неизвестен – Courage the Cowardly Dog - Naughty Freaky Fred - Raisi K. (A AP Rocky Type Beat).mp3",
-    "path": "/OST/Неизвестен – Courage the Cowardly Dog - Naughty Freaky Fred - Raisi K. (A AP Rocky Type Beat).mp3",
-    "tags": ["Freaky Fred", "Rap", "Type Beat", "Unknown Artist", "Hip Hop", "Instrumental", "Animated Series", "Dark", "Creepy", "Quirky"]
-  },
-  {
-    "title": "Неизвестен – Muriel s Sitar Song Theme (Courage the Cowardly Dog).mp3",
-    "path": "/OST/Неизвестен – Muriel s Sitar Song Theme (Courage the Cowardly Dog).mp3",
-    "tags": ["Muriel", "Sitar", "Theme", "Instrumental", "Calm", "Peaceful", "Animated Series", "Character", "Traditional", "Soothing"]
+    "title": "Sad Theme (Remaster)",
+    "path": "/OST/sad-remaster.mp3",
+    "tags": ["Melancholy", "Remaster", "Solo piano", "Cleaner mix", "Heartfelt", "Somber strings", "Emotional underscore"]
   }
 ]
