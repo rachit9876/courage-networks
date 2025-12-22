@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;700&display=swap');
+
 :root {
     --md-sys-color-primary: #D0BCFF;
     --md-sys-color-on-primary: #381E72;
@@ -34,14 +36,16 @@
     display: none;
 }
 
+html {
+    font-size: clamp(14px, 0.9vw, 18px);
+}
+
 body {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
     background: var(--md-sys-color-background);
     color: var(--md-sys-color-on-background);
-    line-height: 1.6;
+    line-height: 1.4;
     overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
 }
 
 body::-webkit-scrollbar {
@@ -49,14 +53,14 @@ body::-webkit-scrollbar {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: clamp(320px, 90vw, 1440px);
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 clamp(12px, 3vw, 48px);
 }
 
 .app-bar {
     background: var(--md-sys-color-surface);
-    padding: 16px 0;
+    padding: clamp(12px, 1.5vw, 20px) 0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -67,27 +71,32 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: clamp(12px, 2vw, 24px);
 }
 
 .app-bar nav {
     display: flex;
-    gap: 12px;
+    gap: clamp(8px, 1vw, 12px);
+    flex-wrap: wrap;
 }
 
 .logo {
-    font-size: 28px;
+    font-size: clamp(20px, 2vw, 28px);
     font-weight: 700;
     color: var(--md-sys-color-primary);
     letter-spacing: 0.5px;
 }
 
+.hero {
+    text-align: center;
+    padding: clamp(40px, 8vw, 80px) clamp(12px, 3vw, 24px);
+}
+
 .hero nav {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 12px;
-    justify-content: center;
-    margin-bottom: 32px;
-    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr));
+    gap: clamp(8px, 1.5vw, 12px);
+    margin-bottom: clamp(24px, 4vw, 32px);
 }
 
 .index-only .app-bar .container {
@@ -102,22 +111,24 @@ body::-webkit-scrollbar {
     background: var(--md-sys-color-surface-variant);
     color: var(--md-sys-color-on-surface);
     border: none;
-    padding: 10px 16px;
+    padding: clamp(10px, 1.2vw, 14px) clamp(16px, 2vw, 20px);
     border-radius: 100px;
-    font-size: 14px;
+    font-size: clamp(12px, 0.9vw, 14px);
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 120ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    justify-content: center;
+    gap: clamp(4px, 0.6vw, 6px);
     white-space: nowrap;
+    min-height: clamp(40px, 4vw, 48px);
 }
 
 .nav-icon {
-    width: 20px;
-    height: 20px;
+    width: clamp(18px, 2vw, 20px);
+    height: clamp(18px, 2vw, 20px);
     flex-shrink: 0;
 }
 
@@ -143,20 +154,15 @@ body::-webkit-scrollbar {
     color: var(--md-sys-color-on-secondary-container);
 }
 
-.hero {
-    text-align: center;
-    padding: 80px 24px;
-}
-
 .computer-wrapper {
     position: relative;
-    max-width: 600px;
-    margin: 0 auto 32px;
+    max-width: clamp(300px, 80vw, 600px);
+    margin: 0 auto clamp(24px, 4vw, 32px);
 }
 
 .hero-image {
     width: 100%;
-    border-radius: 24px;
+    border-radius: clamp(16px, 2vw, 24px);
     display: block;
 }
 
@@ -167,115 +173,26 @@ body::-webkit-scrollbar {
     transform: translate(-50%, -50%);
     color: #000000;
     font-family: monospace;
-    font-size: clamp(10px, 3vw, 18px);
+    font-size: clamp(10px, 1.5vw, 18px);
     white-space: pre-line;
     text-align: center;
     width: 80%;
 }
 
 .hero-title {
-    font-size: 56px;
+    font-size: clamp(24px, 4vw, 56px);
     font-weight: 700;
     color: var(--md-sys-color-primary);
-    margin-bottom: 24px;
+    margin-bottom: clamp(16px, 2vw, 24px);
 }
 
 .hero-text {
-    font-size: 24px;
+    font-size: clamp(14px, 2vw, 24px);
     color: var(--md-sys-color-on-surface-variant);
 }
 
-@media (max-width: 480px) {
-    .container {
-        padding: 0;
-    }
-    
-    main {
-        padding: 20px 0;
-    }
-    
-    .app-bar {
-        padding: 10px 0;
-    }
-    
-    .logo {
-        font-size: 20px;
-    }
-    
-    .section-header {
-        margin-bottom: 20px;
-    }
-    
-    .section-header h2 {
-        font-size: 24px;
-        margin-bottom: 16px;
-    }
-    
-    .search-bar input {
-        padding: 10px 16px;
-        font-size: 13px;
-    }
-    
-    .grid {
-        grid-template-columns: 1fr;
-        gap: 12px;
-    }
-    
-    .card-content {
-        padding: 12px;
-    }
-    
-    .card-title {
-        font-size: 16px;
-    }
-    
-    .card-meta,
-    .card-summary {
-        font-size: 12px;
-    }
-    
-    .modal-content {
-        padding: 20px;
-    }
-    
-    .modal-title {
-        font-size: 20px;
-    }
-    
-    .modal-meta,
-    .modal-description {
-        font-size: 14px;
-    }
-    
-    .hero {
-        padding: 40px 0;
-    }
-    
-    .hero-title {
-        font-size: 24px;
-        margin-bottom: 16px;
-    }
-    
-    .hero-text {
-        font-size: 14px;
-    }
-    
-    .hero nav {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-        padding: 0 12px;
-    }
-    
-    .nav-btn {
-        padding: 12px 20px;
-        font-size: 14px;
-        width: 100%;
-        justify-content: center;
-    }
-}
-
 main {
-    padding: 32px 0;
+    padding: clamp(20px, 3vw, 32px) 0;
 }
 
 .content-section {
@@ -287,30 +204,31 @@ main {
 }
 
 .section-header {
-    margin-bottom: 32px;
+    margin-bottom: clamp(20px, 3vw, 32px);
 }
 
 .section-header h2 {
-    font-size: 36px;
+    font-size: clamp(24px, 3vw, 36px);
     font-weight: 700;
     color: var(--md-sys-color-primary);
-    margin-bottom: 24px;
+    margin-bottom: clamp(16px, 2vw, 24px);
 }
 
 .search-bar {
-    max-width: 600px;
+    max-width: clamp(300px, 80vw, 600px);
 }
 
 .search-bar input {
     width: 100%;
-    padding: 16px 24px;
+    padding: clamp(12px, 1.5vw, 16px) clamp(16px, 2vw, 24px);
     background: var(--md-sys-color-surface-variant);
     border: none;
-    border-radius: 28px;
+    border-radius: clamp(20px, 2.5vw, 28px);
     color: var(--md-sys-color-on-surface);
-    font-size: 16px;
+    font-size: clamp(13px, 1vw, 16px);
     outline: none;
-    transition: all 0.3s;
+    transition: box-shadow 120ms;
+    min-height: clamp(40px, 4vw, 48px);
 }
 
 .search-bar input:focus {
@@ -319,47 +237,45 @@ main {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+    gap: clamp(12px, 2vw, 24px);
 }
 
 .card {
     background: var(--md-sys-color-surface-variant);
-    border-radius: 24px;
+    border-radius: clamp(16px, 2vw, 24px);
     overflow: hidden;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 120ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
-
-
 .card-image {
     width: 100%;
-    height: 200px;
+    height: clamp(180px, 20vw, 200px);
     object-fit: cover;
     background: var(--md-sys-color-surface-variant);
 }
 
 .card-content {
-    padding: 20px;
+    padding: clamp(12px, 2vw, 20px);
 }
 
 .card-title {
-    font-size: 20px;
+    font-size: clamp(16px, 1.3vw, 20px);
     font-weight: 700;
     color: var(--md-sys-color-on-surface);
-    margin-bottom: 8px;
+    margin-bottom: clamp(6px, 0.8vw, 8px);
 }
 
 .card-meta {
-    font-size: 14px;
+    font-size: clamp(12px, 0.9vw, 14px);
     color: var(--md-sys-color-on-surface-variant);
-    margin-bottom: 12px;
+    margin-bottom: clamp(8px, 1vw, 12px);
 }
 
 .card-summary {
-    font-size: 14px;
+    font-size: clamp(12px, 0.9vw, 14px);
     color: var(--md-sys-color-on-surface-variant);
     line-height: 1.5;
     display: -webkit-box;
@@ -379,7 +295,7 @@ main {
     z-index: 1000;
     align-items: center;
     justify-content: center;
-    padding: 24px;
+    padding: clamp(16px, 3vw, 24px);
 }
 
 .modal.active {
@@ -392,35 +308,32 @@ body.modal-open {
 
 .modal-content {
     background: var(--md-sys-color-surface);
-    border-radius: 28px;
-    max-width: 600px;
+    border-radius: clamp(20px, 2.5vw, 28px);
+    max-width: clamp(320px, 90vw, 600px);
     width: 100%;
     max-height: 90vh;
     overflow-y: auto;
     position: relative;
-    padding: 32px;
+    padding: clamp(20px, 3vw, 32px);
     box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
-.modal-content::-webkit-scrollbar {
-    display: none;
 }
 
 .modal-close {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: clamp(12px, 1.5vw, 16px);
+    right: clamp(12px, 1.5vw, 16px);
     background: var(--md-sys-color-secondary-container);
     color: var(--md-sys-color-on-secondary-container);
     border: none;
-    width: 40px;
-    height: 40px;
+    width: clamp(36px, 4vw, 40px);
+    height: clamp(36px, 4vw, 40px);
     border-radius: 50%;
-    font-size: 24px;
+    font-size: clamp(20px, 2vw, 24px);
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-close:hover {
@@ -429,28 +342,28 @@ body.modal-open {
 }
 
 .modal-title {
-    font-size: 32px;
+    font-size: clamp(20px, 2.5vw, 32px);
     font-weight: 700;
     color: var(--md-sys-color-primary);
-    margin-bottom: 16px;
+    margin-bottom: clamp(12px, 1.5vw, 16px);
 }
 
 .modal-meta {
-    font-size: 16px;
+    font-size: clamp(14px, 1vw, 16px);
     color: var(--md-sys-color-on-surface-variant);
-    margin-bottom: 24px;
+    margin-bottom: clamp(16px, 2vw, 24px);
 }
 
 .modal-description {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: clamp(14px, 1vw, 16px);
+    line-height: 1.6;
     color: var(--md-sys-color-on-surface);
 }
 
 .character-card .card-image {
-    height: 300px;
+    height: clamp(250px, 30vw, 300px);
     object-fit: contain;
-    padding: 20px;
+    padding: clamp(16px, 2vw, 20px);
 }
 
 .gallery-card .card-image {
@@ -473,31 +386,31 @@ body.modal-open {
 
 .skeleton-card {
     background: var(--md-sys-color-surface-variant);
-    border-radius: 24px;
+    border-radius: clamp(16px, 2vw, 24px);
     overflow: hidden;
 }
 
 .skeleton-image {
     width: 100%;
-    height: 200px;
+    height: clamp(180px, 20vw, 200px);
 }
 
 .skeleton-content {
-    padding: 20px;
+    padding: clamp(12px, 2vw, 20px);
 }
 
 .skeleton-title {
-    height: 24px;
+    height: clamp(20px, 2vw, 24px);
     width: 70%;
-    border-radius: 4px;
-    margin-bottom: 12px;
+    border-radius: clamp(3px, 0.4vw, 4px);
+    margin-bottom: clamp(8px, 1vw, 12px);
 }
 
 .skeleton-text {
-    height: 16px;
+    height: clamp(14px, 1.5vw, 16px);
     width: 100%;
-    border-radius: 4px;
-    margin-bottom: 8px;
+    border-radius: clamp(3px, 0.4vw, 4px);
+    margin-bottom: clamp(6px, 0.8vw, 8px);
 }
 
 .skeleton-text:last-child {
@@ -507,78 +420,38 @@ body.modal-open {
 .card-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 12px;
+    gap: clamp(6px, 0.8vw, 8px);
+    margin-bottom: clamp(8px, 1vw, 12px);
 }
 
 .tag {
     background: var(--md-sys-color-primary-container);
     color: var(--md-sys-color-on-primary-container);
-    padding: 4px 12px;
-    border-radius: 16px;
-    font-size: 12px;
+    padding: clamp(3px, 0.4vw, 4px) clamp(10px, 1.2vw, 12px);
+    border-radius: clamp(12px, 1.5vw, 16px);
+    font-size: clamp(11px, 0.85vw, 12px);
     font-weight: 500;
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 0 16px;
-    }
-    
     .grid {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 16px;
+        grid-template-columns: 1fr;
     }
-    
-    .app-bar {
-        padding: 12px 0;
-    }
-    
+}
 
-    
-    .logo {
-        font-size: 24px;
-    }
-    
-    .nav-btn {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-    
-    .section-header h2 {
-        font-size: 28px;
-    }
-    
-    .search-bar input {
-        padding: 12px 20px;
-        font-size: 14px;
-    }
-    
-    .card-content {
-        padding: 16px;
-    }
-    
-    .card-title {
-        font-size: 18px;
-    }
-    
-    .modal-content {
-        padding: 24px;
-    }
-    
-    .modal-title {
-        font-size: 24px;
-    }
-    
-    .hero-title {
-        font-size: 36px;
-    }
-    
-    .hero-text {
-        font-size: 18px;
-    }
-    
+@media (max-width: 480px) {
     .hero nav {
-        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .app-bar nav {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1440px;
     }
 }
