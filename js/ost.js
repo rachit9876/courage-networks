@@ -14,7 +14,7 @@ function showSkeleton() {
 
 async function loadOST() {
     showSkeleton();
-    const res = await fetch('../json/OST.json');
+    const res = await fetch('../json/ost.json');
     ost = await res.json();
     renderOST(ost);
 }

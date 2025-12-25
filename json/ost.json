@@ -1,7 +1,7 @@
 [
   {
     "title": "Cajun Fox Theme",
-    "path": "/OST/cajun-fox.mp3",
+    "path": "/ost/cajunFox.mp3",
     "tags": [
       "Cajun Fox",
       "Cajun",
@@ -18,7 +18,7 @@
   },
   {
     "title": "Clam Theme",
-    "path": "/OST/clam.mp3",
+    "path": "/ost/clam.mp3",
     "tags": [
       "Giant Clam",
       "Underwater",
@@ -35,7 +35,7 @@
   },
   {
     "title": "Dr. Zalost Theme",
-    "path": "/OST/dr-zalost.mp3",
+    "path": "/ost/drZalost.mp3",
     "tags": [
       "Dr. Zalost",
       "Melancholic",
@@ -48,7 +48,7 @@
   },
   {
     "title": "End Theme",
-    "path": "/OST/end.mp3",
+    "path": "/ost/end.mp3",
     "tags": [
       "Outro",
       "Credits motif",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Ezrin",
-    "path": "/OST/ezrin.mp3",
+    "path": "/ost/ezrin.mp3",
     "tags": [
       "Background underscore",
       "Piano pad",
@@ -74,7 +74,7 @@
   },
   {
     "title": "Freaky Fred Theme",
-    "path": "/OST/freaky-fred.mp3",
+    "path": "/ost/freakyFred.mp3",
     "tags": [
       "Freaky Fred",
       "Creepy",
@@ -88,7 +88,7 @@
   },
   {
     "title": "The Great Fusilli Theme",
-    "path": "/OST/great-fusilli.mp3",
+    "path": "/ost/greatFusilli.mp3",
     "tags": [
       "Great Fusilli",
       "Circus",
@@ -103,7 +103,7 @@
   },
   {
     "title": "The Hunchback of Nowhere",
-    "path": "/OST/hunchback-of-nowhere.mp3",
+    "path": "/ost/hunchbackOfNowhere.mp3",
     "tags": [
       "Hunchback",
       "Handbells",
@@ -117,7 +117,7 @@
   },
   {
     "title": "Intro Theme",
-    "path": "/OST/intro.mp3",
+    "path": "/ost/intro.mp3",
     "tags": [
       "Opening theme",
       "Acoustic banjo/ukulele",
@@ -129,7 +129,7 @@
   },
   {
     "title": "TV Intro Theme",
-    "path": "/OST/intro-tv.mp3",
+    "path": "/ost/introTv.mp3",
     "tags": [
       "Punchy intro",
       "TV opening",
@@ -140,7 +140,7 @@
   },
   {
     "title": "Katz Theme",
-    "path": "/OST/katz.mp3",
+    "path": "/ost/katz.mp3",
     "tags": [
       "Katz",
       "Cabaret lounge",
@@ -153,7 +153,7 @@
   },
   {
     "title": "Katz Theme (Remaster)",
-    "path": "/OST/katz-remaster.mp3",
+    "path": "/ost/katzRemaster.mp3",
     "tags": [
       "Katz",
       "Cabaret lounge",
@@ -166,7 +166,7 @@
   },
   {
     "title": "King Ramses Theme",
-    "path": "/OST/king-ramses.mp3",
+    "path": "/ost/kingRamses.mp3",
     "tags": [
       "King Ramses",
       "Pharaonic chant",
@@ -179,7 +179,7 @@
   },
   {
     "title": "Last of the Starmakers",
-    "path": "/OST/last-of-the-starmakers.mp3",
+    "path": "/ost/lastOfTheStarmakers.mp3",
     "tags": [
       "Sci-fi",
       "Cosmic pad",
@@ -191,7 +191,7 @@
   },
   {
     "title": "Last of the Starmakers (Remaster)",
-    "path": "/OST/last-of-the-starmakers-remaster.mp3",
+    "path": "/ost/lastOfTheStarmakersRemaster.mp3",
     "tags": [
       "Sci-fi",
       "Cosmic pad",
@@ -202,7 +202,7 @@
   },
   {
     "title": "Muriel's Sitar Song",
-    "path": "/OST/muriels-sitar.mp3",
+    "path": "/ost/murielsSitar.mp3",
     "tags": [
       "Muriel",
       "Sitar",
@@ -215,7 +215,7 @@
   },
   {
     "title": "Muriel's Sitar Song (Remaster)",
-    "path": "/OST/muriels-sitar-remaster.mp3",
+    "path": "/ost/murielsSitarRemaster.mp3",
     "tags": [
       "Muriel",
       "Sitar",
@@ -228,7 +228,7 @@
   },
   {
     "title": "Normal Theme",
-    "path": "/OST/normal.mp3",
+    "path": "/ost/normal.mp3",
     "tags": [
       "Domestic underscore",
       "Pastoral",
@@ -239,7 +239,7 @@
   },
   {
     "title": "On My Momma",
-    "path": "/OST/on-my-momma.mp3",
+    "path": "/ost/onMyMomma.mp3",
     "tags": [
       "Hip hop",
       "Trap",
@@ -250,7 +250,7 @@
   },
   {
     "title": "Panic Theme",
-    "path": "/OST/panic.mp3",
+    "path": "/ost/panic.mp3",
     "tags": [
       "Alarm motif",
       "Staccato strings",
@@ -261,7 +261,7 @@
   },
   {
     "title": "Panic Theme (Original)",
-    "path": "/OST/panic-original.mp3",
+    "path": "/ost/panicOriginal.mp3",
     "tags": [
       "Alarm motif",
       "Original mix",
@@ -272,7 +272,7 @@
   },
   {
     "title": "Sad Theme",
-    "path": "/OST/sad.mp3",
+    "path": "/ost/sad.mp3",
     "tags": [
       "Minor key",
       "Solo piano",
@@ -283,7 +283,7 @@
   },
   {
     "title": "Sad Theme (Remaster)",
-    "path": "/OST/sad-remaster.mp3",
+    "path": "/ost/sadRemaster.mp3",
     "tags": [
       "Minor key",
       "Remaster",
