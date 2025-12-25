@@ -35,17 +35,15 @@ function renderEpisodes(data) {
 
 function showModal(id) {
     const episode = episodes.find(ep => ep.id === id);
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
-    
-    modalBody.innerHTML = `
+    if (!episode) return;
+
+    const html = `
         <h2 class="modal-title">${episode.name}</h2>
         <div class="modal-meta">Season ${episode.season} • Episode ${episode.episode} • Aired: ${episode.airdate}</div>
         <div class="modal-description">${episode.summary}</div>
     `;
-    
-    modal.classList.add('active');
-    document.body.classList.add('modal-open');
+
+    if (window.CNModal?.open) window.CNModal.open(html);
 }
 
 document.getElementById('episode-search').addEventListener('input', (e) => {
@@ -55,18 +53,6 @@ document.getElementById('episode-search').addEventListener('input', (e) => {
         ep.summary.toLowerCase().includes(query)
     );
     renderEpisodes(filtered);
-});
-
-document.querySelector('.modal-close').addEventListener('click', () => {
-    document.getElementById('modal').classList.remove('active');
-    document.body.classList.remove('modal-open');
-});
-
-document.getElementById('modal').addEventListener('click', (e) => {
-    if (e.target.id === 'modal') {
-        document.getElementById('modal').classList.remove('active');
-        document.body.classList.remove('modal-open');
-    }
 });
 
 loadEpisodes();

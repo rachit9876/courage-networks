@@ -60,7 +60,8 @@ body::-webkit-scrollbar {
 
 .app-bar {
     background: var(--md-sys-color-surface);
-    padding: clamp(12px, 1.5vw, 20px) 0;
+    padding: 0;
+    height: 40px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -72,12 +73,24 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     align-items: center;
     gap: clamp(12px, 2vw, 24px);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: none;
 }
 
 .app-bar nav {
     display: flex;
     gap: clamp(8px, 1vw, 12px);
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.app-bar .nav-btn {
+    height: 40px;
+    min-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .logo {
@@ -85,6 +98,12 @@ body::-webkit-scrollbar {
     font-weight: 700;
     color: var(--md-sys-color-primary);
     letter-spacing: 0.5px;
+}
+
+.app-logo {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 .hero {
@@ -212,6 +231,17 @@ main {
     font-weight: 700;
     color: var(--md-sys-color-primary);
     margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.section-subtitle {
+    color: var(--md-sys-color-on-surface-variant);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.section-description {
+    color: var(--md-sys-color-on-surface-variant);
+    margin-bottom: 24px;
 }
 
 .search-bar {

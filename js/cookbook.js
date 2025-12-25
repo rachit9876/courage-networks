@@ -42,10 +42,9 @@ function renderRecipes(data) {
 
 function showRecipe(index) {
     const recipe = recipes[index];
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
-    
-    modalBody.innerHTML = `
+    if (!recipe) return;
+
+    const html = `
         <h2 class="modal-title">${recipe.name}</h2>
         <div class="modal-meta">Episode: ${recipe.episode}</div>
         <p style="margin-bottom: 24px; color: var(--md-sys-color-on-surface-variant);">${recipe.description}</p>
@@ -70,9 +69,8 @@ function showRecipe(index) {
             <strong>Muriel's Tip:</strong> ${recipe.muriel_tip}
         </div>
     `;
-    
-    modal.classList.add('active');
-    document.body.classList.add('modal-open');
+
+    if (window.CNModal?.open) window.CNModal.open(html);
 }
 
 document.getElementById('recipe-search').addEventListener('input', (e) => {
@@ -83,18 +81,6 @@ document.getElementById('recipe-search').addEventListener('input', (e) => {
         recipe.episode.toLowerCase().includes(query)
     );
     renderRecipes(filtered);
-});
-
-document.querySelector('.modal-close').addEventListener('click', () => {
-    document.getElementById('modal').classList.remove('active');
-    document.body.classList.remove('modal-open');
-});
-
-document.getElementById('modal').addEventListener('click', (e) => {
-    if (e.target.id === 'modal') {
-        document.getElementById('modal').classList.remove('active');
-        document.body.classList.remove('modal-open');
-    }
 });
 
 loadCookbook();

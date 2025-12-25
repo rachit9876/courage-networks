@@ -33,16 +33,14 @@ function renderCharacters(data) {
 
 function showModal(name) {
     const character = characters.find(char => char.name === name);
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
-    
-    modalBody.innerHTML = `
+    if (!character) return;
+
+    const html = `
         <img src="../${character.imageName}" alt="${character.name}" style="max-width: 100%; border-radius: 16px; margin-bottom: 24px;" loading="lazy" onerror="this.style.display='none'">
         <h2 class="modal-title">${character.name}</h2>
     `;
-    
-    modal.classList.add('active');
-    document.body.classList.add('modal-open');
+
+    if (window.CNModal?.open) window.CNModal.open(html);
 }
 
 document.getElementById('character-search').addEventListener('input', (e) => {
@@ -51,18 +49,6 @@ document.getElementById('character-search').addEventListener('input', (e) => {
         char.name.toLowerCase().includes(query)
     );
     renderCharacters(filtered);
-});
-
-document.querySelector('.modal-close').addEventListener('click', () => {
-    document.getElementById('modal').classList.remove('active');
-    document.body.classList.remove('modal-open');
-});
-
-document.getElementById('modal').addEventListener('click', (e) => {
-    if (e.target.id === 'modal') {
-        document.getElementById('modal').classList.remove('active');
-        document.body.classList.remove('modal-open');
-    }
 });
 
 loadCharacters();

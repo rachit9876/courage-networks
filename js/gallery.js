@@ -35,23 +35,19 @@ function showModalById(id) {
     const item = gallery.find(g => g.id === id);
     if (!item) return;
     
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
-    
     const details = item.Details
         .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
         .replace(/\n/g, '<br>')
         .replace(/\[([^\]]+)\]\(#([^)]+)\)/g, '<a href="#$2" onclick="event.preventDefault(); showModalById(\'$2\');">$1</a>')
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
     
-    modalBody.innerHTML = `
+    const html = `
         <img src="../${item.Path}" alt="${item.Name}" style="max-width: 100%; max-height: 300px; object-fit: contain; border-radius: 16px; margin-bottom: 24px;" loading="lazy" onerror="this.style.display='none'">
         <h2 class="modal-title">${item.Name}</h2>
         <div class="modal-description">${details}</div>
     `;
-    
-    modal.classList.add('active');
-    document.body.classList.add('modal-open');
+
+    if (window.CNModal?.open) window.CNModal.open(html);
     window.location.hash = id;
 }
 
@@ -62,18 +58,6 @@ document.getElementById('gallery-search').addEventListener('input', (e) => {
         item.Details.toLowerCase().includes(query)
     );
     renderGallery(filtered);
-});
-
-document.querySelector('.modal-close').addEventListener('click', () => {
-    document.getElementById('modal').classList.remove('active');
-    document.body.classList.remove('modal-open');
-});
-
-document.getElementById('modal').addEventListener('click', (e) => {
-    if (e.target.id === 'modal') {
-        document.getElementById('modal').classList.remove('active');
-        document.body.classList.remove('modal-open');
-    }
 });
 
 loadGallery();
