@@ -1,5 +1,14 @@
 [
   {
+    "name": "Katz Motel",
+    "imageName": "assets/gallery/motel.webp"
+  },
+  {
+    "name": "",
+    "imageName": "assets/gallery/"
+  },
+
+  {
     "name": "Ai Shen",
     "imageName": "assets/char/Ai Shen.webp"
   },
