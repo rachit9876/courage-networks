@@ -1,104 +1,1374 @@
 [
   {
-    "id": "courage",
-    "Name": "Courage",
-    "Details": "**Breed:** Beagle\n**Owner:** [Muriel](#muriel)\n**Lives with:** [Eustace](#eustace)\n**D.O.B:** 18-02-1979\n**Colour:** [#e292dd](https://www.google.com/search?q=%23e292dd)",
-    "Path": "assets/gallery/courage.webp"
+    "name": "Ai Shen",
+    "imageName": "assets/char/Ai Shen.webp"
   },
   {
-    "id": "muriel",
-    "Name": "Muriel Bagge",
-    "Details": "**Pet:** [Courage](#courage)\n**Husband:** [Eustace](#eustace)\n**Nature:** Caring\n**Follows:** [Recipe Book](../pages/cookbook.html)\n**Origin:** Scotland",
-    "Path": "assets/gallery/murielBagge.webp"
+    "name": "Alien Brain Boss",
+    "imageName": "assets/char/Alien Brain Boss.webp"
   },
   {
-    "id": "eustace",
-    "Name": "Eustace Bagge",
-    "Details": "**Nature:** Evil\n**Owner of:** [Courage](#courage)\n**Wife:** [Muriel](#muriel)\n**Brother:** [Horst](#horst)",
-    "Path": "assets/gallery/eustaceBagge.webp"
+    "name": "Alien Brain Visitor",
+    "imageName": "assets/char/Alien Brain Visitor.webp"
   },
   {
-    "id": "computer",
-    "Name": "The Computer",
-    "Details": "**PC of:** [Courage](#courage)\n**Nature:** Friendly\n**Self-aware:** Yes\n**Catchphrase:** You Twit",
-    "Path": "assets/gallery/computerSimon.webp"
+    "name": "Angry Mob",
+    "imageName": "assets/char/Angry Mob.webp"
   },
   {
-    "id": "vindaloo",
-    "Name": "Dr. Vindaloo",
-    "Details": "**Role:** Doctor who helps [Courage](#courage)\n**Nature:** Friendly\n**Origin:** India",
-    "Path": "assets/gallery/drVindaloo.webp"
+    "name": "Archaeologists",
+    "imageName": "assets/char/Archaeologists.webp"
   },
   {
-    "id": "horst",
-    "Name": "Horst Bagge",
-    "Details": "**Brother of:** [Eustace](#eustace)\n**Uncle of:** [Courage](#courage)\n**Trait:** Powerful\n**Nature:** Evil",
-    "Path": "assets/gallery/horstBagge.webp"
+    "name": "Army Recruit",
+    "imageName": "assets/char/Army Recruit.webp"
   },
   {
-    "id": "cajun-fox",
-    "Name": "Cajun Fox",
-    "Details": "**Target:** Wants [Muriel](#muriel) as soup ingredient\n**Antagonist of:** [Courage](#courage)\n**Nature:** Evil\n**Episode:** Season 01 Episode 01",
-    "Path": "assets/gallery/fox.webp"
+    "name": "Asian Lung Dragon",
+    "imageName": "assets/char/Asian Lung Dragon.webp"
   },
   {
-    "id": "katz",
-    "Name": "Katz",
-    "Details": "**Target:** Wants to defeat [Muriel](#muriel)\n**Antagonist of:** [Courage](#courage)\n**Nature:** Evil\n**Owner of:** [Motel](#motel)",
-    "Path": "assets/gallery/katz.webp"
+    "name": "Aunt Gertrude",
+    "imageName": "assets/char/Aunt Gertrude.webp"
   },
   {
-    "id": "nedd",
-    "Name": "Nedd",
-    "Details": "**Description:** A yellow man\n**Shown:** Wall portrait\n**Origin:** Noodles and Nedd",
-    "Path": "assets/gallery/photo.webp"
+    "name": "Baby Banana",
+    "imageName": "assets/char/Baby Banana.webp"
   },
   {
-    "id": "house",
-    "Name": "House",
-    "Details": "**Residents:** [Courage](#courage), [Eustace](#eustace), and [Muriel](#muriel)\n**Links:** [Detailed House](house.html) | [Try 3D Game](https://game-networks.pages.dev/courage/)",
-    "Path": "assets/gallery/house.webp"
+    "name": "Baby getting eaten by Tiger",
+    "imageName": "assets/char/Baby getting eaten by Tiger.webp"
   },
   {
-    "id": "kitchen",
-    "Name": "Kitchen",
-    "Details": "**Cook:** [Muriel](#muriel)\n**Recipes:** [Try all recipes](../pages/cookbook.html)\n**Location:** 🛖 [House](#house)",
-    "Path": "assets/gallery/recipeBookBg.webp"
+    "name": "Baby Vultures",
+    "imageName": "assets/char/Baby Vultures.webp"
   },
   {
-    "id": "nowhere",
-    "Name": "Nowhere City",
-    "Details": "**Resident:** [Courage](#courage)\n**Address:** Nowhere, Kansas, USA",
-    "Path": "assets/gallery/nowherecity2.webp"
+    "name": "Banana Leader",
+    "imageName": "assets/char/Banana Leader.webp"
   },
   {
-    "id": "motel",
-    "Name": "Motel",
-    "Details": "**Location:** [Nowhere](#nowhere)\n**Owner:** [Katz](#katz)",
-    "Path": "assets/gallery/motel.webp"
+    "name": "Banana People",
+    "imageName": "assets/char/Banana People.webp"
   },
   {
-    "id": "fred",
-    "Name": "Fred",
-    "Details": "**Profession:** Barber\n**Antagonist of:** [Courage](#courage)\n**Nature:** Evil\n**Relation:** [Muriel](#muriel)'s nephew",
-    "Path": "assets/gallery/fred.webp"
+    "name": "Banana Police",
+    "imageName": "assets/char/Banana Police.webp"
   },
   {
-    "id": "logo",
-    "Name": "Site Logo",
-    "Details": "**Project:** [Courage Networks](/index.html)\n**License:** [MIT](https://mit-license.pages.dev)",
-    "Path": "assets/gallery/logo.webp"
+    "name": "Banana Suit Dealer",
+    "imageName": "assets/char/Banana Suit Dealer.webp"
   },
   {
-    "id": "fans",
-    "Name": "Courage Fans",
-    "Details": "**Recreation of:** Stretch.Films",
-    "Path": "assets/gallery/logo2.webp"
+    "name": "Barbara",
+    "imageName": "assets/char/Barbara.webp"
   },
   {
-    "id": "ramses",
-    "Name": "King Ramses",
-    "Details": "**Role:** Ancient Egyptian pharaoh\n**Antagonist of:** [Courage](#courage)\n**Nature:** Evil\n**Famous quote:** Return the slab",
-    "Path": "assets/gallery/kingRamses.webp"
+    "name": "Basil",
+    "imageName": "assets/char/Basil.webp"
+  },
+  {
+    "name": "Bearded Man (character)",
+    "imageName": "assets/char/Bearded Man (character).webp"
+  },
+  {
+    "name": "Benton Tarantella",
+    "imageName": "assets/char/Benton Tarantella.webp"
+  },
+  {
+    "name": "Big Bayou",
+    "imageName": "assets/char/Big Bayou.webp"
+  },
+  {
+    "name": "Big Toe",
+    "imageName": "assets/char/Big Toe.webp"
+  },
+  {
+    "name": "Bigfoot",
+    "imageName": "assets/char/Bigfoot.webp"
+  },
+  {
+    "name": "Black Puddle Queen",
+    "imageName": "assets/char/Black Puddle Queen.webp"
+  },
+  {
+    "name": "Bluff",
+    "imageName": "assets/char/Bluff.webp"
+  },
+  {
+    "name": "Bobby Ganoush",
+    "imageName": "assets/char/Bobby Ganoush.webp"
+  },
+  {
+    "name": "Box Demon",
+    "imageName": "assets/char/Box Demon.webp"
+  },
+  {
+    "name": "Brunhilde",
+    "imageName": "assets/char/Brunhilde.webp"
+  },
+  {
+    "name": "Buck",
+    "imageName": "assets/char/Buck.webp"
+  },
+  {
+    "name": "Buck's Daughter",
+    "imageName": "assets/char/Buck's Daughter.webp"
+  },
+  {
+    "name": "Bugle Monster",
+    "imageName": "assets/char/Bugle Monster.webp"
+  },
+  {
+    "name": "Bullfrogs",
+    "imageName": "assets/char/Bullfrogs.webp"
+  },
+  {
+    "name": "Bunny",
+    "imageName": "assets/char/Bunny.webp"
+  },
+  {
+    "name": "Cajun Courage",
+    "imageName": "assets/char/Cajun Courage.webp"
+  },
+  {
+    "name": "Cajun Fox",
+    "imageName": "assets/char/Cajun Fox.webp"
+  },
+  {
+    "name": "Captain Lazzo",
+    "imageName": "assets/char/Captain Lazzo.webp"
+  },
+  {
+    "name": "Captain of the Ship",
+    "imageName": "assets/char/Captain of the Ship.webp"
+  },
+  {
+    "name": "Cariana",
+    "imageName": "assets/char/Cariana.webp"
+  },
+  {
+    "name": "Carmen",
+    "imageName": "assets/char/Carmen.webp"
+  },
+  {
+    "name": "Cat Thieves",
+    "imageName": "assets/char/Cat Thieves.webp"
+  },
+  {
+    "name": "Catherine",
+    "imageName": "assets/char/Catherine.webp"
+  },
+  {
+    "name": "Ceremonial Wild Boar",
+    "imageName": "assets/char/Ceremonial Wild Boar.webp"
+  },
+  {
+    "name": "Charlie the Mouse",
+    "imageName": "assets/char/Charlie the Mouse.webp"
+  },
+  {
+    "name": "Chef",
+    "imageName": "assets/char/Chef.webp"
+  },
+  {
+    "name": "Chicken",
+    "imageName": "assets/char/Chicken.webp"
+  },
+  {
+    "name": "Chickens",
+    "imageName": "assets/char/Chickens.webp"
+  },
+  {
+    "name": "Chief Wicky Wicky",
+    "imageName": "assets/char/Chief Wicky Wicky.webp"
+  },
+  {
+    "name": "Cicada Queen",
+    "imageName": "assets/char/Cicada Queen.webp"
+  },
+  {
+    "name": "Cicadas",
+    "imageName": "assets/char/Cicadas.webp"
+  },
+  {
+    "name": "Clyde the Fog Spirit",
+    "imageName": "assets/char/Clyde the Fog Spirit.webp"
+  },
+  {
+    "name": "Computer",
+    "imageName": "assets/char/Computer.webp"
+  },
+  {
+    "name": "Conway",
+    "imageName": "assets/char/Conway.webp"
+  },
+  {
+    "name": "Coralites",
+    "imageName": "assets/char/Coralites.webp"
+  },
+  {
+    "name": "Courage",
+    "imageName": "assets/char/Courage.webp"
+  },
+  {
+    "name": "Cow",
+    "imageName": "assets/char/Cow.webp"
+  },
+  {
+    "name": "Crows",
+    "imageName": "assets/char/Crows.webp"
+  },
+  {
+    "name": "Cruel Veterinarian",
+    "imageName": "assets/char/Cruel Veterinarian.webp"
+  },
+  {
+    "name": "Cupid",
+    "imageName": "assets/char/Cupid.webp"
+  },
+  {
+    "name": "Dancing Rats",
+    "imageName": "assets/char/Dancing Rats.webp"
+  },
+  {
+    "name": "Daphne Blake",
+    "imageName": "assets/char/Daphne Blake.webp"
+  },
+  {
+    "name": "Deer",
+    "imageName": "assets/char/Deer.webp"
+  },
+  {
+    "name": "Destruction Crew",
+    "imageName": "assets/char/Destruction Crew.webp"
+  },
+  {
+    "name": "Di Lung",
+    "imageName": "assets/char/Di Lung.webp"
+  },
+  {
+    "name": "Dilly",
+    "imageName": "assets/char/Dilly.webp"
+  },
+  {
+    "name": "Dog Skeletons",
+    "imageName": "assets/char/Dog Skeletons.webp"
+  },
+  {
+    "name": "Dogs Playing Poker",
+    "imageName": "assets/char/Dogs Playing Poker.webp"
+  },
+  {
+    "name": "Dolores Dolores",
+    "imageName": "assets/char/Dolores Dolores.webp"
+  },
+  {
+    "name": "Dolphin Trainer",
+    "imageName": "assets/char/Dolphin Trainer.webp"
+  },
+  {
+    "name": "Dr. Gerbil",
+    "imageName": "assets/char/Dr. Gerbil.webp"
+  },
+  {
+    "name": "Dr. Gerhart",
+    "imageName": "assets/char/Dr. Gerhart.webp"
+  },
+  {
+    "name": "Dr. Vindaloo",
+    "imageName": "assets/char/Dr. Vindaloo.webp"
+  },
+  {
+    "name": "Dr. Vindaloo Weremole",
+    "imageName": "assets/char/Dr. Vindaloo Weremole.webp"
+  },
+  {
+    "name": "Dr. Zalost",
+    "imageName": "assets/char/Dr. Zalost.webp"
+  },
+  {
+    "name": "Duck",
+    "imageName": "assets/char/Duck.webp"
+  },
+  {
+    "name": "Duck Brothers",
+    "imageName": "assets/char/Duck Brothers.webp"
+  },
+  {
+    "name": "Duncan",
+    "imageName": "assets/char/Duncan.webp"
+  },
+  {
+    "name": "Elephant",
+    "imageName": "assets/char/Elephant.webp"
+  },
+  {
+    "name": "Elisa and Eliza Stitch",
+    "imageName": "assets/char/Elisa and Eliza Stitch.webp"
+  },
+  {
+    "name": "Errol Van Volkheim",
+    "imageName": "assets/char/Errol Van Volkheim.webp"
+  },
+  {
+    "name": "Eustace Bagge",
+    "imageName": "assets/char/Eustace Bagge.webp"
+  },
+  {
+    "name": "Everett",
+    "imageName": "assets/char/Everett.webp"
+  },
+  {
+    "name": "Evil Carrot",
+    "imageName": "assets/char/Evil Carrot.webp"
+  },
+  {
+    "name": "Evil Eggplants",
+    "imageName": "assets/char/Evil Eggplants.webp"
+  },
+  {
+    "name": "Evil Plants",
+    "imageName": "assets/char/Evil Plants.webp"
+  },
+  {
+    "name": "Exterminator",
+    "imageName": "assets/char/Exterminator.webp"
+  },
+  {
+    "name": "Farmer Jiles Galette",
+    "imageName": "assets/char/Farmer Jiles Galette.webp"
+  },
+  {
+    "name": "Federal Agents",
+    "imageName": "assets/char/Federal Agents.webp"
+  },
+  {
+    "name": "Feo the Alien",
+    "imageName": "assets/char/Feo the Alien.webp"
+  },
+  {
+    "name": "Fish",
+    "imageName": "assets/char/Fish.webp"
+  },
+  {
+    "name": "Fishsionary",
+    "imageName": "assets/char/Fishsionary.webp"
+  },
+  {
+    "name": "Floyd",
+    "imageName": "assets/char/Floyd.webp"
+  },
+  {
+    "name": "Flying Dragon",
+    "imageName": "assets/char/Flying Dragon.webp"
+  },
+  {
+    "name": "Francesca Da Rimini",
+    "imageName": "assets/char/Francesca Da Rimini.webp"
+  },
+  {
+    "name": "Frau Glockenspiel",
+    "imageName": "assets/char/Frau Glockenspiel.webp"
+  },
+  {
+    "name": "Fred",
+    "imageName": "assets/char/Fred.webp"
+  },
+  {
+    "name": "Fred Jones",
+    "imageName": "assets/char/Fred Jones.webp"
+  },
+  {
+    "name": "Fred's Hamster",
+    "imageName": "assets/char/Fred's Hamster.webp"
+  },
+  {
+    "name": "French Man",
+    "imageName": "assets/char/French Man.webp"
+  },
+  {
+    "name": "French Security Guard",
+    "imageName": "assets/char/French Security Guard.webp"
+  },
+  {
+    "name": "Furniture",
+    "imageName": "assets/char/Furniture.webp"
+  },
+  {
+    "name": "Fusilli",
+    "imageName": "assets/char/Fusilli.webp"
+  },
+  {
+    "name": "General Horton",
+    "imageName": "assets/char/General Horton.webp"
+  },
+  {
+    "name": "Gerhart's House",
+    "imageName": "assets/char/Gerhart's House.webp"
+  },
+  {
+    "name": "Giant Starfish",
+    "imageName": "assets/char/Giant Starfish.webp"
+  },
+  {
+    "name": "Giraffe",
+    "imageName": "assets/char/Giraffe.webp"
+  },
+  {
+    "name": "Goat",
+    "imageName": "assets/char/Goat.webp"
+  },
+  {
+    "name": "God Bone",
+    "imageName": "assets/char/God Bone.webp"
+  },
+  {
+    "name": "Goldfish",
+    "imageName": "assets/char/Goldfish.webp"
+  },
+  {
+    "name": "Golem",
+    "imageName": "assets/char/Golem.webp"
+  },
+  {
+    "name": "Goose God",
+    "imageName": "assets/char/Goose God.webp"
+  },
+  {
+    "name": "Government Telecom",
+    "imageName": "assets/char/Government Telecom.webp"
+  },
+  {
+    "name": "Grizzly Bear",
+    "imageName": "assets/char/Grizzly Bear.webp"
+  },
+  {
+    "name": "Growth Industries Representative",
+    "imageName": "assets/char/Growth Industries Representative.webp"
+  },
+  {
+    "name": "Hamilton",
+    "imageName": "assets/char/Hamilton.webp"
+  },
+  {
+    "name": "Hamster",
+    "imageName": "assets/char/Hamster.webp"
+  },
+  {
+    "name": "Hard Drive Virus",
+    "imageName": "assets/char/Hard Drive Virus.webp"
+  },
+  {
+    "name": "Hazmat radiation",
+    "imageName": "assets/char/Hazmat radiation.webp"
+  },
+  {
+    "name": "Henry and Teresa",
+    "imageName": "assets/char/Henry and Teresa.webp"
+  },
+  {
+    "name": "Hohouser",
+    "imageName": "assets/char/Hohouser.webp"
+  },
+  {
+    "name": "Horst Bagge",
+    "imageName": "assets/char/Horst Bagge.webp"
+  },
+  {
+    "name": "Hostile Hairball",
+    "imageName": "assets/char/Hostile Hairball.webp"
+  },
+  {
+    "name": "Hunchback",
+    "imageName": "assets/char/Hunchback.webp"
+  },
+  {
+    "name": "Ickett Bagge",
+    "imageName": "assets/char/Ickett Bagge.webp"
+  },
+  {
+    "name": "Instant Eel",
+    "imageName": "assets/char/Instant Eel.webp"
+  },
+  {
+    "name": "Ivana",
+    "imageName": "assets/char/Ivana.webp"
+  },
+  {
+    "name": "Jay",
+    "imageName": "assets/char/Jay.webp"
+  },
+  {
+    "name": "Jean Bon",
+    "imageName": "assets/char/Jean Bon.webp"
+  },
+  {
+    "name": "Jean Bon's Wife",
+    "imageName": "assets/char/Jean Bon's Wife.webp"
+  },
+  {
+    "name": "Jeeves Weevil",
+    "imageName": "assets/char/Jeeves Weevil.webp"
+  },
+  {
+    "name": "Jennings",
+    "imageName": "assets/char/Jennings.webp"
+  },
+  {
+    "name": "Jimbo",
+    "imageName": "assets/char/Jimbo.webp"
+  },
+  {
+    "name": "Jojo",
+    "imageName": "assets/char/Jojo.webp"
+  },
+  {
+    "name": "Kangaroo Courage",
+    "imageName": "assets/char/Kangaroo Courage.webp"
+  },
+  {
+    "name": "Kangaroo Eustace",
+    "imageName": "assets/char/Kangaroo Eustace.webp"
+  },
+  {
+    "name": "Kangaroo Monster",
+    "imageName": "assets/char/Kangaroo Monster.webp"
+  },
+  {
+    "name": "Katz",
+    "imageName": "assets/char/Katz.webp"
+  },
+  {
+    "name": "Katz' Jam Monster",
+    "imageName": "assets/char/Katz' Jam Monster.webp"
+  },
+  {
+    "name": "Katz' Spiders",
+    "imageName": "assets/char/Katz' Spiders.webp"
+  },
+  {
+    "name": "King Buffo",
+    "imageName": "assets/char/King Buffo.webp"
+  },
+  {
+    "name": "King Buffo's Advisor",
+    "imageName": "assets/char/King Buffo's Advisor.webp"
+  },
+  {
+    "name": "King Ghidorah",
+    "imageName": "assets/char/King Ghidorah.webp"
+  },
+  {
+    "name": "King Kong",
+    "imageName": "assets/char/King Kong.webp"
+  },
+  {
+    "name": "King of Flan",
+    "imageName": "assets/char/King of Flan.webp"
+  },
+  {
+    "name": "King Ramses",
+    "imageName": "assets/char/King Ramses.webp"
+  },
+  {
+    "name": "Kitty",
+    "imageName": "assets/char/Kitty.webp"
+  },
+  {
+    "name": "Le Quack",
+    "imageName": "assets/char/Le Quack.webp"
+  },
+  {
+    "name": "Leader Monk",
+    "imageName": "assets/char/Leader Monk.webp"
+  },
+  {
+    "name": "Leech",
+    "imageName": "assets/char/Leech.webp"
+  },
+  {
+    "name": "Librarian",
+    "imageName": "assets/char/Librarian.webp"
+  },
+  {
+    "name": "Lieutenant Gidley",
+    "imageName": "assets/char/Lieutenant Gidley.webp"
+  },
+  {
+    "name": "Lint Lady",
+    "imageName": "assets/char/Lint Lady.webp"
+  },
+  {
+    "name": "Lion Statues",
+    "imageName": "assets/char/Lion Statues.webp"
+  },
+  {
+    "name": "Little Boy",
+    "imageName": "assets/char/Little Boy.webp"
+  },
+  {
+    "name": "Little Girl",
+    "imageName": "assets/char/Little Girl.webp"
+  },
+  {
+    "name": "Little Muriel",
+    "imageName": "assets/char/Little Muriel.webp"
+  },
+  {
+    "name": "Lobsters",
+    "imageName": "assets/char/Lobsters.webp"
+  },
+  {
+    "name": "Ma Bagge",
+    "imageName": "assets/char/Ma Bagge.webp"
+  },
+  {
+    "name": "Mad Dog",
+    "imageName": "assets/char/Mad Dog.webp"
+  },
+  {
+    "name": "Mad Dog's Minions",
+    "imageName": "assets/char/Mad Dog's Minions.webp"
+  },
+  {
+    "name": "Malcolm",
+    "imageName": "assets/char/Malcolm.webp"
+  },
+  {
+    "name": "Man",
+    "imageName": "assets/char/Man.webp"
+  },
+  {
+    "name": "Man (King of Flan)",
+    "imageName": "assets/char/Man (King of Flan).webp"
+  },
+  {
+    "name": "Maria and Mano Ladrones",
+    "imageName": "assets/char/Maria and Mano Ladrones.webp"
+  },
+  {
+    "name": "Mattress Demon",
+    "imageName": "assets/char/Mattress Demon.webp"
+  },
+  {
+    "name": "Mayan Baker",
+    "imageName": "assets/char/Mayan Baker.webp"
+  },
+  {
+    "name": "Mayan Princess",
+    "imageName": "assets/char/Mayan Princess.webp"
+  },
+  {
+    "name": "Mayor",
+    "imageName": "assets/char/Mayor.webp"
+  },
+  {
+    "name": "Mayor coralite",
+    "imageName": "assets/char/Mayor coralite.webp"
+  },
+  {
+    "name": "Mayor of Dusty Little Town",
+    "imageName": "assets/char/Mayor of Dusty Little Town.webp"
+  },
+  {
+    "name": "Mayor of Nowhere",
+    "imageName": "assets/char/Mayor of Nowhere.webp"
+  },
+  {
+    "name": "Mayor of Nowhere (Straight Outta Nowhere: Scooby-Doo! Meets Courage the Cowardly Dog)",
+    "imageName": "assets/char/Mayor of Nowhere (Straight Outta Nowhere_ Scooby-Doo! Meets Courage the Cowardly Dog).webp"
+  },
+  {
+    "name": "McPhearson Phantom (character)",
+    "imageName": "assets/char/McPhearson Phantom (character).webp"
+  },
+  {
+    "name": "Mecha Courage",
+    "imageName": "assets/char/Mecha Courage.webp"
+  },
+  {
+    "name": "Mei Ling",
+    "imageName": "assets/char/Mei Ling.webp"
+  },
+  {
+    "name": "Minnie",
+    "imageName": "assets/char/Minnie.webp"
+  },
+  {
+    "name": "Mona Lisa",
+    "imageName": "assets/char/Mona Lisa.webp"
+  },
+  {
+    "name": "Mondo",
+    "imageName": "assets/char/Mondo.webp"
+  },
+  {
+    "name": "Monkey",
+    "imageName": "assets/char/Monkey.webp"
+  },
+  {
+    "name": "Monks",
+    "imageName": "assets/char/Monks.webp"
+  },
+  {
+    "name": "Mosquito",
+    "imageName": "assets/char/Mosquito.webp"
+  },
+  {
+    "name": "Mother Banana",
+    "imageName": "assets/char/Mother Banana.webp"
+  },
+  {
+    "name": "Mother Vulture",
+    "imageName": "assets/char/Mother Vulture.webp"
+  },
+  {
+    "name": "Mountain Ape",
+    "imageName": "assets/char/Mountain Ape.webp"
+  },
+  {
+    "name": "Mouse",
+    "imageName": "assets/char/Mouse.webp"
+  },
+  {
+    "name": "Mr. Glockenspiel",
+    "imageName": "assets/char/Mr. Glockenspiel.webp"
+  },
+  {
+    "name": "Mr. McGill",
+    "imageName": "assets/char/Mr. McGill.webp"
+  },
+  {
+    "name": "Mr. Nasty",
+    "imageName": "assets/char/Mr. Nasty.webp"
+  },
+  {
+    "name": "Muriel Bagge",
+    "imageName": "assets/char/Muriel Bagge.webp"
+  },
+  {
+    "name": "Mustafa al Bacterius",
+    "imageName": "assets/char/Mustafa al Bacterius.webp"
+  },
+  {
+    "name": "Norwegian Blue",
+    "imageName": "assets/char/Norwegian Blue.webp"
+  },
+  {
+    "name": "Nowhere Mayor",
+    "imageName": "assets/char/Nowhere Mayor.webp"
+  },
+  {
+    "name": "Nowhere Newsman",
+    "imageName": "assets/char/Nowhere Newsman.webp"
+  },
+  {
+    "name": "Nutcracker",
+    "imageName": "assets/char/Nutcracker.webp"
+  },
+  {
+    "name": "Octopus",
+    "imageName": "assets/char/Octopus.webp"
+  },
+  {
+    "name": "Old Banana",
+    "imageName": "assets/char/Old Banana.webp"
+  },
+  {
+    "name": "Old Lady",
+    "imageName": "assets/char/Old Lady.webp"
+  },
+  {
+    "name": "Old Woman",
+    "imageName": "assets/char/Old Woman.webp"
+  },
+  {
+    "name": "Orderlies Asylum Agents",
+    "imageName": "assets/char/Orderlies Asylum Agents.webp"
+  },
+  {
+    "name": "Ostrich",
+    "imageName": "assets/char/Ostrich.webp"
+  },
+  {
+    "name": "Otto",
+    "imageName": "assets/char/Otto.webp"
+  },
+  {
+    "name": "Paolo",
+    "imageName": "assets/char/Paolo.webp"
+  },
+  {
+    "name": "Paper Muriel and Eustace",
+    "imageName": "assets/char/Paper Muriel and Eustace.webp"
+  },
+  {
+    "name": "Parachute Lady",
+    "imageName": "assets/char/Parachute Lady.webp"
+  },
+  {
+    "name": "People of Nowhere",
+    "imageName": "assets/char/People of Nowhere.webp"
+  },
+  {
+    "name": "Perfectionist",
+    "imageName": "assets/char/Perfectionist.webp"
+  },
+  {
+    "name": "PIane Pilot",
+    "imageName": "assets/char/PIane Pilot.webp"
+  },
+  {
+    "name": "Pig",
+    "imageName": "assets/char/Pig.webp"
+  },
+  {
+    "name": "Pigeons",
+    "imageName": "assets/char/Pigeons.webp"
+  },
+  {
+    "name": "Pixie",
+    "imageName": "assets/char/Pixie.webp"
+  },
+  {
+    "name": "Polar Bear",
+    "imageName": "assets/char/Polar Bear.webp"
+  },
+  {
+    "name": "Police Officer",
+    "imageName": "assets/char/Police Officer.webp"
+  },
+  {
+    "name": "Police Officer of the Park painting",
+    "imageName": "assets/char/Police Officer of the Park painting.webp"
+  },
+  {
+    "name": "Policeman",
+    "imageName": "assets/char/Policeman.webp"
+  },
+  {
+    "name": "Poohbah",
+    "imageName": "assets/char/Poohbah.webp"
+  },
+  {
+    "name": "Prickle Pirate",
+    "imageName": "assets/char/Prickle Pirate.webp"
+  },
+  {
+    "name": "Professor (Floyd)",
+    "imageName": "assets/char/Professor (Floyd).webp"
+  },
+  {
+    "name": "Professor Frith",
+    "imageName": "assets/char/Professor Frith.webp"
+  },
+  {
+    "name": "Quilt",
+    "imageName": "assets/char/Quilt.webp"
+  },
+  {
+    "name": "Quilt Club Members",
+    "imageName": "assets/char/Quilt Club Members.webp"
+  },
+  {
+    "name": "Rabbit",
+    "imageName": "assets/char/Rabbit.webp"
+  },
+  {
+    "name": "Raccoons",
+    "imageName": "assets/char/Raccoons.webp"
+  },
+  {
+    "name": "Race of Robots",
+    "imageName": "assets/char/Race of Robots.webp"
+  },
+  {
+    "name": "Radio City Rockettes",
+    "imageName": "assets/char/Radio City Rockettes.webp"
+  },
+  {
+    "name": "Raisin",
+    "imageName": "assets/char/Raisin.webp"
+  },
+  {
+    "name": "Rat (The Demon in the Mattress)",
+    "imageName": "assets/char/Rat (The Demon in the Mattress).webp"
+  },
+  {
+    "name": "Rat (The Tower of Dr. Zalost)",
+    "imageName": "assets/char/Rat (The Tower of Dr. Zalost).webp"
+  },
+  {
+    "name": "Ratatouille",
+    "imageName": "assets/char/Ratatouille.webp"
+  },
+  {
+    "name": "Rich Guy",
+    "imageName": "assets/char/Rich Guy.webp"
+  },
+  {
+    "name": "Robot Leader",
+    "imageName": "assets/char/Robot Leader.webp"
+  },
+  {
+    "name": "Robot Randy",
+    "imageName": "assets/char/Robot Randy.webp"
+  },
+  {
+    "name": "Rumpledkiltskin (character)",
+    "imageName": "assets/char/Rumpledkiltskin (character).webp"
+  },
+  {
+    "name": "Rumpledstiltskin's Mom",
+    "imageName": "assets/char/Rumpledstiltskin's Mom.webp"
+  },
+  {
+    "name": "Salvador Dali Abominations",
+    "imageName": "assets/char/Salvador Dali Abominations.webp"
+  },
+  {
+    "name": "Sand Whale",
+    "imageName": "assets/char/Sand Whale.webp"
+  },
+  {
+    "name": "Sandman",
+    "imageName": "assets/char/Sandman.webp"
+  },
+  {
+    "name": "Scarecrow",
+    "imageName": "assets/char/Scarecrow.webp"
+  },
+  {
+    "name": "Schwick",
+    "imageName": "assets/char/Schwick.webp"
+  },
+  {
+    "name": "Schwick's Pet",
+    "imageName": "assets/char/Schwick's Pet.webp"
+  },
+  {
+    "name": "Scientists",
+    "imageName": "assets/char/Scientists.webp"
+  },
+  {
+    "name": "Scooby-Doo",
+    "imageName": "assets/char/Scooby-Doo.webp"
+  },
+  {
+    "name": "Sea Judges",
+    "imageName": "assets/char/Sea Judges.webp"
+  },
+  {
+    "name": "Seagull",
+    "imageName": "assets/char/Seagull.webp"
+  },
+  {
+    "name": "Shadow",
+    "imageName": "assets/char/Shadow.webp"
+  },
+  {
+    "name": "Shaggy Rogers",
+    "imageName": "assets/char/Shaggy Rogers.webp"
+  },
+  {
+    "name": "Shark",
+    "imageName": "assets/char/Shark.webp"
+  },
+  {
+    "name": "Sharky",
+    "imageName": "assets/char/Sharky.webp"
+  },
+  {
+    "name": "Sheep",
+    "imageName": "assets/char/Sheep.webp"
+  },
+  {
+    "name": "Sheriff",
+    "imageName": "assets/char/Sheriff.webp"
+  },
+  {
+    "name": "Shirley",
+    "imageName": "assets/char/Shirley.webp"
+  },
+  {
+    "name": "Silhouette Maker",
+    "imageName": "assets/char/Silhouette Maker.webp"
+  },
+  {
+    "name": "Slugs",
+    "imageName": "assets/char/Slugs.webp"
+  },
+  {
+    "name": "Snake",
+    "imageName": "assets/char/Snake.webp"
+  },
+  {
+    "name": "Snowman",
+    "imageName": "assets/char/Snowman.webp"
+  },
+  {
+    "name": "Space Chicken",
+    "imageName": "assets/char/Space Chicken.webp"
+  },
+  {
+    "name": "Space Chicken's Son",
+    "imageName": "assets/char/Space Chicken's Son.webp"
+  },
+  {
+    "name": "Space Chicken's Wife",
+    "imageName": "assets/char/Space Chicken's Wife.webp"
+  },
+  {
+    "name": "Space Dino",
+    "imageName": "assets/char/Space Dino.webp"
+  },
+  {
+    "name": "Space Whale",
+    "imageName": "assets/char/Space Whale.webp"
+  },
+  {
+    "name": "Spirit of the Harvest Moon",
+    "imageName": "assets/char/Spirit of the Harvest Moon.webp"
+  },
+  {
+    "name": "Squirrel",
+    "imageName": "assets/char/Squirrel.webp"
+  },
+  {
+    "name": "Starmakers",
+    "imageName": "assets/char/Starmakers.webp"
+  },
+  {
+    "name": "Storm Goddess",
+    "imageName": "assets/char/Storm Goddess.webp"
+  },
+  {
+    "name": "Substandard Cruises Voiceover",
+    "imageName": "assets/char/Substandard Cruises Voiceover.webp"
+  },
+  {
+    "name": "Subway Telecom",
+    "imageName": "assets/char/Subway Telecom.webp"
+  },
+  {
+    "name": "Teddy Bears",
+    "imageName": "assets/char/Teddy Bears.webp"
+  },
+  {
+    "name": "The Beaver",
+    "imageName": "assets/char/The Beaver.webp"
+  },
+  {
+    "name": "The Beaver's Parents",
+    "imageName": "assets/char/The Beaver's Parents.webp"
+  },
+  {
+    "name": "The Clown",
+    "imageName": "assets/char/The Clown.webp"
+  },
+  {
+    "name": "The Great Eggplant",
+    "imageName": "assets/char/The Great Eggplant.webp"
+  },
+  {
+    "name": "The Magic Tree of Nowhere (character)",
+    "imageName": "assets/char/The Magic Tree of Nowhere (character).webp"
+  },
+  {
+    "name": "The Precious, Wonderful, Adorable, Lovable Duckling",
+    "imageName": "assets/char/The Precious, Wonderful, Adorable, Lovable Duckling.webp"
+  },
+  {
+    "name": "The Puppet",
+    "imageName": "assets/char/The Puppet.webp"
+  },
+  {
+    "name": "The Whip",
+    "imageName": "assets/char/The Whip.webp"
+  },
+  {
+    "name": "Thinker",
+    "imageName": "assets/char/Thinker.webp"
+  },
+  {
+    "name": "Tick",
+    "imageName": "assets/char/Tick.webp"
+  },
+  {
+    "name": "Tiger",
+    "imageName": "assets/char/Tiger.webp"
+  },
+  {
+    "name": "Troll King",
+    "imageName": "assets/char/Troll King.webp"
+  },
+  {
+    "name": "Trolls",
+    "imageName": "assets/char/Trolls.webp"
+  },
+  {
+    "name": "Tulip",
+    "imageName": "assets/char/Tulip.webp"
+  },
+  {
+    "name": "Tulip Worm",
+    "imageName": "assets/char/Tulip Worm.webp"
+  },
+  {
+    "name": "Ulcer",
+    "imageName": "assets/char/Ulcer.webp"
+  },
+  {
+    "name": "Unnamed chibi-sized man",
+    "imageName": "assets/char/Unnamed chibi-sized man.webp"
+  },
+  {
+    "name": "Valkyries",
+    "imageName": "assets/char/Valkyries.webp"
+  },
+  {
+    "name": "Velma Dinkley",
+    "imageName": "assets/char/Velma Dinkley.webp"
+  },
+  {
+    "name": "Velvet Vic",
+    "imageName": "assets/char/Velvet Vic.webp"
+  },
+  {
+    "name": "Violin Girl",
+    "imageName": "assets/char/Violin Girl.webp"
+  },
+  {
+    "name": "Volcano God",
+    "imageName": "assets/char/Volcano God.webp"
+  },
+  {
+    "name": "Waitress",
+    "imageName": "assets/char/Waitress.webp"
+  },
+  {
+    "name": "Walrus",
+    "imageName": "assets/char/Walrus.webp"
+  },
+  {
+    "name": "Weasel",
+    "imageName": "assets/char/Weasel.webp"
+  },
+  {
+    "name": "Weremole",
+    "imageName": "assets/char/Weremole.webp"
+  },
+  {
+    "name": "White Tiger",
+    "imageName": "assets/char/White Tiger.webp"
+  },
+  {
+    "name": "Wicky Wicky Woo",
+    "imageName": "assets/char/Wicky Wicky Woo.webp"
+  },
+  {
+    "name": "William",
+    "imageName": "assets/char/William.webp"
+  },
+  {
+    "name": "William (shop owner)",
+    "imageName": "assets/char/William (shop owner).webp"
+  },
+  {
+    "name": "William's brother",
+    "imageName": "assets/char/William's brother.webp"
+  },
+  {
+    "name": "Windmill Vandals",
+    "imageName": "assets/char/Windmill Vandals.webp"
+  },
+  {
+    "name": "Kansas",
+    "imageName": "assets/char/Kansas.webp"
+  },
+  {
+    "name": "Back Yard",
+    "imageName": "assets/char/backYard.webp"
+  },
+  {
+    "name": "Bed",
+    "imageName": "assets/char/bed.webp"
+  },
+  {
+    "name": "Computer Simon",
+    "imageName": "assets/char/computerSimon.webp"
+  },
+  {
+    "name": "Courage (scene)",
+    "imageName": "assets/char/courage.webp"
+  },
+  {
+    "name": "Door",
+    "imageName": "assets/char/door.webp"
+  },
+  {
+    "name": "Dr Vindaloo (scene)",
+    "imageName": "assets/char/drVindaloo.webp"
+  },
+  {
+    "name": "Ending",
+    "imageName": "assets/char/ending.gif"
+  },
+  {
+    "name": "Eustace Bagge (scene)",
+    "imageName": "assets/char/eustaceBagge.webp"
+  },
+  {
+    "name": "Eustace House",
+    "imageName": "assets/char/eustaceHouse.webp"
+  },
+  {
+    "name": "Food",
+    "imageName": "assets/char/food.webp"
+  },
+  {
+    "name": "Food 2",
+    "imageName": "assets/char/food2.webp"
+  },
+  {
+    "name": "Fox",
+    "imageName": "assets/char/fox.webp"
+  },
+  {
+    "name": "Frame",
+    "imageName": "assets/char/frame.webp"
+  },
+  {
+    "name": "Frame 2",
+    "imageName": "assets/char/frame2.webp"
+  },
+  {
+    "name": "Fred (scene)",
+    "imageName": "assets/char/fred.webp"
+  },
+  {
+    "name": "Horst Bagge (scene)",
+    "imageName": "assets/char/horstBagge.webp"
+  },
+  {
+    "name": "House",
+    "imageName": "assets/char/house.webp"
+  },
+  {
+    "name": "House 2",
+    "imageName": "assets/char/house2.webp"
+  },
+  {
+    "name": "Ice Cream",
+    "imageName": "assets/char/iceCream.webp"
+  },
+  {
+    "name": "Intro",
+    "imageName": "assets/char/intro.webp"
+  },
+  {
+    "name": "Katz (scene)",
+    "imageName": "assets/char/katz.webp"
+  },
+  {
+    "name": "King Ramses (scene)",
+    "imageName": "assets/char/kingRamses.webp"
+  },
+  {
+    "name": "Logo",
+    "imageName": "assets/char/logo.webp"
+  },
+  {
+    "name": "Logo 2",
+    "imageName": "assets/char/logo2.webp"
+  },
+  {
+    "name": "Muriel Bagge (scene)",
+    "imageName": "assets/char/murielBagge.webp"
+  },
+  {
+    "name": "Music",
+    "imageName": "assets/char/music.webp"
+  },
+  {
+    "name": "Nowhere City",
+    "imageName": "assets/char/nowherecity.webp"
+  },
+  {
+    "name": "Nowhere City 2",
+    "imageName": "assets/char/nowherecity2.webp"
+  },
+  {
+    "name": "Nowhere City 3",
+    "imageName": "assets/char/nowherecity3.webp"
+  },
+  {
+    "name": "Nowhere City 4",
+    "imageName": "assets/char/nowherecity4.webp"
+  },
+  {
+    "name": "Nowhere City 6",
+    "imageName": "assets/char/nowherecity6.webp"
+  },
+  {
+    "name": "Nowhere City 8",
+    "imageName": "assets/char/nowherecity8.webp"
+  },
+  {
+    "name": "PC",
+    "imageName": "assets/char/pc.webp"
+  },
+  {
+    "name": "Photo",
+    "imageName": "assets/char/photo.webp"
+  },
+  {
+    "name": "Photo 2",
+    "imageName": "assets/char/photo2.webp"
+  },
+  {
+    "name": "Recipe Book BG",
+    "imageName": "assets/char/recipeBookBg.webp"
+  },
+  {
+    "name": "Research Centre",
+    "imageName": "assets/char/researchCentre.webp"
+  },
+  {
+    "name": "Show",
+    "imageName": "assets/char/show.webp"
+  },
+  {
+    "name": "Squid",
+    "imageName": "assets/char/squid.webp"
+  },
+  {
+    "name": "Stretch Films",
+    "imageName": "assets/char/stretchfilms.gif"
+  },
+  {
+    "name": "Stretch Films 4K",
+    "imageName": "assets/char/stretchfilms4k.webp"
+  },
+  {
+    "name": "Track",
+    "imageName": "assets/char/track.webp"
+  },
+  {
+    "name": "Tree",
+    "imageName": "assets/char/tree.webp"
+  },
+  {
+    "name": "TV",
+    "imageName": "assets/char/tv.webp"
+  },
+  {
+    "name": "Window",
+    "imageName": "assets/char/window.webp"
+  },
+  {
+    "name": "Katz Motel",
+    "imageName": "assets/char/motel.webp"
   }
 ]

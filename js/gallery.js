@@ -22,52 +22,34 @@ async function loadGallery() {
 function renderGallery(data) {
     const grid = document.getElementById('gallery-grid');
     grid.innerHTML = data.map(item => `
-        <div class="card gallery-card" onclick="showModalById('${item.id}')">
-            <img src="../${item.Path}" alt="${item.Name}" class="card-image" loading="lazy" onerror="this.style.display='none'">
+        <div class="card character-card" onclick="showModalByImage('${encodeURIComponent(item.imageName)}')">
+            <img src="../${item.imageName}" alt="${item.name}" class="card-image" loading="lazy" onerror="this.style.display='none'">
             <div class="card-content">
-                <div class="card-title">${item.Name}</div>
+                <div class="card-title">${item.name}</div>
             </div>
         </div>
     `).join('');
 }
 
-function showModalById(id) {
-    const item = gallery.find(g => g.id === id);
+function showModalByImage(encodedImageName) {
+    const imageName = decodeURIComponent(encodedImageName);
+    const item = gallery.find(item => item.imageName === imageName);
     if (!item) return;
-    
-    const details = item.Details
-        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-        .replace(/\n/g, '<br>')
-        .replace(/\[([^\]]+)\]\(#([^)]+)\)/g, '<a href="#$2" onclick="event.preventDefault(); showModalById(\'$2\');">$1</a>')
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
-    
+
     const html = `
-        <img src="../${item.Path}" alt="${item.Name}" style="max-width: 100%; max-height: 300px; object-fit: contain; border-radius: 16px; margin-bottom: 24px;" loading="lazy" onerror="this.style.display='none'">
-        <h2 class="modal-title">${item.Name}</h2>
-        <div class="modal-description">${details}</div>
+        <img src="../${item.imageName}" alt="${item.name}" style="max-width: 100%; border-radius: 16px; margin-bottom: 24px;" loading="lazy" onerror="this.style.display='none'">
+        <h2 class="modal-title">${item.name}</h2>
     `;
 
     if (window.CNModal?.open) window.CNModal.open(html);
-    window.location.hash = id;
 }
 
 document.getElementById('gallery-search').addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase();
     const filtered = gallery.filter(item => 
-        item.Name.toLowerCase().includes(query) || 
-        item.Details.toLowerCase().includes(query)
+        item.name.toLowerCase().includes(query)
     );
     renderGallery(filtered);
 });
 
 loadGallery();
-
-window.addEventListener('hashchange', () => {
-    const hash = window.location.hash.substring(1);
-    if (hash) showModalById(hash);
-});
-
-window.addEventListener('load', () => {
-    const hash = window.location.hash.substring(1);
-    if (hash) showModalById(hash);
-});
