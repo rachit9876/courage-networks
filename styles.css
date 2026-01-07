@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
-
 :root {
-    --font-sans: "Jersey 10", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
     --md-sys-color-primary: #D0BCFF;
     --md-sys-color-on-primary: #381E72;
     --md-sys-color-primary-container: #4F378B;
@@ -75,7 +73,7 @@ body::-webkit-scrollbar {
     align-items: center;
     gap: clamp(12px, 2vw, 24px);
     height: 100%;
-    padding: 0;
+    padding: 0 clamp(12px, 3vw, 24px);
     margin: 0;
     max-width: none;
 }
@@ -475,9 +473,8 @@ body.modal-open {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .app-bar nav {
-        flex-direction: column;
-        width: 100%;
+    .app-bar .container {
+        padding: 0 clamp(12px, 3vw, 24px);
     }
 }
 

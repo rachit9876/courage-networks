@@ -33,7 +33,7 @@
                 <a href="researchPaper/ResearchPaper.pdf" class="nav-btn">
                     <svg class="nav-icon"><use href="assets/icons.svg#icon-research"/></svg>Research
                 </a>
-                <a onclick="openLanguageModal()" class="nav-btn glow">
+                <a onclick="openLanguageModal()" class="nav-btn">
                     <svg class="nav-icon"><use href="assets/icons.svg#icon-play"/></svg>Watch Now
                 </a>
                 <a href="pages/ost.html" class="nav-btn">
@@ -74,6 +74,20 @@
         }
         document.getElementById('languageModal').addEventListener('click', function(e) {
             if (e.target === this) closeLanguageModal();
+        });
+
+        const text = "Welcome to\nCourage Networks";
+        const typingEl = document.getElementById('typing-text');
+        let i = 0;
+        function type() {
+            if (i < text.length) {
+                typingEl.textContent += text.charAt(i);
+                i++;
+                setTimeout(type, 100);
+            }
+        }
+        document.querySelector('.hero-image').addEventListener('load', () => {
+            setTimeout(type, 500);
         });
     </script>
 </body>
