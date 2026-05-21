@@ -11,6 +11,10 @@
     <path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/>
   </symbol>
 
+  <symbol id="icon-arrow-up" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M4 12 5.41 13.41 11 7.83V20h2V7.83l5.59 5.58L20 12 12 4z"/>
+  </symbol>
+
   <symbol id="icon-game" viewBox="0 0 24 24">
     <path fill="currentColor" d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z"/>
     <rect x="6" y="10" width="12" height="8" rx="2" fill="currentColor"/>

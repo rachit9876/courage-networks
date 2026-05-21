@@ -81,6 +81,30 @@
     `;
   }
 
+  function mountScrollTopFab() {
+    if (!isInnerPage || document.getElementById('scroll-top-fab')) return;
+
+    const button = document.createElement('button');
+    button.id = 'scroll-top-fab';
+    button.className = 'scroll-top-fab';
+    button.type = 'button';
+    button.setAttribute('aria-label', 'Scroll to top');
+    button.innerHTML = `<svg aria-hidden="true"><use href="${base}/assets/icons.svg#icon-arrow-up"></use></svg>`;
+    document.body.appendChild(button);
+
+    const updateVisibility = () => {
+      button.classList.toggle('is-visible', window.scrollY > 480);
+    };
+
+    button.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('scroll', updateVisibility, { passive: true });
+    updateVisibility();
+  }
+
   mountAppBar();
   mountModal();
+  mountScrollTopFab();
 })();
