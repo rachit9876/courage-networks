@@ -5,6 +5,7 @@
   const heroSkeleton = document.getElementById('hero-skeleton');
   const openLanguageBtn = document.querySelector('[data-open-language]');
   const closeLanguageBtn = document.querySelector('[data-close-language]');
+  let hasTypedIntro = false;
 
   function openLanguageModal() {
     if (!languageModal) return;
@@ -19,7 +20,8 @@
   }
 
   function typeIntro() {
-    if (!typingEl) return;
+    if (!typingEl || hasTypedIntro) return;
+    hasTypedIntro = true;
 
     const text = 'Welcome to\nCourage Networks';
     let index = 0;
