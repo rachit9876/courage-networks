@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courage the Cowardly Dog Archive</title>
-        <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-        <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-        <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+    <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
     <link rel="icon" type="image/webp" href="assets/logo.webp">
     <link rel="shortcut icon" type="image/webp" href="assets/logo.webp">
     <link rel="apple-touch-icon" href="assets/logo.webp">
@@ -22,28 +22,31 @@
     <main class="container">
         <div class="hero">
             <div class="computer-wrapper">
-                <div class="skeleton" style="width: 100%; aspect-ratio: 16/9; border-radius: clamp(16px, 2vw, 24px);" id="hero-skeleton"></div>
-                <img src="assets/char/computerSimon.webp" alt="Computer" class="hero-image" loading="eager" style="display: none;" onload="this.style.display='block'; document.getElementById('hero-skeleton').style.display='none';">
+                <div class="skeleton hero-skeleton" id="hero-skeleton"></div>
+                <img src="assets/char/computerSimon.webp" alt="Computer" class="hero-image" loading="eager" hidden>
                 <div class="screen-text" id="typing-text"></div>
             </div>
             <nav>
                 <a href="https://game-networks.pages.dev/courage/" class="nav-btn">
-                    <svg class="nav-icon"><use href="assets/icons.svg#icon-game"/></svg>Web Game
+                    <svg class="nav-icon" aria-hidden="true"><use href="assets/icons.svg#icon-game"></use></svg>Web Game
                 </a>
                 <a href="researchPaper/ResearchPaper.pdf" class="nav-btn">
-                    <svg class="nav-icon"><use href="assets/icons.svg#icon-research"/></svg>Research
+                    <svg class="nav-icon" aria-hidden="true"><use href="assets/icons.svg#icon-research"></use></svg>Research
                 </a>
-                <a onclick="openLanguageModal()" class="nav-btn">
-                    <svg class="nav-icon"><use href="assets/icons.svg#icon-play"/></svg>Watch Now
-                </a>
+                <button type="button" class="nav-btn" data-open-language>
+                    <svg class="nav-icon" aria-hidden="true"><use href="assets/icons.svg#icon-play"></use></svg>Watch Now
+                </button>
                 <a href="pages/ost.html" class="nav-btn">
-                    <svg class="nav-icon"><use href="assets/icons.svg#icon-music"/></svg>OST
+                    <svg class="nav-icon" aria-hidden="true"><use href="assets/icons.svg#icon-music"></use></svg>OST
                 </a>
                 <a href="pages/episodes.html" class="nav-btn">
-                    <svg class="nav-icon"><use href="assets/icons.svg#icon-episodes"/></svg>Episodes Info
+                    <svg class="nav-icon" aria-hidden="true"><use href="assets/icons.svg#icon-episodes"></use></svg>Episodes Info
                 </a>
                 <a href="pages/gallery.html" class="nav-btn">
-                    <svg class="nav-icon"><use href="assets/icons.svg#icon-gallery"/></svg>Gallery
+                    <svg class="nav-icon" aria-hidden="true"><use href="assets/icons.svg#icon-gallery"></use></svg>Gallery
+                </a>
+                <a href="pages/cookbook.html" class="nav-btn">
+                    <svg class="nav-icon" aria-hidden="true"><use href="assets/icons.svg#icon-research"></use></svg>Muriel's Recipe
                 </a>
             </nav>
             <h2 class="hero-title">Choose Above</h2>
@@ -51,44 +54,18 @@
     </main>
 
     <div id="languageModal" class="modal">
-        <div class="modal-content" style="max-width: 400px;">
-            <button class="modal-close" onclick="closeLanguageModal()">&times;</button>
+        <div class="modal-content modal-content--narrow">
+            <button class="modal-close" type="button" aria-label="Close" data-close-language>&times;</button>
             <h2 class="modal-title">Choose Language</h2>
-            <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px;">
-                <a href="https://schan.pages.dev/player?show=courage-eng&episode=1" class="nav-btn" style="text-align: center;">English</a>
-                <a href="https://schan.pages.dev/player?show=courage-hindi&episode=1" class="nav-btn" style="text-align: center;">Hindi</a>
+            <div class="modal-actions">
+                <a href="https://schan.pages.dev/player?show=courage-eng&episode=1" class="nav-btn">English</a>
+                <a href="https://schan.pages.dev/player?show=courage-hindi&episode=1" class="nav-btn">Hindi</a>
             </div>
         </div>
     </div>
 
     <a href="https://flow-svg.pages.dev/#courage-networks" class="flow-btn" title="View Flow Diagram">?</a>
 
-    <script>
-        function openLanguageModal() {
-            document.getElementById('languageModal').classList.add('active');
-            document.body.classList.add('modal-open');
-        }
-        function closeLanguageModal() {
-            document.getElementById('languageModal').classList.remove('active');
-            document.body.classList.remove('modal-open');
-        }
-        document.getElementById('languageModal').addEventListener('click', function(e) {
-            if (e.target === this) closeLanguageModal();
-        });
-
-        const text = "Welcome to\nCourage Networks";
-        const typingEl = document.getElementById('typing-text');
-        let i = 0;
-        function type() {
-            if (i < text.length) {
-                typingEl.textContent += text.charAt(i);
-                i++;
-                setTimeout(type, 100);
-            }
-        }
-        document.querySelector('.hero-image').addEventListener('load', () => {
-            setTimeout(type, 500);
-        });
-    </script>
+    <script src="js/home.js"></script>
 </body>
 </html>

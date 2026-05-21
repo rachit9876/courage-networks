@@ -1,58 +1,63 @@
-let episodes = [];
+(() => {
+  const grid = document.getElementById('episodes-grid');
+  const search = document.getElementById('episode-search');
+  let episodes = [];
 
-function showSkeleton() {
-    const grid = document.getElementById('episodes-grid');
-    grid.innerHTML = Array(12).fill(0).map(() => `
-        <div class="skeleton-card">
-            <div class="skeleton-content">
-                <div class="skeleton skeleton-title"></div>
-                <div class="skeleton skeleton-text"></div>
-                <div class="skeleton skeleton-text"></div>
-            </div>
+  function renderEpisodes(data) {
+    if (!grid) return;
+    if (!data.length) {
+      window.CN.renderEmptyState(grid, 'No matching episodes found.');
+      return;
+    }
+
+    grid.innerHTML = data.map((episode) => `
+      <article class="card" data-episode-id="${window.CN.escapeHTML(episode.id)}" tabindex="0">
+        <div class="card-content">
+          <h3 class="card-title">${window.CN.escapeHTML(episode.name)}</h3>
+          <p class="card-meta">Season ${window.CN.escapeHTML(episode.season)} &bull; Episode ${window.CN.escapeHTML(episode.episode)} &bull; ${window.CN.escapeHTML(episode.airdate)}</p>
+          <p class="card-summary">${window.CN.escapeHTML(window.CN.stripHTML(episode.summary))}</p>
         </div>
+      </article>
     `).join('');
-}
+  }
 
-async function loadEpisodes() {
-    showSkeleton();
-    const res = await fetch('../json/episodes.json');
-    episodes = await res.json();
+  function openEpisode(id) {
+    const episode = episodes.find((item) => item.id === id);
+    if (!episode || !window.CNModal?.open) return;
+
+    window.CNModal.open(`
+      <h2 class="modal-title">${window.CN.escapeHTML(episode.name)}</h2>
+      <p class="modal-meta">Season ${window.CN.escapeHTML(episode.season)} &bull; Episode ${window.CN.escapeHTML(episode.episode)} &bull; Aired: ${window.CN.escapeHTML(episode.airdate)}</p>
+      <div class="modal-description">${episode.summary}</div>
+    `);
+  }
+
+  async function init() {
+    window.CN.renderSkeletonCards(grid, 12, { lines: 2 });
+    episodes = await window.CN.fetchJSON('../json/episodes.json');
     renderEpisodes(episodes);
-}
 
-function renderEpisodes(data) {
-    const grid = document.getElementById('episodes-grid');
-    grid.innerHTML = data.map(ep => `
-        <div class="card" onclick="showModal('${ep.id}')">
-            <div class="card-content">
-                <div class="card-title">${ep.name}</div>
-                <div class="card-meta">Season ${ep.season} • Episode ${ep.episode} • ${ep.airdate}</div>
-                <div class="card-summary">${ep.summary.replace(/<[^>]*>/g, '')}</div>
-            </div>
-        </div>
-    `).join('');
-}
-
-function showModal(id) {
-    const episode = episodes.find(ep => ep.id === id);
-    if (!episode) return;
-
-    const html = `
-        <h2 class="modal-title">${episode.name}</h2>
-        <div class="modal-meta">Season ${episode.season} • Episode ${episode.episode} • Aired: ${episode.airdate}</div>
-        <div class="modal-description">${episode.summary}</div>
-    `;
-
-    if (window.CNModal?.open) window.CNModal.open(html);
-}
-
-document.getElementById('episode-search').addEventListener('input', (e) => {
-    const query = e.target.value.toLowerCase();
-    const filtered = episodes.filter(ep => 
-        ep.name.toLowerCase().includes(query) || 
-        ep.summary.toLowerCase().includes(query)
+    window.CN.bindSearch(
+      search,
+      () => episodes,
+      (episode, query) => episode.name.toLowerCase().includes(query)
+        || window.CN.stripHTML(episode.summary).toLowerCase().includes(query),
+      renderEpisodes,
     );
-    renderEpisodes(filtered);
-});
+  }
 
-loadEpisodes();
+  grid?.addEventListener('click', (event) => {
+    const card = event.target.closest('[data-episode-id]');
+    if (card) openEpisode(card.dataset.episodeId);
+  });
+
+  grid?.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    const card = event.target.closest('[data-episode-id]');
+    if (!card) return;
+    event.preventDefault();
+    openEpisode(card.dataset.episodeId);
+  });
+
+  init().catch(() => window.CN.renderEmptyState(grid, 'Episodes could not be loaded.'));
+})();

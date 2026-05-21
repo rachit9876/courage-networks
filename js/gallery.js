@@ -1,55 +1,60 @@
-let gallery = [];
+(() => {
+  const grid = document.getElementById('gallery-grid');
+  const search = document.getElementById('gallery-search');
+  let gallery = [];
 
-function showSkeleton() {
-    const grid = document.getElementById('gallery-grid');
-    grid.innerHTML = Array(12).fill(0).map(() => `
-        <div class="skeleton-card">
-            <div class="skeleton skeleton-image"></div>
-            <div class="skeleton-content">
-                <div class="skeleton skeleton-title"></div>
-            </div>
+  function renderGallery(data) {
+    if (!grid) return;
+    if (!data.length) {
+      window.CN.renderEmptyState(grid, 'No matching gallery items found.');
+      return;
+    }
+
+    grid.innerHTML = data.map((item) => `
+      <article class="card media-card" data-image-name="${window.CN.escapeHTML(item.imageName)}" tabindex="0">
+        <img src="../${window.CN.escapeHTML(item.imageName)}" alt="${window.CN.escapeHTML(item.name)}" class="card-image" loading="lazy">
+        <div class="card-content">
+          <h3 class="card-title">${window.CN.escapeHTML(item.name)}</h3>
         </div>
+      </article>
     `).join('');
-}
+  }
 
-async function loadGallery() {
-    showSkeleton();
-    const res = await fetch('../json/gallery.json');
-    gallery = await res.json();
+  function openImage(imageName) {
+    const item = gallery.find((entry) => entry.imageName === imageName);
+    if (!item || !window.CNModal?.open) return;
+
+    window.CNModal.open(`
+      <img src="../${window.CN.escapeHTML(item.imageName)}" alt="${window.CN.escapeHTML(item.name)}" class="modal-image" loading="lazy">
+      <h2 class="modal-title">${window.CN.escapeHTML(item.name)}</h2>
+    `);
+  }
+
+  async function init() {
+    window.CN.renderSkeletonCards(grid, 12, { image: true, lines: 0 });
+    gallery = await window.CN.fetchJSON('../json/gallery.json');
     renderGallery(gallery);
-}
 
-function renderGallery(data) {
-    const grid = document.getElementById('gallery-grid');
-    grid.innerHTML = data.map(item => `
-        <div class="card character-card" onclick="showModalByImage('${encodeURIComponent(item.imageName)}')">
-            <img src="../${item.imageName}" alt="${item.name}" class="card-image" loading="lazy" onerror="this.style.display='none'">
-            <div class="card-content">
-                <div class="card-title">${item.name}</div>
-            </div>
-        </div>
-    `).join('');
-}
-
-function showModalByImage(encodedImageName) {
-    const imageName = decodeURIComponent(encodedImageName);
-    const item = gallery.find(item => item.imageName === imageName);
-    if (!item) return;
-
-    const html = `
-        <img src="../${item.imageName}" alt="${item.name}" style="max-width: 100%; border-radius: 16px; margin-bottom: 24px;" loading="lazy" onerror="this.style.display='none'">
-        <h2 class="modal-title">${item.name}</h2>
-    `;
-
-    if (window.CNModal?.open) window.CNModal.open(html);
-}
-
-document.getElementById('gallery-search').addEventListener('input', (e) => {
-    const query = e.target.value.toLowerCase();
-    const filtered = gallery.filter(item => 
-        item.name.toLowerCase().includes(query)
+    window.CN.bindSearch(
+      search,
+      () => gallery,
+      (item, query) => item.name.toLowerCase().includes(query),
+      renderGallery,
     );
-    renderGallery(filtered);
-});
+  }
 
-loadGallery();
+  grid?.addEventListener('click', (event) => {
+    const card = event.target.closest('[data-image-name]');
+    if (card) openImage(card.dataset.imageName);
+  });
+
+  grid?.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    const card = event.target.closest('[data-image-name]');
+    if (!card) return;
+    event.preventDefault();
+    openImage(card.dataset.imageName);
+  });
+
+  init().catch(() => window.CN.renderEmptyState(grid, 'Gallery could not be loaded.'));
+})();
