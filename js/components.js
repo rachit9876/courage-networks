@@ -37,12 +37,32 @@
           <a href="${base}/index.html" aria-label="Home">
             <img src="${base}/assets/logo.webp" alt="Logo" class="app-logo">
           </a>
-          <nav>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+            <svg aria-hidden="true"><use href="${base}/assets/icons.svg#icon-menu"></use></svg>
+            <span>Menu</span>
+          </button>
+          <nav id="primary-nav">
             ${links}
           </nav>
         </div>
       </header>
     `;
+
+    const toggle = mount.querySelector('.menu-toggle');
+    const nav = mount.querySelector('#primary-nav');
+
+    toggle?.addEventListener('click', () => {
+      const isOpen = nav?.classList.toggle('is-open') || false;
+      toggle.setAttribute('aria-expanded', String(isOpen));
+      toggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+    });
+
+    nav?.addEventListener('click', (event) => {
+      if (!event.target.closest('a')) return;
+      nav.classList.remove('is-open');
+      toggle?.setAttribute('aria-expanded', 'false');
+      toggle?.setAttribute('aria-label', 'Open navigation');
+    });
   }
 
   function mountModal() {
@@ -52,7 +72,9 @@
     mount.innerHTML = `
       <div id="modal" class="modal" role="dialog" aria-modal="true" aria-label="Details">
         <div class="modal-content">
-          <button class="modal-close" type="button" aria-label="Close">&times;</button>
+          <button class="modal-close" type="button" aria-label="Close">
+            <svg aria-hidden="true"><use href="${base}/assets/icons.svg#icon-close"></use></svg>
+          </button>
           <div id="modal-body"></div>
         </div>
       </div>

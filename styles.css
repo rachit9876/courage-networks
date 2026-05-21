@@ -50,8 +50,23 @@
   box-sizing: border-box;
 }
 
+/* User requested no default mobile tap highlight. */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 html {
   font-size: 16px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
 }
 
 body {
@@ -93,6 +108,16 @@ a {
   outline-offset: 3px;
 }
 
+::selection {
+  background: #ffb1c8;
+  color: #181214;
+}
+
+::-moz-selection {
+  background: #ffb1c8;
+  color: #181214;
+}
+
 [hidden] {
   display: none !important;
 }
@@ -124,7 +149,7 @@ a {
 .app-bar nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: var(--space-2);
   overflow-x: auto;
   scrollbar-width: none;
@@ -137,6 +162,26 @@ a {
 .app-logo {
   width: auto;
   height: 44px;
+}
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 40px;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-full);
+  background: var(--md-sys-color-surface-container-high);
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.menu-toggle svg {
+  width: 20px;
+  height: 20px;
 }
 
 .index-only .app-bar .container {
@@ -453,17 +498,22 @@ main {
   position: absolute;
   top: var(--space-3);
   right: var(--space-3);
-  display: grid;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
-  place-items: center;
   border-radius: var(--radius-full);
   background: var(--md-sys-color-secondary-container);
   color: var(--md-sys-color-on-secondary-container);
   cursor: pointer;
-  font-size: 1.5rem;
-  line-height: 1;
   transition: background var(--motion), color var(--motion), transform var(--motion);
+}
+
+.modal-close svg {
+  width: 20px;
+  height: 20px;
 }
 
 .modal-close:hover {
@@ -493,6 +543,7 @@ main {
 .modal-image {
   width: 100%;
   max-height: 62vh;
+  margin-top: var(--space-6);
   margin-bottom: var(--space-5);
   border-radius: var(--radius-sm);
   object-fit: contain;
@@ -593,30 +644,6 @@ main {
   width: 82%;
 }
 
-.flow-btn {
-  position: fixed;
-  right: var(--space-6);
-  bottom: var(--space-6);
-  z-index: 99;
-  display: grid;
-  width: 56px;
-  height: 56px;
-  place-items: center;
-  border-radius: var(--radius-full);
-  background: var(--md-sys-color-tertiary);
-  color: var(--md-sys-color-on-tertiary);
-  box-shadow: var(--shadow-2);
-  font-size: 1.75rem;
-  font-weight: 800;
-  text-decoration: none;
-  transition: transform var(--motion), box-shadow var(--motion);
-}
-
-.flow-btn:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
-  transform: translateY(-2px);
-}
-
 @keyframes skeleton-loading {
   0% {
     background-position: 200% 0;
@@ -633,16 +660,38 @@ main {
   }
 
   .app-bar .container {
-    align-items: flex-start;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
     gap: var(--space-2);
+    min-height: 56px;
     padding: var(--space-2) 0;
   }
 
+  .menu-toggle {
+    display: inline-flex;
+    justify-self: end;
+  }
+
   .app-bar nav {
+    display: none;
+    grid-column: 1 / -1;
     width: 100%;
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+    overflow: visible;
+    padding: var(--space-2) 0 var(--space-1);
+  }
+
+  .app-bar nav.is-open {
+    display: grid;
+  }
+
+  .app-bar nav .nav-btn {
     justify-content: flex-start;
-    padding-bottom: var(--space-1);
+    width: 100%;
+    background: var(--md-sys-color-surface-container-high);
   }
 
   .hero nav {
@@ -671,10 +720,6 @@ main {
     padding: var(--space-6);
   }
 
-  .flow-btn {
-    right: var(--space-4);
-    bottom: var(--space-4);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
